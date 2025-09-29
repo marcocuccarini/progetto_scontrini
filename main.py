@@ -10,7 +10,9 @@ CSV_RECEIPTS = "dataset/data.csv"
 CSV_PRODUCTS = "dataset/prodotti.csv"
 CSV_PREDICTIONS = "receipt_match_pairs.csv"
 JSON_FILE = "receipt_match_pairs.json"
-TOP_CANDIDATES = 10  # Number of RapidFuzz candidates to send to LLM
+TOP_CANDIDATES = 250
+CONFIDENCE_THRESHOLD = 0.6
+NUM_RECEIPTS = 20  # first N receipts
 
 logging.basicConfig(filename="logs.txt", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -33,69 +35,79 @@ predictions = []
 # ------------------- PROCESS RECEIPTS -------------------
 with open(CSV_RECEIPTS, mode="r", newline="", encoding="utf-8") as f:
     reader = list(csv.DictReader(f, delimiter=";"))
-
     if not reader or "json_callback" not in reader[0]:
         logging.error("Column 'json_callback' not found in CSV")
         exit(1)
 
+    reader = reader[:NUM_RECEIPTS]
+
     for idx, row in enumerate(tqdm(reader, desc="Processing receipts")):
         json_str = row.get("json_callback")
         if not json_str:
-            logging.warning(f"Row {idx} missing json_callback, skipped.")
             continue
 
         try:
             data = json.loads(json_str)
         except json.JSONDecodeError:
-            logging.warning(f"Row {idx} invalid JSON: {json_str}")
             continue
 
         items = data.get("ItemDetails", {}).get("Items", [])
         if not items:
-            logging.info(f"Row {idx} has no items, skipped.")
             continue
 
         receipt_match = False
         matched_pairs = []
 
-        # ------------------- PROCESS EACH ITEM -------------------
         for item in items:
             desc = item.get("ReceiptDescription")
             if not desc:
                 continue
 
-            # Pre-filter top candidates with RapidFuzz
+            # Pre-filter top candidates
             top_candidates = [match[0] for match in process.extract(
                 desc, possible_names, scorer=fuzz.WRatio, limit=TOP_CANDIDATES
             )]
 
             # LLM prompt
             prompt = (
-                "The following text is a product name from a receipt, "
-                "which may be shortened, abbreviated, or reformulated.\n"
                 f"ReceiptDescription: {desc}\n"
-                f"List of candidate names: {json.dumps(top_candidates, ensure_ascii=False)}\n"
-                "Check which candidates match the receipt description. "
-                "Return JSON like: { 'matches': [<list of matching products>] }. "
+                f"Candidate products: {json.dumps(top_candidates, ensure_ascii=False)}\n"
+                "Return JSON: { 'matches': [ { 'product': <name>, 'confidence': <0-1> } ] }. "
                 "If none match, return empty list."
             )
 
             response = llm.run_inference_json(prompt)
-            logging.debug(f"LLM response: {response}")
+            matches = response.get("matches", []) if isinstance(response, dict) else []
 
-            matches = []
-            if isinstance(response, dict):
-                matches = response.get("matches", [])
+            # Determine best match (even if below threshold)
+            best_match_entry = None
+            best_confidence = 0.0
+            for m in matches:
+                conf = float(m.get("confidence", 0))
+                if conf > best_confidence:
+                    best_confidence = conf
+                    best_match_entry = m
 
-            # Record matched pairs
-            for match in matches:
-                receipt_match = True
+            if best_match_entry:
+                is_match = best_confidence >= CONFIDENCE_THRESHOLD
+                if is_match:
+                    receipt_match = True
                 matched_pairs.append({
                     "ReceiptItem": desc,
-                    "MatchedProduct": match
+                    "MatchedProduct": best_match_entry["product"],
+                    "Confidence": best_confidence,
+                    "Match": "yes" if is_match else "no"
+                })
+            else:
+                # No candidate returned by LLM
+                matched_pairs.append({
+                    "ReceiptItem": desc,
+                    "MatchedProduct": None,
+                    "Confidence": 0.0,
+                    "Match": "no"
                 })
 
-        # ------------------- SAVE RECEIPT-LEVEL RESULT -------------------
+        # Save receipt-level result
         result_entry = {
             "ReceiptIndex": idx,
             "Match": "yes" if receipt_match else "no",
@@ -119,4 +131,3 @@ with open(CSV_PREDICTIONS, mode="w", newline="", encoding="utf-8") as f:
 
 print(f"Results saved in {JSON_FILE}")
 print(f"Predictions saved in {CSV_PREDICTIONS}")
-print("Detailed logs in logs.txt")
