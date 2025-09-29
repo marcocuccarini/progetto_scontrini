@@ -1,7 +1,6 @@
 import csv
 import json
 import logging
-from rapidfuzz import process, fuzz
 from tqdm import tqdm
 from classes.LLM import LLM
 
@@ -10,12 +9,11 @@ CSV_RECEIPTS = "dataset/data.csv"
 CSV_PRODUCTS = "dataset/prodotti.csv"
 CSV_PREDICTIONS = "receipt_match_pairs.csv"
 JSON_FILE = "receipt_match_pairs.json"
-TOP_CANDIDATES = 10  # Number of RapidFuzz candidates to send to LLM
 
 logging.basicConfig(filename="logs.txt", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # ------------------- INITIALIZE LLM -------------------
-llm = LLM(model="gpt-oss:20b", temperature=0.3, max_tokens=512)
+llm = LLM(model="mistral:7b", temperature=0.3, max_tokens=512)
 
 # ------------------- LOAD PRODUCTS -------------------
 possible_names = []
@@ -58,41 +56,40 @@ with open(CSV_RECEIPTS, mode="r", newline="", encoding="utf-8") as f:
         receipt_match = False
         matched_pairs = []
 
-        # ------------------- PROCESS EACH ITEM -------------------
+        # ------------------- CHECK ALL ITEMS AGAINST ALL CANDIDATES -------------------
         for item in items:
             desc = item.get("ReceiptDescription")
             if not desc:
                 continue
 
-            # Pre-filter top candidates with RapidFuzz
-            top_candidates = [match[0] for match in process.extract(
-                desc, possible_names, scorer=fuzz.WRatio, limit=TOP_CANDIDATES
-            )]
+            best_match = None
+            best_confidence = 0.0
 
-            # LLM prompt
-            prompt = (
-                "The following text is a product name from a receipt, "
-                "which may be shortened, abbreviated, or reformulated.\n"
-                f"ReceiptDescription: {desc}\n"
-                f"List of candidate names: {json.dumps(top_candidates, ensure_ascii=False)}\n"
-                "Check which candidates match the receipt description. "
-                "Return JSON like: { 'matches': [<list of matching products>] }. "
-                "If none match, return empty list."
-            )
+            for candidate in tqdm(possible_names, desc="Comparing candidates", leave=False):
+                prompt = (
+                    "You are given a product name from a receipt (which may be abbreviated or modified) "
+                    f"and a candidate product name: {candidate}\n"
+                    f"ReceiptDescription: {desc}\n"
+                    "Does the candidate match the receipt description? "
+                    "Answer with JSON: { 'match': true/false, 'confidence': <0-1> }"
+                )
 
-            response = llm.run_inference_json(prompt)
-            logging.debug(f"LLM response: {response}")
+                response = llm.run_inference_json(prompt)
 
-            matches = []
-            if isinstance(response, dict):
-                matches = response.get("matches", [])
+                confidence = 0.0
+                if isinstance(response, dict):
+                    match = response.get("match", False)
+                    confidence = float(response.get("confidence", 0.0)) if match else 0.0
 
-            # Record matched pairs
-            for match in matches:
+                if confidence > best_confidence:
+                    best_confidence = confidence
+                    best_match = candidate if confidence >= 0.6 else None
+
+            if best_match:
                 receipt_match = True
                 matched_pairs.append({
                     "ReceiptItem": desc,
-                    "MatchedProduct": match
+                    "MatchedProduct": best_match
                 })
 
         # ------------------- SAVE RECEIPT-LEVEL RESULT -------------------
