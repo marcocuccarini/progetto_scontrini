@@ -9,6 +9,9 @@ CSV_RECEIPTS = "dataset/data.csv"
 CSV_PRODUCTS = "dataset/prodotti.csv"
 CSV_PREDICTIONS = "receipt_match_pairs.csv"
 JSON_FILE = "receipt_match_pairs.json"
+SUMMARY_FILE = "method_summary.txt"
+
+CONFIDENCE_THRESHOLD = 0.6
 
 logging.basicConfig(filename="logs.txt", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -83,13 +86,14 @@ with open(CSV_RECEIPTS, mode="r", newline="", encoding="utf-8") as f:
 
                 if confidence > best_confidence:
                     best_confidence = confidence
-                    best_match = candidate if confidence >= 0.6 else None
+                    best_match = candidate if confidence >= CONFIDENCE_THRESHOLD else None
 
             if best_match:
                 receipt_match = True
                 matched_pairs.append({
                     "ReceiptItem": desc,
-                    "MatchedProduct": best_match
+                    "MatchedProduct": best_match,
+                    "Confidence": best_confidence
                 })
 
         # ------------------- SAVE RECEIPT-LEVEL RESULT -------------------
@@ -102,9 +106,29 @@ with open(CSV_RECEIPTS, mode="r", newline="", encoding="utf-8") as f:
         predictions.append(result_entry)
 
 # ------------------- SAVE RESULTS -------------------
-with open(JSON_FILE, mode="w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=4)
+# Add method summary
+method_summary = {
+    "method": "Full comparison with LLM",
+    "description": (
+        "Each receipt item is compared against every candidate product using the LLM. "
+        "The model evaluates whether the candidate matches the receipt description and returns a confidence score. "
+        f"The best match per item is kept if its confidence is >= {CONFIDENCE_THRESHOLD}."
+    ),
+    "llm_model": "mistral:7b",
+    "confidence_threshold": CONFIDENCE_THRESHOLD,
+    "num_products": len(possible_names),
+    "num_receipts": len(results)
+}
 
+# Save JSON with results + summary
+output_data = {
+    "method_summary": method_summary,
+    "results": results
+}
+with open(JSON_FILE, mode="w", encoding="utf-8") as f:
+    json.dump(output_data, f, ensure_ascii=False, indent=4)
+
+# Save CSV predictions
 with open(CSV_PREDICTIONS, mode="w", newline="", encoding="utf-8") as f:
     fieldnames = ["ReceiptIndex", "Match", "MatchedPairs"]
     writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -114,6 +138,12 @@ with open(CSV_PREDICTIONS, mode="w", newline="", encoding="utf-8") as f:
         row_copy["MatchedPairs"] = json.dumps(row_copy["MatchedPairs"], ensure_ascii=False)
         writer.writerow(row_copy)
 
+# Save plain text summary
+with open(SUMMARY_FILE, mode="w", encoding="utf-8") as f:
+    f.write("Method summary for receipt-product matching\n")
+    f.write(json.dumps(method_summary, ensure_ascii=False, indent=4))
+
 print(f"Results saved in {JSON_FILE}")
 print(f"Predictions saved in {CSV_PREDICTIONS}")
+print(f"Method summary saved in {SUMMARY_FILE}")
 print("Detailed logs in logs.txt")

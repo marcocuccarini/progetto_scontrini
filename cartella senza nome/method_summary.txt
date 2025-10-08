@@ -1,0 +1,29 @@
+{
+    "method": {
+        "phase1": "Normalizzazione attributi con LLM (brand, type, quantity, package, price)",
+        "phase2": "Candidate filtering su attributi normalizzati in batch di 100",
+        "phase3": "Matching con LLM per confidenza finale",
+        "phase4": "Bonus confidenza basato sulla corrispondenza prezzo"
+    },
+    "parameters": {
+        "BATCH_SIZE_PRODUCTS": 100,
+        "CONFIDENCE_THRESHOLD": 0.6,
+        "NUM_RECEIPTS": 3
+    },
+    "LLM": {
+        "model": "gpt-oss:20b",
+        "temperature": 0.3,
+        "max_tokens": 512
+    },
+    "dataset": {
+        "CSV_RECEIPTS": "dataset/data.csv",
+        "CSV_PRODUCTS": "dataset/prodotti.csv",
+        "num_receipts_processed": 10,
+        "num_products_loaded": 582
+    },
+    "runtime": {
+        "start_time": "2025-10-01 15:00:20.652402",
+        "end_time": "2025-10-01 15:00:20.654405",
+        "total_seconds": 0.0
+    }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "row_idx": 0,
+    "key": "4366a347445b96c0330d1dffe6091c8a1777766dcae967c12eaa0a9451e9a321",
+    "receipt_description": "*SOLE LAV.LIQ.82M.P.CO",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"452\",\n    \"brand\": \"reckitt\",\n    \"name\": \"Sole Bianco Splendente_82D\",\n    \"confidence\": 1.0,\n    \"explanation\": \"The receipt clearly indicates 'SOLE' for the brand. 'LAV.LIQ.' strongly suggests a liquid laundry detergent. The '82M.P.CO' is a strong match for '82D' (82 Doses) found in the product name, where 'M.P.CO' is likely a corrupted reading or an internal code for doses/pack type. This product directly matches the brand, product type, and dosage.\"\n  },\n  {\n    \"id\": \"438\",\n    \"brand\": \"reckitt\",\n    \"name\": \"Sole Bianco Splendente (bipacco)_41Dx2\",\n    \"confidence\": 0.95,\n    \"explanation\": \"This product matches the 'SOLE' brand and is a liquid laundry detergent. Critically, '(bipacco)_41Dx2' means two packs of 41 doses, totaling exactly 82 doses, which perfectly matches the '82' in the receipt. The 'M.P.CO' from the receipt could also potentially refer to 'Multi-pack' (bipacco meaning two-pack in Italian), making this a highly probable match.\"\n  },\n  {\n    \"id\": \"455\",\n    \"brand\": \"reckitt\",\n    \"name\": \"Sole Bianco Splendente_90D\",\n    \"confidence\": 0.85,\n    \"explanation\": \"This product matches the 'SOLE' brand and is a liquid laundry detergent ('LAV.LIQ.' implied). While not an exact numerical match, its '90D' (90 Doses) is the closest available dosage to '82M.P.CO' among the Sole liquid detergents after the direct match (ID 452) and the exact total dose match (ID 438). 'Bianco Splendente' is a common variant for Sole liquid detergents.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:23:45.060821Z"
+  },
+  {
+    "row_idx": 0,
+    "key": "8554486b80e74af22596572505d634b21dd95c078522deae4c719a0d4f54dbce",
+    "receipt_description": "SOLE M&LAV.F.TALCO",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"446\",\n    \"name\": \"Sole Lana e Delicati Carezza di Talco_16D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.95,\n    \"explanation\": \"The receipt mentions 'SOLE', which directly matches the brand. 'F.TALCO' is an excellent match for 'Carezza di Talco' (Talc Caress), indicating a talc-scented product. 'M&LAV' can be interpreted as 'Lana e Delicati' (Wool and Delicates), a type of laundry detergent, aligning perfectly with the 'SOLE' brand.\"\n  },\n  {\n    \"id\": \"423\",\n    \"name\": \"Sole Freschezza Naturale Lavanda_41D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.85,\n    \"explanation\": \"The receipt mentions 'SOLE', matching the brand. 'LAV.' is a strong match for 'Lavanda' (Lavender). While 'F.TALCO' isn't explicitly in the name, 'Freschezza Naturale' (Natural Freshness) suggests a clean and gentle scent profile, which could be associated with talc. This is a relevant laundry detergent product from the 'Sole' brand.\"\n  },\n  {\n    \"id\": \"431\",\n    \"name\": \"Sole Freschezza Naturale Lavanda_29D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.85,\n    \"explanation\": \"Similar to product 423, this product directly matches the 'SOLE' brand and features 'Lavanda' (Lavender), corresponding to 'LAV.' in the receipt. The 'Freschezza Naturale' also aligns with a fresh, clean scent. It is a variant (different pack size) of a highly relevant laundry detergent product.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:24:10.803169Z"
+  },
+  {
+    "row_idx": 0,
+    "key": "6f5ab0add6b22a849d96d8b2331dbc7004d10ed99634f8bbcc09b5f892dce1d4",
+    "receipt_description": "SOLE LAV.RIC.B.S.26MIS",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"448\",\n    \"name\": \"Sole Bianco Splendente_26D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.98,\n    \"explanation\": \"The receipt 'SOLE LAV.RIC.B.S.26MIS' strongly matches this product. 'SOLE' matches the brand 'Sole'. 'B.S.' is a direct abbreviation for 'Bianco Splendente'. '26MIS' perfectly matches '26D' (26 doses). 'LAV.RIC.' is consistent with a laundry detergent product.\"\n  },\n  {\n    \"id\": \"428\",\n    \"name\": \"Sole Bianco Splendente_29D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.90,\n    \"explanation\": \"This product matches 'SOLE' (brand) and 'B.S.' (Bianco Splendente) perfectly. The '29D' (29 doses) is a very close numerical match to '26MIS' on the receipt, indicating a high likelihood of being the same product with a slightly different dose count or an approximation on the receipt. 'LAV.RIC.' aligns with a laundry product.\"\n  },\n  {\n    \"id\": \"419\",\n    \"name\": \"Sole Bianco Splendente_41D\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.85,\n    \"explanation\": \"This product is a good match for 'SOLE' (brand) and 'B.S.' (Bianco Splendente). While the dose count '41D' is not as close to '26MIS' as the top matches, it is a variation of the same product type ('Sole Bianco Splendente') which fits the strong 'B.S.' part of the receipt description. 'LAV.RIC.' is implied by the product type.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:25:07.797395Z"
+  },
+  {
+    "row_idx": 0,
+    "key": "8a684e16aa6469bb6bbe7352a0434431fef18266a35d087870509590121619a1",
+    "receipt_description": "AIR W.A/ODORI GEL ATT.",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"83\",\n    \"name\": \"GEL GELOTHER RECKITT AIR WICK GEL ACTIF COMPL LAVANDE 150.0 1 GEL\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 1.0,\n    \"explanation\": \"The receipt description 'AIR W.A/ODORI GEL ATT.' strongly matches this product. 'AIR W.A' corresponds to 'AIR WICK', 'ODORI GEL' matches 'GEL', and 'ATT.' matches 'ACTIF' (French for active), indicating an active gel air freshener.\"\n  },\n  {\n    \"id\": \"246\",\n    \"name\": \"GEL GELOTHER RECKITT AIR WICK ATTIVO 2IN1 COMPL ASSORTED 150.0 1 GEL\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 1.0,\n    \"explanation\": \"This product is an excellent match. 'AIR W.A' aligns with 'AIR WICK', 'ODORI GEL' refers to 'GEL', and 'ATT.' perfectly matches 'ATTIVO' (Italian for active), describing an active gel air freshener.\"\n  },\n  {\n    \"id\": \"247\",\n    \"name\": \"GEL GELOTHER RECKITT AIR WICK ATTIVO 2IN1 COMPL MIX 150.0 1 GEL\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 1.0,\n    \"explanation\": \"This product is a highly relevant match. 'AIR W.A' corresponds to 'AIR WICK', 'ODORI GEL' matches 'GEL', and 'ATT.' directly corresponds to 'ATTIVO' (Italian for active), signifying an active gel air freshener.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:25:24.828929Z"
+  },
+  {
+    "row_idx": 1,
+    "key": "12f60db62835c827bfd158d6d2f48a8dac38c9461e81b25a5b5124707f3ae9bf",
+    "receipt_description": "SET 1 1 ASCIUG SP T U CF",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"551\",\n    \"name\": \"Lip Woolite Lana e Delicati 1,5 L Detersivo Lavatrice\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.8,\n    \"explanation\": \"The term 'ASCIUG' in the receipt description is interpreted as relating to fabric care, especially for delicate items that require specific washing and drying methods. 'Lana e Delicati' (Wool and Delicates) in the product name is a strong semantic match for this. 'Detersivo Lavatrice' confirms it's a laundry product. 'SET 1 1' is interpreted as a single unit (1.5L) of this product, and 'CF' could stand for 'confezione' (package).\"\n  },\n  {\n    \"id\": \"568\",\n    \"name\": \"Lip Woolite Lana E Delicati Detersivo Lavatrice 1500 Ml\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.78,\n    \"explanation\": \"This product is almost identical to the top match, also specifically for 'Lana E Delicati' (Wool and Delicates) and explicitly a 'Detersivo Lavatrice' (washing machine detergent). The 'ASCIUG' in the receipt description strongly aligns with the care needed for such fabrics, including their drying. 'SET 1 1' fits a single 1500ml (1.5L) unit.\"\n  },\n  {\n    \"id\": \"550\",\n    \"name\": \"Lip Woolite lana e delicati muschio bianco 1 L\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.75,\n    \"explanation\": \"Similar to the previous matches, this 'Lip Woolite' product for 'lana e delicati' (wool and delicates) aligns well with the interpretation of 'ASCIUG' as fabric or drying care. 'Muschio bianco' indicates the scent. 'SET 1 1' is compatible with a single 1L unit.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:26:42.215263Z"
+  },
+  {
+    "row_idx": 1,
+    "key": "4cc09a00512d93ac27d22b664259fff99cb7ccf079fa8a446875534979754dc9",
+    "receipt_description": "CALGON DECALC HYGIENE FL",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"502\",\n    \"name\": \"Calgon Igiene+ 750ml\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.98,\n    \"explanation\": \"The product name 'Calgon Igiene+ 750ml' directly matches 'CALGON' and 'HYGIENE' from the receipt. The '750ml' indicates it's a fluid ('FL'), and Calgon's primary function is decalcification ('DECALC').\"\n  },\n  {\n    \"id\": \"503\",\n    \"name\": \"Calgon Igiene+ 1500ml\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.97,\n    \"explanation\": \"Similar to the 750ml variant, this product name 'Calgon Igiene+ 1500ml' directly matches 'CALGON' and 'HYGIENE'. The '1500ml' confirms it's a fluid ('FL'), and Calgon is synonymous with decalcification ('DECALC').\"\n  },\n  {\n    \"id\": \"504\",\n    \"name\": \"Calgon Igiene+ 2250ml\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.96,\n    \"explanation\": \"This product also explicitly contains 'Calgon' and 'Igiene+' (Hygiene) in its name, and the '2250ml' aligns with 'FL' (fluid). The core function of Calgon covers 'DECALC'.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:26:53.785230Z"
+  },
+  {
+    "row_idx": 1,
+    "key": "0659f95d4081fefd8486e6d969f3e38617b415a325067ed156377d1f92e7326d",
+    "receipt_description": "MINERVA SCOVOLO WC PAL NC",
+    "match_result": {
+      "error": "Could not parse Gemini output",
+      "raw": "```json\n[\n  {\n    \"id\": \"1\",\n    \"name\": \"INAC AER RECKITT AIR WICK PURE COMPL SPRING DELIGHT 250 1 AER (1)\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.0,\n    \"explanation\": \"No direct match found. The receipt mentions 'SCOVOLO WC' (toilet brush), while this product is an Air Wick air freshener.\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"INAC AER RECKITT AIR WICK PURE COMPL SPRING DELIGHT 250 1 AER (2)\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.0,\n    \"explanation\": \"No direct match found. The receipt mentions 'SCOVOLO WC' (toilet brush), while this product is an Air Wick air freshener.\"\n  },\n  {\n    \"id\": \"3\",\n    \"name\": \"INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC REF FRESIA BIANCA & GELSOMINO 070.0 2 AER (1)\",\n    \"brand\": \"reckitt\",\n    \"confidence\": 0.0,\n    \"explanation\": \"No direct match found. The receipt mentions 'SCOVOLO WC' (toilet brush), while this product is an Air Wick air freshener.\"\n  }\n]\n```"
+    },
+    "timestamp": "2025-10-08T14:27:02.991793Z"
+  }
+]
