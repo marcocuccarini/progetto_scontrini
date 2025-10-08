@@ -9,8 +9,8 @@ from datetime import datetime
 # === CONFIG ===
 products_file = "dataset/prodotti.csv"
 ocr_file = "dataset/data.csv"
-OUTPUT_NDJSON = "matches.ndjson"     # incremental append file
-OUTPUT_JSON = "matches.json"         # optional snapshot file
+OUTPUT_NDJSON = "results/matches.ndjson"     # incremental append file
+OUTPUT_JSON = "results/matches.json"         # optional snapshot file
 SNAPSHOT_EVERY = 50                  # write full matches.json every N appended results
 SLEEP_BETWEEN_CALLS = 0.0            # set >0 if you need to throttle calls
 
