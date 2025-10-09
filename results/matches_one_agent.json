@@ -1,0 +1,377 @@
+[
+  {
+    "row_idx": 3,
+    "key": "bb781cd0762492fa14b5f2e07342075a820a3b50672f5416fe64d9ba32346f46",
+    "receipt_description": "GEOMAR V.MASC.NUTR.VEL BL. ML 1",
+    "ItemName": "| GEOMAR V.MASC.NUTR.VEL BL. ML 1 |",
+    "match_result": {
+      "risultato": "Nessuna corrispondenza affidabile."
+    },
+    "timestamp": "2025-10-08T21:25:06.210071Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "4d506aff662ab5dcf0d143b9e4fa3154c9dbe18eb8ac489e57cfb52d02668428",
+    "receipt_description": "DOVE BAGNO RINFRESCANT FL. ML 70",
+    "ItemName": "| DOVE BAGNO RINFRESCANT FL. ML 70 |",
+    "match_result": {
+      "matches": [],
+      "message": "Nessuna corrispondenza affidabile"
+    },
+    "timestamp": "2025-10-08T21:25:09.957476Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "af44d9e436d176a7fa6b3600081ea63c0703499a972f9fe2cbba7eb8ff2f68aa",
+    "receipt_description": "VAPE PIASTR.A.Z.ANTIOD SC. PZ 3",
+    "ItemName": "| VAPE PIASTR.A.Z.ANTIOD SC. PZ 3 |",
+    "match_result": {
+      "matches": [],
+      "no_reliable_match_reason": "Il brand 'VAPE' identificato nella descrizione OCR non è presente nella lista dei prodotti in promozione. La lista contiene prodotti della marca 'reckitt' e dei suoi sottomarchi (es. Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish, Veet, Woolite), ma non 'VAPE'. Questo rende qualsiasi corrispondenza estremamente improbabile e con una confidenza inferiore alla soglia richiesta di 0.4."
+    },
+    "timestamp": "2025-10-08T21:25:20.919678Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "ec398aa0ecf9a4f54774bef5c86af2f8518277e26f47c0fd832444e60730590b",
+    "receipt_description": "LIP W.M&LAV.25L.MIX CO FL ML150",
+    "ItemName": "| LIP W.M&LAV.25L.MIX CO FL ML150 |",
+    "match_result": [
+      {
+        "id": "570",
+        "nome": "Lip Woolite Mixcolor Detersivo Lavatrice 1500 Ml",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.9,
+        "spiegazione": "La descrizione OCR 'LIP W.M&LAV.25L.MIX CO FL ML150' corrisponde fortemente a 'Lip Woolite Mixcolor Detersivo Lavatrice 1500 Ml'. 'LIP W.' si abbina a 'Lip Woolite', 'MIX CO FL' a 'Mixcolor', e il volume '1500 Ml' (1.5L) è una corrispondenza plausibile per '25L' e 'ML150', considerando errori OCR comuni."
+      },
+      {
+        "id": "558",
+        "nome": "Set 8 WOOLITE Lip Mix- Color Lt 1,5 Detersivo Lavatrice E Bucato",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.88,
+        "spiegazione": "Questo prodotto è molto simile a ID 570, abbinando 'WOOLITE Lip Mix- Color' e il volume '1,5 Lt'. La corrispondenza è forte per brand, tipologia e volume, con le stesse interpretazioni plausibili degli errori OCR di '25L' e 'ML150'."
+      },
+      {
+        "id": "568",
+        "nome": "Lip Woolite Lana E Delicati Detersivo Lavatrice 1500 Ml",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.7,
+        "spiegazione": "Corrisponde a 'Lip Woolite' e al formato da '1500 Ml' (1.5L), interpretando '25L' e 'ML150' come volume. La parte 'M&LAV.MIX CO FL' è meno precisa per 'Lana E Delicati', ma la corrispondenza di brand e volume è forte e la tipologia 'delicati' può essere associata a profumazioni come la lavanda (LAV)."
+      }
+    ],
+    "timestamp": "2025-10-08T21:26:18.269052Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "4fff03f8837efb1391ec50d32e2cca4b0173dbccb14156b991e54a8ef0ad7774",
+    "receipt_description": "LIP W.M&LAV.25L.ROSA C FL ML150",
+    "ItemName": "| LIP W.M&LAV.25L.ROSA C FL ML150 |",
+    "match_result": [
+      {
+        "id": "548",
+        "nome": "Lip woolite rosa lt.1",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.9,
+        "spiegazione": "Corrispondenza elevata per 'LIP W.' (Woolite) e 'ROSA'. La quantità 'lt.1' è coerente con l'interpretazione di '25L.ML150' come errore OCR per un formato da 1 o 1.5 litri."
+      },
+      {
+        "id": "557",
+        "nome": "LIP WOOLITE Bucato Lavanda 1 Lt. Detergenti Casa",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.85,
+        "spiegazione": "Corrispondenza forte per 'LIP W.' (Woolite) e 'LAV.' (Lavanda). La quantità '1 Lt.' è plausibile come interpretazione di '25L.ML150'. La parte 'ROSA C FL' nell'OCR è considerata rumore."
+      },
+      {
+        "id": "550",
+        "nome": "Lip Woolite lana e delicati muschio bianco 1 L",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.75,
+        "spiegazione": "Corrispondenza buona per 'LIP W.' (Woolite). La parte 'M&LAV.' dell'OCR è interpretabile come 'Muschio' per 'muschio bianco'. La quantità '1 L' è plausibile. La parte 'ROSA C FL' è considerata rumore."
+      }
+    ],
+    "timestamp": "2025-10-08T21:27:40.697928Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "970b89b0b65c756cb0ede5d3bb6f045ce17e92b80f9889c7d836297ef0b3764b",
+    "receipt_description": "DOVE DOCC.FRES.IDRATAZ F LML 2",
+    "ItemName": "| DOVE DOCC.FRES.IDRATAZ F LML 2 |",
+    "match_result": {
+      "matches": "Nessuna corrispondenza affidabile",
+      "reason": "La descrizione OCR menziona il brand 'DOVE' e il prodotto 'DOCC.FRES.IDRATAZ' (probabilmente Doccia Freschezza Idratazione), che non trovano riscontro nella lista di prodotti in promozione. Tutti i prodotti in lista sono del brand 'reckitt' e appartengono a categorie diverse (es. deodoranti per ambiente, detersivi per lavastoviglie, profilattici, detersivi per bucato, ecc.) e non sono associati al brand 'DOVE' o alla tipologia 'doccia'."
+    },
+    "timestamp": "2025-10-08T21:27:45.453680Z"
+  },
+  {
+    "row_idx": 3,
+    "key": "469cd19078e1355c1d3571e4648d766705f4b0d580303955da69c7eadec8a4b5",
+    "receipt_description": "DOVE BAGNO SETA PREZ. FL ML 43",
+    "ItemName": "| DOVE BAGNO SETA PREZ. FL ML 43 |",
+    "match_result": {
+      "matches": [],
+      "no_credible_match_reason": "Nessuna corrispondenza affidabile. Il brand 'DOVE' specificato nella descrizione dello scontrino non è presente nella lista dei prodotti in promozione, che sono tutti a marchio 'reckitt'."
+    },
+    "timestamp": "2025-10-08T21:27:48.355602Z"
+  },
+  {
+    "row_idx": 4,
+    "key": "e602c6a506471b0c81c9617457f4e548ef633d66240b23625236b61c531a5552",
+    "receipt_description": "*SOLE LAV.LIQ.82M.B.SP",
+    "ItemName": "8002910029395 | sole bianco splendente 82 | reckitt",
+    "match_result": [
+      {
+        "id": "452",
+        "nome": "Sole Bianco Splendente_82D",
+        "brand": "reckitt",
+        "punteggio_confidenza": 1.0,
+        "spiegazione": "Corrispondenza eccellente per brand 'Sole', la quantità '82' e l'abbreviazione 'B.SP' per 'Bianco Splendente', coerente con un detersivo liquido."
+      },
+      {
+        "id": "454",
+        "nome": "Sole Bianco Splendente_78D",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.9,
+        "spiegazione": "Forte corrispondenza per brand 'Sole', 'Bianco Splendente' (da B.SP) e la quantità '78D' che è molto vicina a '82'."
+      },
+      {
+        "id": "451",
+        "nome": "Sole Bianco Splendente_72D",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.85,
+        "spiegazione": "Buona corrispondenza per brand 'Sole', 'Bianco Splendente' (da B.SP) e la quantità '72D' che è prossima a '82'."
+      }
+    ],
+    "timestamp": "2025-10-08T21:28:14.288492Z"
+  },
+  {
+    "row_idx": 4,
+    "key": "e57ddd74059ef4d081ecda843d720724dc496dde617f462b63f8f3e200e334df",
+    "receipt_description": "*SOLE LAV.LIQ.82M.P.CO",
+    "ItemName": "8002910028763 | sole proteggi colore 41 | reckitt",
+    "match_result": {
+      "matches": [
+        {
+          "id": "452",
+          "nome": "Sole Bianco Splendente_82D",
+          "brand": "reckitt",
+          "punteggio_confidenza": 0.95,
+          "spiegazione": "Il brand 'Sole' è presente nella descrizione OCR e nel nome del prodotto. La dicitura 'LAV.LIQ.' (lavatrice liquido) nella descrizione OCR è semanticamente coerente con 'Bianco Splendente'. Il numero di dosi '82' corrisponde esattamente a '82D' nel nome del prodotto (presumendo un errore OCR 'M' -> 'D')."
+        },
+        {
+          "id": "451",
+          "nome": "Sole Bianco Splendente_72D",
+          "brand": "reckitt",
+          "punteggio_confidenza": 0.85,
+          "spiegazione": "Il brand 'Sole' è presente nella descrizione OCR e nel nome del prodotto. La dicitura 'LAV.LIQ.' (lavatrice liquido) nella descrizione OCR è semanticamente coerente con 'Bianco Splendente'. Il numero di dosi '82' nella descrizione OCR è molto simile a '72D' (possibile errore OCR)."
+        },
+        {
+          "id": "454",
+          "nome": "Sole Bianco Splendente_78D",
+          "brand": "reckitt",
+          "punteggio_confidenza": 0.85,
+          "spiegazione": "Il brand 'Sole' è presente nella descrizione OCR e nel nome del prodotto. La dicitura 'LAV.LIQ.' (lavatrice liquido) nella descrizione OCR è semanticamente coerente con 'Bianco Splendente'. Il numero di dosi '82' nella descrizione OCR è molto simile a '78D' (possibile errore OCR)."
+        }
+      ]
+    },
+    "timestamp": "2025-10-08T21:34:06.264708Z"
+  },
+  {
+    "row_idx": 4,
+    "key": "cea7e2b893af9096aafaefb8dceef6ced954969e322d413123f86c0e8596b143",
+    "receipt_description": "QUASAR IGIEN.CASA&AN.T",
+    "ItemName": "| QUASAR IGIEN.CASA&AN.T |",
+    "match_result": {
+      "matches": [],
+      "no_credible_match_reason": "La descrizione OCR 'QUASAR IGIEN.CASA&AN.T' contiene il termine 'QUASAR', che non corrisponde a nessun brand o nome di prodotto presente nella lista fornita. Tutti i prodotti nella lista sono sotto il brand 'reckitt' o marchi specifici come 'FINISH', 'DUREX', 'SOLE', 'NAPISAN', 'CALGON', 'VANISCH', 'VEET', 'WOOLITE', nessuno dei quali include 'QUASAR'. Pertanto, non è possibile trovare una corrispondenza affidabile."
+    },
+    "timestamp": "2025-10-08T21:34:14.938527Z"
+  },
+  {
+    "row_idx": 4,
+    "key": "40904115e28c14688aeab8c1ef24bd1d7d82dc57336a4ee15722609d4d11b07d",
+    "receipt_description": "RAPIDA DISGORG.LIQ.",
+    "ItemName": "| RAPIDA DISGORG.LIQ. |",
+    "match_result": "Nessuna corrispondenza affidabile",
+    "timestamp": "2025-10-08T21:34:24.766755Z"
+  },
+  {
+    "row_idx": 4,
+    "key": "b56b3ec876d4a5ef32e3c73abcb47011c5bc48cb2e1e001d7757eb577d6fd8bf",
+    "receipt_description": "SANICAT LETT.AG.CLUMPI",
+    "ItemName": "| SANICAT LETT.AG.CLUMPI |",
+    "match_result": {
+      "matches": [],
+      "no_reliable_match_reason": "Nessuna corrispondenza affidabile: la descrizione 'SANICAT LETT.AG.CLUMPI' non trova termini rilevanti (es. brand, tipo di prodotto) tra i prodotti in promozione, che appartengono a categorie merceologiche diverse (es. deodoranti per ambienti, detersivi, preservativi, depilatori)."
+    },
+    "timestamp": "2025-10-08T21:34:29.170958Z"
+  },
+  {
+    "row_idx": 5,
+    "key": "6126b57aa63a707c9e43b1a6fc02791477792ade742d9bb8c913e3e45bf00239",
+    "receipt_description": "*CALGON ANTIC.GEL BIP. BP ML300",
+    "ItemName": "8002910063405 | calgon gel 750 ml | reckitt",
+    "match_result": [
+      {
+        "id": "499",
+        "nome": "Calgon Gel 750 ml",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.5,
+        "spiegazione_sintetica": "Forte corrispondenza per il brand 'Calgon' e la tipologia 'Gel' (che è anticalcare). La quantità 'ML300' e la menzione 'BIP.' (bipacco) nella descrizione OCR non trovano un riscontro esatto nella lista prodotti (il formato più piccolo disponibile è 750ml e non ci sono bipack di gel), suggerendo un probabile errore OCR sul formato o una referenza non più disponibile. Questo è il prodotto di tipo 'Calgon Gel' più generico."
+      },
+      {
+        "id": "502",
+        "nome": "Calgon Igiene+ 750ml",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.45,
+        "spiegazione_sintetica": "Buona corrispondenza per il brand 'Calgon' e per il formato 'Gel'. La descrizione OCR 'ANTIC.GEL' è generica e non specifica 'Igiene+', mentre la quantità 'ML300' e 'BIP.' non corrispondono ai prodotti in lista, indicando possibili errori OCR o formati non presenti."
+      },
+      {
+        "id": "506",
+        "nome": "Calgon Natura+ 750ml",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.45,
+        "spiegazione_sintetica": "Buona corrispondenza per il brand 'Calgon' e per il formato 'Gel'. La descrizione OCR 'ANTIC.GEL' è generica e non specifica 'Natura+', mentre la quantità 'ML300' e 'BIP.' non corrispondono ai prodotti in lista, indicando possibili errori OCR o formati non presenti."
+      }
+    ],
+    "timestamp": "2025-10-08T21:35:08.805964Z"
+  },
+  {
+    "row_idx": 5,
+    "key": "3d74888a65b6a8e2e5d5a68a328fa9a3934d35f7475df53328f41633729d5ad2",
+    "receipt_description": "NAPISAN ADD.LAV.L.P.PR FL ML120",
+    "ItemName": "8002910055394 | napisan profumo di primavera ml 1200 | reckitt",
+    "match_result": [
+      {
+        "id": "475",
+        "nome": "Napisan Profumo di Primavera ml. 1200",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.95,
+        "spiegazione": "Corrisponde al brand 'Napisan', al formato '1200 ml' (da 'ML120' con errore OCR comune) e alla fragranza 'Profumo di Primavera' (dall'abbreviazione 'P.PR' e 'L' per Liquido, in una bottiglia 'FL')."
+      },
+      {
+        "id": "476",
+        "nome": "Napisan Lavanda ml. 1200",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.7,
+        "spiegazione": "Corrisponde al brand 'Napisan' e al formato '1200 ml'. L'abbreviazione 'LAV' nell'OCR potrebbe riferirsi a 'Lavanda', ma la parte 'P.PR' della descrizione OCR non trova una corrispondenza chiara in questo prodotto."
+      },
+      {
+        "id": "474",
+        "nome": "Napisan Standard ml. 1200",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.6,
+        "spiegazione": "Corrisponde al brand 'Napisan' e al formato '1200 ml'. Tuttavia, la parte 'L.P.PR' della descrizione OCR non si riferisce in modo specifico alla variante 'Standard', rendendola una corrispondenza meno precisa."
+      }
+    ],
+    "timestamp": "2025-10-08T21:35:48.126487Z"
+  },
+  {
+    "row_idx": 5,
+    "key": "00df5894efc31609265cbf53d996c725326c8893d42ac02ce3870bcdc0e04728",
+    "receipt_description": "NATURAV.RIC.S/L.O.O.AR BS ML100",
+    "ItemName": "| NATURAV.RIC.S/L.O.O.AR BS ML100 |",
+    "match_result": [
+      {
+        "id": "397",
+        "nome": "DUREX NATURALS GEL ALOE 100ML",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.9,
+        "spiegazione": "Forte corrispondenza con 'NATURALS' (da 'NATURAV') e volume '100ML'. 'ALOE' potrebbe corrispondere a una parte alterata della descrizione OCR 'AR'."
+      },
+      {
+        "id": "343",
+        "nome": "DUREX NATURALS INTIMATE GEL - 100 ML",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.85,
+        "spiegazione": "Forte corrispondenza con 'NATURALS' (da 'NATURAV') e volume '100 ML'."
+      },
+      {
+        "id": "396",
+        "nome": "DUREX NATURALS GEL INT IDR 100ML",
+        "brand": "reckitt",
+        "punteggio_confidenza": 0.85,
+        "spiegazione": "Forte corrispondenza con 'NATURALS' (da 'NATURAV') e volume '100ML'."
+      }
+    ],
+    "timestamp": "2025-10-08T21:36:45.060857Z"
+  },
+  {
+    "row_idx": 5,
+    "key": "5caaccfe611a4774d3ed07190a2fc71adb9ee64fd9289013734dc6b787201902",
+    "receipt_description": "DOVE DEO.N-GAS TALCO BO ML 7",
+    "ItemName": "| DOVE DEO.N-GAS TALCO BO ML 7 |",
+    "match_result": "Nessuna corrispondenza affidabile.",
+    "timestamp": "2025-10-08T21:41:49.915438Z"
+  },
+  {
+    "row_idx": 5,
+    "key": "dce8a5169f42fd3b2689d0e7a309b2e5beda0c77c00efb8a1bd02d0b10c32564",
+    "receipt_description": "DOVE DEO.N-GAS G.F.CLA BO ML 7",
+    "ItemName": "| DOVE DEO.N-GAS G.F.CLA BO ML 7 |",
+    "match_result": {
+      "matches": [],
+      "no_reliable_match_found": "Nessuna corrispondenza affidabile"
+    },
+    "timestamp": "2025-10-08T21:42:11.718768Z"
+  },
+  {
+    "row_idx": 6,
+    "key": "768d3dcec26a4c1049d6a77970956fe624b2fb278ed3b4bf1255c9fad1053eec",
+    "receipt_description": "MANTE BECCHI CTC.ALL.",
+    "ItemName": "| MANTE BECCHI CTC.ALL. |",
+    "match_result": [
+      {
+        "id": "33",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC MAX REF DOUCEUR DE COTON 070.0 1 AER",
+        "brand": "reckitt",
+        "punteggio di confidenza": 0.65,
+        "spiegazione sintetica": "La parte 'CTC.ALL.' della descrizione OCR ha una forte assonanza con 'COTON' (Douceur de Coton), e 'MANTE' potrebbe essere un'aberrazione OCR di 'MATIC', presente nel nome del prodotto Air Wick Fresh Matic. 'BECCHI' non trova una corrispondenza diretta."
+      },
+      {
+        "id": "71",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC PURE REF COTONE 060.0 1 AER",
+        "brand": "reckitt",
+        "punteggio di confidenza": 0.65,
+        "spiegazione sintetica": "La parte 'CTC.ALL.' della descrizione OCR ha una forte assonanza con 'COTONE', e 'MANTE' potrebbe essere un'aberrazione OCR di 'MATIC', presente nel nome del prodotto Air Wick Fresh Matic. 'BECCHI' non trova una corrispondenza diretta."
+      },
+      {
+        "id": "124",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC PURE REF SOFFICE COTONE 070.0 1 AER",
+        "brand": "reckitt",
+        "punteggio di confidenza": 0.65,
+        "spiegazione sintetica": "La parte 'CTC.ALL.' della descrizione OCR ha una forte assonanza con 'SOFFICE COTONE', e 'MANTE' potrebbe essere un'aberrazione OCR di 'MATIC', presente nel nome del prodotto Air Wick Fresh Matic. 'BECCHI' non trova una corrispondenza diretta."
+      }
+    ],
+    "timestamp": "2025-10-08T21:43:29.145448Z"
+  },
+  {
+    "row_idx": 6,
+    "key": "e2aef1c79d545d2771ca896bece2cd2ad35573324c76aaac84eec9728b854368",
+    "receipt_description": "AIR W.ACT.RIC.D.VAN&CA",
+    "ItemName": "8002910067816 | finish active fresh spray automatico ricarica vaniglia | reckitt",
+    "match_result": [
+      {
+        "id": "192",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK MAGICA FIABA REF VANIGLIA & CAMOMILLA 070.0 1 LIQ",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.98,
+        "spiegazione_sintetica": "Corrispondenza eccellente per 'AIR WICK', 'RICARICA' (indicata da REF), e la fragranza specifica 'VANIGLIA & CAMOMILLA'. 'ACT.' è una probabile abbreviazione di 'AUTOSPRAY' (Automatic Spray)."
+      },
+      {
+        "id": "15",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK SYMPHONIA REF VANIGLIA E ORCHIDEA/TALCO 010.0 2 LIQ",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.7,
+        "spiegazione_sintetica": "Buona corrispondenza per 'AIR WICK', 'RICARICA' (REF) e 'VANIGLIA'. La parte 'ACT.' (che suggerisce Automatic/Active) è meno precisa rispetto a 'ELECT PLUGIN', e la seconda fragranza è diversa ('Orchidea/Talco' invece di 'Camomilla')."
+      },
+      {
+        "id": "16",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK SYMPHONIA REF LAVANDA E CAMOMILLA/LAVANDA BIANCA 010.0 2 LIQ",
+        "brand": "reckitt",
+        "punteggio_di_confidenza": 0.7,
+        "spiegazione_sintetica": "Buona corrispondenza per 'AIR WICK', 'RICARICA' (REF) e 'CAMOMILLA'. La parte 'ACT.' (che suggerisce Automatic/Active) è meno precisa rispetto a 'ELECT PLUGIN', e la prima fragranza è diversa ('Lavanda' invece di 'Vaniglia')."
+      }
+    ],
+    "timestamp": "2025-10-08T21:44:31.404781Z"
+  }
+]

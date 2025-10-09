@@ -1,0 +1,292 @@
+[
+  {
+    "descrizione": "*SOLE LAV.LIQ.82M.P.CO",
+    "match": [
+      {
+        "id": "452",
+        "nome": "Sole Bianco Splendente_82D",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      },
+      {
+        "id": "454",
+        "nome": "Sole Bianco Splendente_78D",
+        "brand": "reckitt",
+        "confidenza": 0.8
+      },
+      {
+        "id": "455",
+        "nome": "Sole Bianco Splendente_90D",
+        "brand": "reckitt",
+        "confidenza": 0.7
+      }
+    ]
+  },
+  {
+    "descrizione": "SOLE M&LAV.F.TALCO",
+    "match": [
+      {
+        "id": "446",
+        "nome": "Sole Lana e Delicati Carezza di Talco_16D",
+        "brand": "reckitt",
+        "confidenza": 0.97
+      }
+    ]
+  },
+  {
+    "descrizione": "SOLE LAV.RIC.B.S.26MIS",
+    "match": [
+      {
+        "id": "448",
+        "nome": "Sole Bianco Splendente_26D",
+        "brand": "reckitt",
+        "confidenza": 1.0
+      }
+    ]
+  },
+  {
+    "descrizione": "AIR W.A/ODORI GEL ATT.",
+    "match": []
+  },
+  {
+    "descrizione": "SET 1 1 ASCIUG SP T U CF",
+    "match": [
+      {
+        "id": "302",
+        "nome": "FINISH BRILLASCIUGA LEMON 500 MLX2",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "292",
+        "nome": "FINISH BRILLASCIUGA LEMON 250 ML",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      },
+      {
+        "id": "293",
+        "nome": "FINISH BRILLASCIUGA REGULAR 250 ML",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "CALGON DECALC HYGIENE FL",
+    "match": [
+      {
+        "id": "502",
+        "nome": "Calgon Igiene+ 750ml",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "503",
+        "nome": "Calgon Igiene+ 1500ml",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "504",
+        "nome": "Calgon Igiene+ 2250ml",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      }
+    ]
+  },
+  {
+    "descrizione": "MINERVA SCOVOLO WC PAL NC",
+    "match": []
+  },
+  {
+    "descrizione": "NUNCAS SISTEMA TENDE AS",
+    "match": []
+  },
+  {
+    "descrizione": "SOLE CURA LAVATR CLAS BP",
+    "match": [
+      {
+        "id": "458",
+        "nome": "Sole Curalavatrice Igiene",
+        "brand": "reckitt",
+        "confidenza": 0.65
+      },
+      {
+        "id": "460",
+        "nome": "Sole Curalavatrice Express x3",
+        "brand": "reckitt",
+        "confidenza": 0.55
+      },
+      {
+        "id": "456",
+        "nome": "Sole Curalavatrice Freschezza Alpina",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      }
+    ]
+  },
+  {
+    "descrizione": "SMAPU CAND 48 P LAVAND BA",
+    "match": []
+  },
+  {
+    "descrizione": "FABULOSO AMM.C.86L.F.M FLML190",
+    "match": []
+  },
+  {
+    "descrizione": "REGINA TOV.2V.TIRAMISU CFPZ 11",
+    "match": []
+  },
+  {
+    "descrizione": "MENTADENT COLLUT.P FLML 50",
+    "match": []
+  },
+  {
+    "descrizione": "*CALGON ANTIC.GEL BIP. BPML300",
+    "match": []
+  },
+  {
+    "descrizione": "RIO C/MIA T/S.M.BI*139 FLML100",
+    "match": []
+  },
+  {
+    "descrizione": "FABULOSO PROF.T.FRESCO FLML 25",
+    "match": []
+  },
+  {
+    "descrizione": "GOURMET G.CUORE M.T&S. SCGR 34",
+    "match": []
+  },
+  {
+    "descrizione": "GOURMET G.CUORE M.M&P. SCGR 34",
+    "match": []
+  },
+  {
+    "descrizione": "*SPONTEX SP/AB.MUL.FOW C FPZ06",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO EXTRA RIB ROYAL B.MASC.OCC.COLLAG. BSPZ",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO PROF TP 10 ROYAL B.MASC.OCC.COLLAG. BSPZ",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO PROF TP 10 *EQUILIBRA V.MASC.I.RO BS GR 2",
+    "match": []
+  },
+  {
+    "descrizione": "2025_EXTRA_CAMP_L.I GEOMAR V.MASC.NUTR.VEL BL ML 1",
+    "match": [
+      {
+        "id": "brand_extracted_001",
+        "nome": "Brand",
+        "brand": "GEOMAR",
+        "confidenza": 0.98
+      }
+    ]
+  },
+  {
+    "descrizione": "AIR W.FR/M.MAX AUT.BAS PZ",
+    "match": [
+      {
+        "id": "62",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC MAX REF BACCO DI VANIGLIA BIANCA 060.0 1 AER",
+        "brand": "reckitt",
+        "confidenza": 0.99
+      }
+    ]
+  },
+  {
+    "descrizione": "PROMOZIONE DOVE BAGNO RINFRESCANT FL. ML 70",
+    "match": []
+  },
+  {
+    "descrizione": "CALGON ANTIC.15 TABS SC GR 19",
+    "match": [
+      {
+        "id": "497",
+        "nome": "Calgon Tabs 195 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.8
+      },
+      {
+        "id": "498",
+        "nome": "Calgon Tabs 390 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.7
+      },
+      {
+        "id": "495",
+        "nome": "Calgon Calgon Polvere 900 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      }
+    ]
+  },
+  {
+    "descrizione": "PROMOZIONE VAPE PIASTR.A.Z.ANTIOD SC PZ 3",
+    "match": []
+  },
+  {
+    "descrizione": "LIP W.M&LAV.25L.MIX NO FL ML150",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO GENERALE TP 10 LIP W.M&LAV.25L.MIX CO FL ML150",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO GENERALE TP 10 LIP W.M&LAV.25L.ROSA C FL ML150",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO GENERALE TP 10 DOVE DOCC.FRES.IDRATAZ F LML 2",
+    "match": []
+  },
+  {
+    "descrizione": "PROMO GENERALE TP 10 DOVE BAGNO SETA PREZ. FL ML 43",
+    "match": []
+  },
+  {
+    "descrizione": "WINNI'S C.MJLTIU.SPR.E FL ML 50",
+    "match": []
+  },
+  {
+    "descrizione": "DOVE DEO.SPRAY A.M.I.F BO ML 15",
+    "match": []
+  },
+  {
+    "descrizione": "DOVE DOCC.ILLUMINANTE FL. ML 22",
+    "match": []
+  },
+  {
+    "descrizione": "ROYAL B.MASC.OCC.COLLAG. BSPZ",
+    "match": []
+  },
+  {
+    "descrizione": "*EQUILIBRA V.MASC.I.RO BS GR 2",
+    "match": [
+      {
+        "id": "brand_equilibra",
+        "nome": "EQUILIBRA (Brand)",
+        "brand": "EQUILIBRA",
+        "confidenza": 0.9
+      }
+    ]
+  },
+  {
+    "descrizione": "GEOMAR V.MASC.NUTR.VEL BL. ML 1",
+    "match": []
+  },
+  {
+    "descrizione": "DOVE BAGNO RINFRESCANT FL. ML 70",
+    "match": []
+  },
+  {
+    "descrizione": "VAPE PIASTR.A.Z.ANTIOD SC. PZ 3",
+    "match": []
+  }
+]

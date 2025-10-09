@@ -1,11 +1,10 @@
 import json
 import ollama
 
-
 class LLM:
     """
     Low-level wrapper for Ollama LLM.
-    Handles model loading and raw inference.
+    Handles model loading and JSON inference.
     """
 
     def __init__(self, model: str = "mistral:7b", temperature: float = 0.3, max_tokens: int = 512):
@@ -13,7 +12,6 @@ class LLM:
         self.temperature = temperature
         self.max_tokens = max_tokens
 
-        # Check if model is available locally
         try:
             models_list = ollama.list().get("models", [])
             available = [m.get("name") or m.get("model") for m in models_list]
@@ -38,9 +36,6 @@ class LLM:
             return json.dumps({"error": str(e)})
 
     def run_inference_json(self, prompt: str) -> dict:
-        """
-        Executes a prompt and returns a valid JSON as a Python dict.
-        """
         raw_output = self.run_inference(prompt)
         try:
             return json.loads(raw_output)

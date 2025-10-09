@@ -1,65 +1,59 @@
-from google import genai
-import pandas as pd
-import json
 import os
-import hashlib
+import re
+import json
 import time
+import hashlib
+import pandas as pd
 from datetime import datetime
+from google import genai
 
 # === CONFIG ===
 products_file = "dataset/prodotti.csv"
 ocr_file = "dataset/data.csv"
-OUTPUT_NDJSON = "results/matches.ndjson"     # incremental append file
-OUTPUT_JSON = "results/matches.json"         # optional snapshot file
-SNAPSHOT_EVERY = 50                  # write full matches.json every N appended results
-SLEEP_BETWEEN_CALLS = 0.0            # set >0 if you need to throttle calls
+OUTPUT_NDJSON = "results/matches.ndjson"
+OUTPUT_JSON = "results/matches.json"
+SNAPSHOT_EVERY = 50
+SLEEP_BETWEEN_CALLS = 0.0
 
-# === Gemini client ===
-client = genai.Client()  # GEMINI_API_KEY must be in env
+os.makedirs("results", exist_ok=True)
 
-# === Load CSVs (semicolon-separated as in your files) ===
+client = genai.Client()  # GEMINI_API_KEY must be set in environment
+
+# === Load CSVs ===
 products_df = pd.read_csv(products_file, sep=";", dtype=str).fillna("")
 ocr_df = pd.read_csv(ocr_file, sep=";", dtype=str).fillna("")
-
 products = products_df.to_dict(orient="records")
 
-# === helper: extract ReceiptDescription from nested JSON columns ===
-def extract_receipt_descriptions(row):
-    json_data = None
+# === helper: extract items from nested JSON columns ===
+def extract_items_from_row(row):
+    items_list = []
     for col in row.index:
         if any(k in col.lower() for k in ["json", "callback", "data"]):
             raw = row[col]
-            if not isinstance(raw, str) or raw.strip() == "":
+            if not isinstance(raw, str) or not raw.strip():
                 continue
-            # Try single decode, then double decode
             try:
                 json_data = json.loads(raw)
-                break
             except Exception:
                 try:
                     json_data = json.loads(json.loads(raw))
-                    break
                 except Exception:
                     continue
 
-    descriptions = []
-    if json_data:
-        try:
             items = json_data.get("ItemDetails", {}).get("Items", [])
             for item in items:
-                desc = item.get("ReceiptDescription")
+                desc = item.get("ReceiptDescription", "").strip()
+                name = item.get("ItemName", "").strip()
                 if desc:
-                    descriptions.append(desc.strip())
-        except Exception:
-            pass
-    return descriptions
+                    items_list.append({"ReceiptDescription": desc, "ItemName": name})
+    return items_list
 
 # === helper: compute resume key ===
 def compute_key(row_idx, receipt_description):
     key_str = f"{row_idx}|{receipt_description}"
     return hashlib.sha256(key_str.encode("utf-8")).hexdigest()
 
-# === load already processed keys from NDJSON (if exists) ===
+# === load already processed keys from NDJSON ===
 processed_keys = set()
 processed_count = 0
 if os.path.exists(OUTPUT_NDJSON):
@@ -75,11 +69,10 @@ if os.path.exists(OUTPUT_NDJSON):
                     processed_keys.add(k)
                     processed_count += 1
             except Exception:
-                # ignore malformed lines
                 continue
 print(f"Loaded {len(processed_keys)} previously processed items from {OUTPUT_NDJSON}")
 
-# === helper: append a record atomically (append + fsync) ===
+# === helper: append a record atomically ===
 def append_record_ndjson(record):
     line = json.dumps(record, ensure_ascii=False)
     with open(OUTPUT_NDJSON, "a", encoding="utf-8") as f:
@@ -88,9 +81,9 @@ def append_record_ndjson(record):
         try:
             os.fsync(f.fileno())
         except Exception:
-            pass  # not critical on some platforms
+            pass
 
-# === helper: write full snapshot from NDJSON to JSON ===
+# === helper: write full snapshot ===
 def write_snapshot():
     snapshot = []
     if os.path.exists(OUTPUT_NDJSON):
@@ -108,37 +101,76 @@ def write_snapshot():
         json.dump(snapshot, out_f, indent=2, ensure_ascii=False)
     print(f"Snapshot saved to {OUTPUT_JSON} ({len(snapshot)} records)")
 
+# === helper: parse Gemini output ===
+def parse_gemini_output(raw_output):
+    if not raw_output:
+        return {"error": "Empty response"}
+    cleaned = re.sub(r"^```(?:json)?|```$", "", raw_output.strip(), flags=re.MULTILINE).strip()
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        return {"error": f"Could not parse Gemini output: {e}", "raw": raw_output}
+
 # === MAIN processing loop ===
 appended_since_snapshot = 0
 
 try:
     for idx, row in ocr_df.iterrows():
-        # extract descriptions
-        descriptions = []
-        if "ReceiptDescription" in row and isinstance(row["ReceiptDescription"], str) and row["ReceiptDescription"].strip():
-            descriptions = [row["ReceiptDescription"].strip()]
-        else:
-            descriptions = extract_receipt_descriptions(row)
-
-        if not descriptions:
-            print(f"⚠️  No valid description found for row {idx}. Skipping.")
+        items = extract_items_from_row(row)
+        if not items:
+            print(f"⚠️  No items found in row {idx}. Skipping.")
             continue
 
-        for receipt_description in descriptions:
+        for item in items:
+            receipt_description = item["ReceiptDescription"]
+            item_name_csv = item["ItemName"]
+
             key = compute_key(idx, receipt_description)
             if key in processed_keys:
                 print(f"⏭ Skipping already processed row {idx} (key {key[:8]})")
                 continue
 
+            # --- Gemini prompt (kept the same as your original) ---
             prompt = f"""
-You are an assistant that matches a receipt description to products.
-Receipt description: "{receipt_description}"
-Products: {json.dumps(products)}
-Return the top 3 matches with their id, name, brand, confidence (0.0-1.0), and a brief explanation.
-Format the output as JSON.
+
+Sei un assistente che deve trovare corrispondenze tra prodotti OCR da scontrini e una lista di prodotti in promozione. 
+Ti verrà fornita una lista di prodotti in offerta, ognuno con questi campi:
+- id
+- brand
+- nome
+- nome_normalizzato (può essere vuoto)
+- ean
+
+Ti verrà anche fornita una descrizione di un prodotto letta da uno scontrino (campo "ReceiptDescription"), 
+che può contenere abbreviazioni, punteggiatura, o errori OCR.
+
+Il tuo compito è:
+1. Cercare il prodotto nella lista che più probabilmente corrisponde alla descrizione OCR.
+2. Restituire i tre migliori match, ciascuno con:
+   - id
+   - nome
+   - brand
+   - punteggio di confidenza (da 0.0 a 1.0)
+   - spiegazione sintetica del perché ritieni ci sia una corrispondenza.
+3. Se non c’è nessuna corrispondenza credibile (es. confidenza < 0.4), specifica "Nessuna corrispondenza affidabile".
+4. Non inventare id, nomi o campi. Usa esclusivamente le voci così come fornite nella lista.
+
+---
+
+Ecco la lista dei prodotti in promozione:
+{json.dumps(products)}
+
+---
+
+Descrizione OCR da scontrino:
+{json.dumps(receipt_description)}
+
+---
+
+Restituisci la risposta **in formato JSON**.
 """
 
-            # call Gemini
+            # --- call Gemini ---
             try:
                 response = client.models.generate_content(
                     model="gemini-2.5-flash",
@@ -146,40 +178,27 @@ Format the output as JSON.
                 )
                 response_text = response.text.strip()
             except Exception as e:
-                print(f"❌ Gemini API error at row {idx}: {e}. Will retry after short wait.")
-                time.sleep(5)  # small backoff; you might want more sophisticated retry
-                try:
-                    response = client.models.generate_content(
-                        model="gemini-2.5-flash",
-                        contents=prompt
-                    )
-                    response_text = response.text.strip()
-                except Exception as e2:
-                    print(f"❌ Retry failed for row {idx}: {e2}. Skipping this item.")
-                    # Save a failed record so you don't retry endlessly
-                    rec = {
-                        "row_idx": int(idx),
-                        "key": key,
-                        "receipt_description": receipt_description,
-                        "match_result": {"error": f"Gemini error: {str(e2)}"},
-                        "timestamp": datetime.utcnow().isoformat() + "Z"
-                    }
-                    append_record_ndjson(rec)
-                    processed_keys.add(key)
-                    appended_since_snapshot += 1
-                    continue
+                print(f"❌ Gemini API error at row {idx}: {e}. Skipping.")
+                rec = {
+                    "row_idx": int(idx),
+                    "key": key,
+                    "receipt_description": receipt_description,
+                    "ItemName": item_name_csv,
+                    "match_result": {"error": f"Gemini error: {str(e)}"},
+                    "timestamp": datetime.utcnow().isoformat() + "Z"
+                }
+                append_record_ndjson(rec)
+                processed_keys.add(key)
+                appended_since_snapshot += 1
+                continue
 
-            # parse response JSON (if possible)
-            try:
-                match_data = json.loads(response_text)
-            except json.JSONDecodeError:
-                match_data = {"error": "Could not parse Gemini output", "raw": response_text}
+            match_data = parse_gemini_output(response_text)
 
-            # build record and append immediately
             record = {
                 "row_idx": int(idx),
                 "key": key,
                 "receipt_description": receipt_description,
+                "ItemName": item_name_csv,
                 "match_result": match_data,
                 "timestamp": datetime.utcnow().isoformat() + "Z"
             }
@@ -191,11 +210,9 @@ Format the output as JSON.
 
             print(f"✅ Saved row {idx} key {key[:8]} (total saved: {processed_count})")
 
-            # optional throttle
             if SLEEP_BETWEEN_CALLS > 0:
                 time.sleep(SLEEP_BETWEEN_CALLS)
 
-            # periodic snapshot
             if appended_since_snapshot >= SNAPSHOT_EVERY:
                 write_snapshot()
                 appended_since_snapshot = 0
@@ -203,7 +220,6 @@ Format the output as JSON.
 except KeyboardInterrupt:
     print("\n⏸ Interrupted by user. Writing snapshot and exiting...")
     write_snapshot()
-    print("Exit after KeyboardInterrupt.")
 except Exception as e:
     print(f"\n❌ Fatal error: {e}. Writing snapshot and exiting...")
     write_snapshot()
