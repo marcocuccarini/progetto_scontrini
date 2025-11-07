@@ -495,5 +495,71 @@
         "confidenza": 0.0
       }
     ]
+  },
+  {
+    "descrizione": "CROISS.INTEG.E ZUCC .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "PROSECCO VALD.DOCG",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "KINDER PAN E CIOC GR",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE OROERISVEGL.G",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "SOTTOBOSC.TERRIC.UNIV.LT4",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE AMESTISTA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.05
+      }
+    ]
   }
 ]
