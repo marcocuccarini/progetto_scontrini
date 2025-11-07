@@ -424,5 +424,76 @@
         "confidenza": 0.0
       }
     ]
+  },
+  {
+    "descrizione": "LENOR PROF.BUC UNSTO",
+    "match": [
+      {
+        "id": "423",
+        "nome": "Sole Freschezza Naturale Lavanda_41D",
+        "brand": "reckitt",
+        "confidenza": 0.1
+      }
+    ]
+  },
+  {
+    "descrizione": "CORNETTO BURRO MAXI GR75",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "SOPRESSINA MICROFOR.C_A G",
+    "match": []
+  },
+  {
+    "descrizione": "BUITONI PASTA SFOGLIA RET",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "TARTARUGA PANE T. FORM",
+    "match": []
+  },
+  {
+    "descrizione": "BENDE ELAST.4M.X6CM FER",
+    "match": []
+  },
+  {
+    "descrizione": "CALVE SALSA YOGURT TD ML .",
+    "match": []
+  },
+  {
+    "descrizione": "GRAN MORAVIA GRATT . GR.10",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "CAROTE GR.750 CAT I",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]
