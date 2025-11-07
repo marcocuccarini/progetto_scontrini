@@ -592,5 +592,211 @@
   {
     "descrizione": "VOGL.INS.RUSSA GR150",
     "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE AMETISTA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "SOLE LAV.POLV.BIANCO S",
+    "match": [
+      {
+        "id": "419",
+        "nome": "Sole Bianco Splendente_41D",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "VIAKAL REGOLARE TRIG .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LINES ASS.E'ALI QP",
+    "match": [
+      {
+        "id": "213",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL ASSORTED 120 1 AB.ELE+DEO LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      },
+      {
+        "id": "20",
+        "nome": "INAC ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OIL REF CANNELLE & BOIS PRECIEUX 024.0 1 LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "61",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK STD REF ESSENTIAL OILS WHITE VANILLA BEAN 017.0 1 LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "95",
+        "nome": "BURN CANDELE RECKITT AIR WICK ESSENTIAL OILS COMPL BACCO DI VANIGLIA & DOLCI MANDORLE 1",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "208",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL LAVANDA IN FIORE 120 1 AB.ELE+DEO LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "210",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      }
+    ]
+  },
+  {
+    "descrizione": "MARIGOLD GUANTI RESIST",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR UNSTOP.PERLE DAS",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "A_GA SAP.BUCATO",
+    "match": [
+      {
+        "id": "419",
+        "nome": "Sole Bianco Splendente_41D",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      },
+      {
+        "id": "461",
+        "nome": "Napisan Detersivo Classico_23D",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      },
+      {
+        "id": "548",
+        "nome": "Lip woolite rosa lt.1",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "ULTRA D.SH MERAVIGL .",
+    "match": [
+      {
+        "id": "276",
+        "nome": "FINISH ULTIMATE PLUS 14 LIMONE",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "ULTRA D.SH ARG & MIRT.RO",
+    "match": [
+      {
+        "id": "245",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK STD REF FRUTTI ROSSI.FICO AMALFI 019.0 1 LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.25
+      }
+    ]
+  },
+  {
+    "descrizione": "HEAD & SHOULD.SH 2IN1 CI",
+    "match": []
+  },
+  {
+    "descrizione": "DENTASK EL.RIC.TOTAL F",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "ULTRA D.SH BM ALBICOC .",
+    "match": []
+  },
+  {
+    "descrizione": "NIVEA CR.COR.VELL .",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE ORO & F.VANI FLGR 4 22 %",
+    "match": []
+  },
+  {
+    "descrizione": "CUKI PORTAGELO 40X50CM GR",
+    "match": []
+  },
+  {
+    "descrizione": "ANDE CIOTOLA STILO 16 CM SURT",
+    "match": [
+      {
+        "id": "141",
+        "nome": "BURN CANDELE RECKITT AIR WICK MIX CERA NATURALE COMPL COLOURS MIX 1",
+        "brand": "reckitt",
+        "confidenza": 0.8
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR VRM PERLE 195GR AMETIST",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "A SHOPPER BIO",
+    "match": []
+  },
+  {
+    "descrizione": "LIABEL - PROFUMA TESSUTI 250ML",
+    "match": []
+  },
+  {
+    "descrizione": "CF / 10 MINI PINZA DI FERRO",
+    "match": []
   }
 ]
