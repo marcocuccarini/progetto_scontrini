@@ -561,5 +561,36 @@
         "confidenza": 0.05
       }
     ]
+  },
+  {
+    "descrizione": "LIBRI CD CL . D7",
+    "match": []
+  },
+  {
+    "descrizione": "QUOTIDIANI",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "BURGER VALSOIA",
+    "match": []
+  },
+  {
+    "descrizione": "SALMONE NORV . CONAD",
+    "match": []
+  },
+  {
+    "descrizione": "CARAMELLE ELAH KREML",
+    "match": []
+  },
+  {
+    "descrizione": "VOGL.INS.RUSSA GR150",
+    "match": []
   }
 ]

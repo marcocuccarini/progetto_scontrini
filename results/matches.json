@@ -2150,5 +2150,164 @@
     "key": "1a8ea0466c2b25f25713c8d0087003b92fd44eb243a011dd20f07af91c2ca899",
     "ItemName": "8006540780978 | lenor per gelsomino scarl 210 gr 6 pz | p&g",
     "receipt_description": "LENOR PERLE AMESTISTA"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Data la descrizione OCR \"LIBRI CD CL . D7\" e la lista dei prodotti fornita, non è possibile trovare alcuna corrispondenza significativa. La descrizione OCR sembra riferirsi a categorie di prodotti (libri, CD) o a codici (CL, D7) che non trovano riscontro nella lista di prodotti di Reckitt, che include deodoranti per ambienti (Air Wick), prodotti per lavastoviglie (Finish), profilattici e lubrificanti (Durex), detersivi per lavatrice (Sole, Napisan, Woolite, Calgon, Vanish) e prodotti per la depilazione (Veet).\n\nNon essendoci alcun elemento comune o interpretazione plausibile che possa collegare la descrizione OCR ai prodotti in elenco, non vengono trovate corrispondenze.\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'Analista ha correttamente determinato l'assenza di corrispondenze significative tra la descrizione OCR (\"LIBRI CD CL . D7\") e la lista dei prodotti Reckitt, fornendo una spiegazione dettagliata e logica del perché non vi siano match. L'analisi del contenuto è impeccabile e la conclusione è giusta. Tuttavia, l'output tecnico dell'Analista presenta un errore di parsing JSON (`error` field), sebbene l'output corretto e inteso (un array JSON vuoto `[]`) sia chiaramente presente all'interno del campo `raw`.",
+      "affidabilità": 0.9
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'Analista ha correttamente determinato l'assenza di corrispondenze significative tra la descrizione OCR e i prodotti forniti, fornendo una spiegazione logica e dettagliata, come confermato dal Critico. Sebbene l'output tecnico dell'Analista presentasse un errore di parsing JSON nel wrapper, l'output inteso (lista di match vuota) era chiaramente espresso e la conclusione è ritenuta corretta.",
+      "match_finale": [],
+      "affidabilità_finale": 0.9
+    },
+    "raw_reasoning": {
+      "analista": "Data la descrizione OCR \"LIBRI CD CL . D7\" e la lista dei prodotti fornita, non è possibile trovare alcuna corrispondenza significativa. La descrizione OCR sembra riferirsi a categorie di prodotti (libri, CD) o a codici (CL, D7) che non trovano riscontro nella lista di prodotti di Reckitt, che include deodoranti per ambienti (Air Wick), prodotti per lavastoviglie (Finish), profilattici e lubrificanti (Durex), detersivi per lavatrice (Sole, Napisan, Woolite, Calgon, Vanish) e prodotti per la depilazione (Veet).\n\nNon essendoci alcun elemento comune o interpretazione plausibile che possa collegare la descrizione OCR ai prodotti in elenco, non vengono trovate corrispondenze.\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'Analista ha correttamente determinato l'assenza di corrispondenze significative tra la descrizione OCR (\\\"LIBRI CD CL . D7\\\") e la lista dei prodotti Reckitt, fornendo una spiegazione dettagliata e logica del perché non vi siano match. L'analisi del contenuto è impeccabile e la conclusione è giusta. Tuttavia, l'output tecnico dell'Analista presenta un errore di parsing JSON (`error` field), sebbene l'output corretto e inteso (un array JSON vuoto `[]`) sia chiaramente presente all'interno del campo `raw`.\",\n  \"affidabilità\": 0.9\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'Analista ha correttamente determinato l'assenza di corrispondenze significative tra la descrizione OCR e i prodotti forniti, fornendo una spiegazione logica e dettagliata, come confermato dal Critico. Sebbene l'output tecnico dell'Analista presentasse un errore di parsing JSON nel wrapper, l'output inteso (lista di match vuota) era chiaramente espresso e la conclusione è ritenuta corretta.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.9\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:36:50.275370Z",
+    "row_idx": 14,
+    "key": "e8b83ef1bef14d6928f463080ba7371e035aee00cac75c2f6d3e8f6f56c7222a",
+    "ItemName": "| LIBRI CD CL . D7 |",
+    "receipt_description": "LIBRI CD CL . D7"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "La descrizione OCR 'QUOTIDIANI' è troppo generica e non corrisponde a nessun nome, brand o caratteristica specifica presente nella lista prodotti fornita. Si riferisce a una categoria molto ampia di prodotti di uso giornaliero, senza indicare un prodotto specifico."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha gestito la descrizione OCR generica in modo esemplare. Ha correttamente identificato l'impossibilità di una corrispondenza specifica e ha giustamente restituito valori nulli con confidenza zero, fornendo una spiegazione chiara e accurata della motivazione.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "La descrizione OCR 'QUOTIDIANI' è troppo generica e non permette l'identificazione di un prodotto specifico, come correttamente valutato dall'analista.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"La descrizione OCR 'QUOTIDIANI' è troppo generica e non corrisponde a nessun nome, brand o caratteristica specifica presente nella lista prodotti fornita. Si riferisce a una categoria molto ampia di prodotti di uso giornaliero, senza indicare un prodotto specifico.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha gestito la descrizione OCR generica in modo esemplare. Ha correttamente identificato l'impossibilità di una corrispondenza specifica e ha giustamente restituito valori nulli con confidenza zero, fornendo una spiegazione chiara e accurata della motivazione.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"La descrizione OCR 'QUOTIDIANI' è troppo generica e non permette l'identificazione di un prodotto specifico, come correttamente valutato dall'analista.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:37:10.654790Z",
+    "row_idx": 14,
+    "key": "e314bce970faeaff315764650acd825503c688163a9f42027f9df55b745dd112",
+    "ItemName": "| QUOTIDIANI |",
+    "receipt_description": "QUOTIDIANI"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista ha restituito un risultato nullo (array vuoto) nonostante la chiarezza e la validità del testo OCR (\"BURGER VALSOIA\"). Questo indica una mancata elaborazione o estrazione dei dati, rendendo il lavoro inefficace per l'input fornito.",
+      "affidabilità": 0.05
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha restituito alcun risultato (array vuoto) nonostante la chiarezza dell'input OCR, indicando una mancata elaborazione o estrazione dei dati e rendendo il lavoro inefficace.",
+      "match_finale": [],
+      "affidabilità_finale": 0.05
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha restituito un risultato nullo (array vuoto) nonostante la chiarezza e la validità del testo OCR (\\\"BURGER VALSOIA\\\"). Questo indica una mancata elaborazione o estrazione dei dati, rendendo il lavoro inefficace per l'input fornito.\",\n  \"affidabilità\": 0.05\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha restituito alcun risultato (array vuoto) nonostante la chiarezza dell'input OCR, indicando una mancata elaborazione o estrazione dei dati e rendendo il lavoro inefficace.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.05\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:37:23.759629Z",
+    "row_idx": 14,
+    "key": "83450342b8f190c2b0d06f75c7cdfa756773dbe0baf634903936f4018c779cc4",
+    "ItemName": "| BURGER VALSOIA |",
+    "receipt_description": "BURGER VALSOIA"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna informazione nonostante l'OCR fosse chiaro e contenesse dati significativi come il prodotto e il brand. La performance è completamente inefficace.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcuna informazione nonostante la presenza di dati significativi nell'OCR, rendendo la performance completamente inefficace.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna informazione nonostante l'OCR fosse chiaro e contenesse dati significativi come il prodotto e il brand. La performance è completamente inefficace.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione nonostante la presenza di dati significativi nell'OCR, rendendo la performance completamente inefficace.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:37:32.565332Z",
+    "row_idx": 14,
+    "key": "c6a316d7d5dc5469da572630b32b72c1a5593e0b0abed75b397e3eddd7e166e9",
+    "ItemName": "| SALMONE NORV . CONAD |",
+    "receipt_description": "SALMONE NORV . CONAD"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "Estrazione completamente mancante nonostante la chiarezza e la leggibilità del testo OCR. L'analista non ha prodotto alcun risultato da un input perfettamente interpretabile.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha prodotto alcun risultato di estrazione, rendendo l'output completamente mancante e inaffidabile.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"Estrazione completamente mancante nonostante la chiarezza e la leggibilità del testo OCR. L'analista non ha prodotto alcun risultato da un input perfettamente interpretabile.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha prodotto alcun risultato di estrazione, rendendo l'output completamente mancante e inaffidabile.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:37:40.783021Z",
+    "row_idx": 14,
+    "key": "f3c5941a130b174a4eb8c77bf1fdb7c519ab38b21f0809c710b89dc6d44fcc23",
+    "ItemName": "| CARAMELLE ELAH KREML |",
+    "receipt_description": "CARAMELLE ELAH KREML"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Non è stato possibile trovare una corrispondenza nella lista prodotti fornita per la descrizione OCR \"VOGL.INS.RUSSA GR150\". I prodotti nella lista appartengono principalmente alle categorie di prodotti per la casa (come deodoranti, detersivi per lavastoviglie e bucato), igiene personale (depilazione) e benessere sessuale (profilattici, gel intimi), tutti sotto il brand \"reckitt\". La descrizione OCR fa riferimento a un prodotto alimentare (\"insalata russa\" da 150g), che non rientra nelle categorie dei prodotti Reckitt presenti.\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'analista ha interpretato correttamente la descrizione OCR (\"insalata russa 150g\") e ha fornito una spiegazione eccellente e precisa del motivo per cui non è stata trovata una corrispondenza nella lista prodotti, identificando correttamente la discrepanza di categoria (prodotto alimentare vs. categorie Reckitt). Nonostante un errore di parsing JSON segnalato (riferito probabilmente all'output del matching primario), l'analisi del non-match è impeccabile e la logica è totalmente coerente.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Nessuna corrispondenza trovata per l'OCR 'VOGL.INS.RUSSA GR150' (insalata russa 150g). La lista prodotti fornita contiene esclusivamente articoli del brand Reckitt (categorie casa, igiene personale, benessere sessuale), incompatibili con un prodotto alimentare.",
+      "match_finale": [],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "Non è stato possibile trovare una corrispondenza nella lista prodotti fornita per la descrizione OCR \"VOGL.INS.RUSSA GR150\". I prodotti nella lista appartengono principalmente alle categorie di prodotti per la casa (come deodoranti, detersivi per lavastoviglie e bucato), igiene personale (depilazione) e benessere sessuale (profilattici, gel intimi), tutti sotto il brand \"reckitt\". La descrizione OCR fa riferimento a un prodotto alimentare (\"insalata russa\" da 150g), che non rientra nelle categorie dei prodotti Reckitt presenti.\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha interpretato correttamente la descrizione OCR (\\\"insalata russa 150g\\\") e ha fornito una spiegazione eccellente e precisa del motivo per cui non è stata trovata una corrispondenza nella lista prodotti, identificando correttamente la discrepanza di categoria (prodotto alimentare vs. categorie Reckitt). Nonostante un errore di parsing JSON segnalato (riferito probabilmente all'output del matching primario), l'analisi del non-match è impeccabile e la logica è totalmente coerente.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Nessuna corrispondenza trovata per l'OCR 'VOGL.INS.RUSSA GR150' (insalata russa 150g). La lista prodotti fornita contiene esclusivamente articoli del brand Reckitt (categorie casa, igiene personale, benessere sessuale), incompatibili con un prodotto alimentare.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-07T17:38:06.767770Z",
+    "row_idx": 14,
+    "key": "965608d971a461afe15de5c419e93d347d2dc62ec44aacfd5c9ce00723565704",
+    "ItemName": "| VOGL.INS.RUSSA GR150 |",
+    "receipt_description": "VOGL.INS.RUSSA GR150"
   }
 ]
