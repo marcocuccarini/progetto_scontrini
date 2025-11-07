@@ -220,5 +220,209 @@
   {
     "descrizione": "M - T STRACCIATELLA COOP",
     "match": []
+  },
+  {
+    "descrizione": "ASS . LAURELLA P.SLI",
+    "match": [
+      {
+        "id": "262",
+        "nome": "FINISH Active Fresh Spray Automatico Brezza",
+        "brand": "reckitt",
+        "confidenza": 0.15
+      }
+    ]
+  },
+  {
+    "descrizione": "GREY ACCHIAPPACOLORE",
+    "match": []
+  },
+  {
+    "descrizione": "PROF.LENOR UNSTOPP .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "PASS POMODORI COOP",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "MOZZARELLA CO0PX3",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "PETTO DI POLLO FETTE",
+    "match": []
+  },
+  {
+    "descrizione": "ACE DET. LAVAT. IGIEN38",
+    "match": [
+      {
+        "id": "464",
+        "nome": "Napisan Detersivo Classico_40D",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "MISJRA CRK F.EXTRA AV",
+    "match": [
+      {
+        "id": "18",
+        "nome": "INAC IAOTHR RECKITT AIR WICK AQUA MIST COMPL FRESH WATERS 345 1 LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "POMISJRA CRK F.EXTRA",
+    "match": [
+      {
+        "id": "51",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC MAX GADGET 060 1 AER",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "ESS. PANE FARINA INTEG",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE XL RISVEG",
+    "match": []
+  },
+  {
+    "descrizione": "LEN. PERLE XL UNS FRES",
+    "match": [
+      {
+        "id": "311",
+        "nome": "FINISH ULTIMATE PLUS 65 FRESH",
+        "brand": "reckitt",
+        "confidenza": 0.7
+      }
+    ]
+  },
+  {
+    "descrizione": "GARNIER HYAL.SIER.VIS .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR UNSTOP PERLE DAS",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "TRUDI FAZZ AV .",
+    "match": []
+  },
+  {
+    "descrizione": "DIXAN LAV POLV . .",
+    "match": []
+  },
+  {
+    "descrizione": "DIXAN LAV.LIQ.CLASS",
+    "match": []
+  },
+  {
+    "descrizione": "CHANT VERT LAV.LIQ.BEB",
+    "match": [
+      {
+        "id": "494",
+        "nome": "Napisan Fresca Rugiada PMC 1l",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "CHANT VERT LAV LIQ.BEB",
+    "match": [
+      {
+        "id": "551",
+        "nome": "Lip Woolite Lana e Delicati 1,5 L Detersivo Lavatrice",
+        "brand": "reckitt",
+        "confidenza": 0.55
+      }
+    ]
+  },
+  {
+    "descrizione": "CHANT AMM.CONC.AR & NARC",
+    "match": [
+      {
+        "id": "169",
+        "nome": "INAC MIST DIFFUSER RECKITT AIR WICK ARMONIA ISTANTANEA REF MANDARINO & ARANCIA 045.0 1 LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "AMM LENOR PERLE 270GR NEW AME",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "PARASOLE AUTO 130X60CM SILVER",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PROF.BUC UNSTO",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]

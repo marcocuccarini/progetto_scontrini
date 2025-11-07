@@ -1,33 +1,33 @@
 import os
 import re
 import json
-from google import genai
+import google.generativeai as genai
 
 class LLMModel:
     """
-    Wrapper around a Gemini (or other LLM) model.
-    Responsible for sending prompts and returning raw + parsed outputs.
+    Wrapper around Gemini model.
     """
 
-    def __init__(self, model_name="gemini-2.5-flash", client=None):
+    def __init__(self, model_name="gemini-2.5-flash"):
         self.model_name = model_name
 
-        # === Load API Key from ENV ===
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
             raise ValueError("❌ Manca la variabile d'ambiente GEMINI_API_KEY. "
                              "Imposta la chiave con:\n\n"
                              "export GEMINI_API_KEY=LA_TUA_KEY\n")
 
-        # Initialize Gemini client
-        self.client = client or genai.Client(api_key=api_key)
+        # ✅ Correct client initialization for new API
+        genai.configure(api_key=api_key)
+
+        # ✅ Load model object directly
+        self.model = genai.GenerativeModel(self.model_name)
 
     def _clean_response(self, text: str):
-        """Remove markdown fences and trailing junk before JSON parsing."""
+        """Remove ```json fences or leftover wrapper text."""
         return re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
 
     def _try_parse_json(self, text: str):
-        """Try to parse model output as JSON, return raw text on failure."""
         cleaned = self._clean_response(text)
         try:
             return json.loads(cleaned)
@@ -36,17 +36,14 @@ class LLMModel:
 
     def generate(self, prompt: str):
         """
-        Send a prompt to the model and return both parsed and raw outputs.
-        Returns: (parsed_dict, raw_text)
+        Send prompt → return (parsed_output, raw_text)
         """
         try:
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=prompt
-            )
+            # ✅ New SDK call method
+            response = self.model.generate_content(prompt)
             text = response.text.strip()
 
-            # === Detect free usage limit inside normal response text ===
+            # Detect free usage warnings hidden inside output
             lower = text.lower()
             if ("free" in lower and "limit" in lower) or ("quota" in lower) or ("upgrade" in lower):
                 raise Exception("GEMINI_FREE_LIMIT_REACHED")
@@ -55,5 +52,4 @@ class LLMModel:
             return parsed, text
 
         except Exception as e:
-            # Let the caller handle limit stop
             raise e

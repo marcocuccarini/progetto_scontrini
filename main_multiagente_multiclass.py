@@ -5,6 +5,8 @@ from classes.model import LLMModel
 from classes.prompt_engine import PromptEngine
 from classes.pipeline_runner import PipelineRunner
 from utils import *
+import google.generativeai as genai
+
 
 # === Config ===
 PRODUCTS_FILE = "dataset/prodotti.csv"
