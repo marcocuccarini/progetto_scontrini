@@ -1,3 +1,4 @@
+import os
 import re
 import json
 from google import genai
@@ -10,7 +11,16 @@ class LLMModel:
 
     def __init__(self, model_name="gemini-2.5-flash", client=None):
         self.model_name = model_name
-        self.client = client or genai.Client()
+
+        # === Load API Key from ENV ===
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            raise ValueError("❌ Manca la variabile d'ambiente GEMINI_API_KEY. "
+                             "Imposta la chiave con:\n\n"
+                             "export GEMINI_API_KEY=LA_TUA_KEY\n")
+
+        # Initialize Gemini client
+        self.client = client or genai.Client(api_key=api_key)
 
     def _clean_response(self, text: str):
         """Remove markdown fences and trailing junk before JSON parsing."""
@@ -35,7 +45,15 @@ class LLMModel:
                 contents=prompt
             )
             text = response.text.strip()
+
+            # === Detect free usage limit inside normal response text ===
+            lower = text.lower()
+            if ("free" in lower and "limit" in lower) or ("quota" in lower) or ("upgrade" in lower):
+                raise Exception("GEMINI_FREE_LIMIT_REACHED")
+
             parsed = self._try_parse_json(text)
             return parsed, text
+
         except Exception as e:
-            return {"error": str(e)}, ""
+            # Let the caller handle limit stop
+            raise e

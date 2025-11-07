@@ -1,5 +1,3 @@
-# main_multiagente.py
-
 import os
 import time
 import pandas as pd
@@ -10,7 +8,7 @@ from utils import *
 
 # === Config ===
 PRODUCTS_FILE = "dataset/prodotti.csv"
-OCR_FILE = "dataset/data.csv"
+OCR_FILE = "dataset/_SELECT_commessa_id_activity_image_status_url_data_callback_rece_202510131147.csv"
 SNAPSHOT_EVERY = 50
 SLEEP_BETWEEN_CALLS = 0.0
 
@@ -55,14 +53,41 @@ try:
 
             print(f"\n🧾 Row {idx} | Receipt: {receipt_description}\n")
 
-            # === Run pipeline ===
-            results = pipeline.run(
-                products=products,
-                receipt_description=receipt_description,
-                item_name=item_name,
-                row_idx=idx,
-                key=key
-            )
+            # === Run pipeline safely (detect free tier limit) ===
+            try:
+                results = pipeline.run(
+                    products=products,
+                    receipt_description=receipt_description,
+                    item_name=item_name,
+                    row_idx=idx,
+                    key=key
+                )
+
+                # If model outputs a limit warning inside the response text
+                if "free" in str(results).lower() and "limit" in str(results).lower():
+                    raise Exception("Free tier usage limit reached (detected in response).")
+
+            except Exception as e:
+                message = str(e).lower()
+
+                # === Detect Gemini Free Limit ===
+                if ("quota" in message or
+                    "exceeded" in message or
+                    "billing" in message or
+                    ("free" in message and "limit" in message) or
+                    "upgrade" in message):
+
+                    print("\n🛑 GEMINI FREE TIER LIMIT REACHED!")
+                    print("💾 Saving progress before stopping...")
+
+                    write_snapshot()
+                    save_run_state(idx, processed_keys)
+
+                    print("✅ Saved. You can run the script later to resume.")
+                    exit(0)
+
+                # Unexpected error → rethrow
+                raise
 
             # === Append NDJSON ===
             append_record_ndjson(results)
