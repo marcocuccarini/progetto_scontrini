@@ -987,5 +987,196 @@
         "confidenza": 0.0
       }
     ]
+  },
+  {
+    "descrizione": "OMINOBIANCO SMACCH.5 * LENOR PERLE RISVPRIM",
+    "match": []
+  },
+  {
+    "descrizione": "Sconto LENOR",
+    "match": []
+  },
+  {
+    "descrizione": "Sconto",
+    "match": []
+  },
+  {
+    "descrizione": "Omaggio A & S",
+    "match": [
+      {
+        "id": "243",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC MAX COMPL FRESIA E GELSOMINO 060 1 AB.ELE+DEOOMAGGIO AER",
+        "brand": "reckitt",
+        "confidenza": 0.85
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE RISV.PRIMAV.1",
+    "match": []
+  },
+  {
+    "descrizione": "MR.MUSCOLO IDRAULICO",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "ESTATHE PESCA BICCHI",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "COOP PIATTI LIMONE 1",
+    "match": [
+      {
+        "id": "276",
+        "nome": "FINISH ULTIMATE PLUS 14 LIMONE",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "ORTOFRUTTA",
+    "match": []
+  },
+  {
+    "descrizione": "BAYGON POLV .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "COOP DEO BRE",
+    "match": [
+      {
+        "id": "289",
+        "nome": "FINISH DEODORANTE PROFUMO DI FRESCO",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR UNSTOPPABLES FRESH",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "ARISTEA BICCHIERI 80 CC X",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "IMI PIATTI RIUTIL.X 25 PI",
+    "match": []
+  },
+  {
+    "descrizione": "PROF.LENOR UNSTOPP / F",
+    "match": []
+  },
+  {
+    "descrizione": "PROF.LENOR UNSTOPP / F",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR UNSTOPPABLES F.DASH",
+    "match": []
+  },
+  {
+    "descrizione": "ACE GENTILE PROFUMATA LT .",
+    "match": []
+  },
+  {
+    "descrizione": "ACE LAV.LIQ.27 LAV.X 3 CO",
+    "match": []
+  },
+  {
+    "descrizione": "PARODONTAX DENT.GENG.F & P",
+    "match": []
+  },
+  {
+    "descrizione": "SHOPPERS A & S 40X70 27 GR",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.05
+      }
+    ]
+  },
+  {
+    "descrizione": "NAT & EASY 573 CAS.SCU",
+    "match": [
+      {
+        "id": "567",
+        "nome": "Lip Woolite Capi Scuri Detersivo Lavatrice 1500 Ml",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "* LENOR PERLE RISVPRIM",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "GIAR.SENS.DOCCIA 250",
+    "match": [
+      {
+        "id": "74",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK MYSTICAL GARDEN REF MALVA & LAMPONE & ROSA 250.0 1 AER",
+        "brand": "reckitt",
+        "confidenza": 0.7
+      }
+    ]
+  },
+  {
+    "descrizione": "* CITROSIL DIS.AGR / LAV",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]
