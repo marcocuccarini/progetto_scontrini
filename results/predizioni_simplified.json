@@ -798,5 +798,194 @@
   {
     "descrizione": "CF / 10 MINI PINZA DI FERRO",
     "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE RTSV.PRIMA FLGR 21",
+    "match": [
+      {
+        "id": "475",
+        "nome": "Napisan Profumo di Primavera ml. 1200",
+        "brand": "reckitt",
+        "confidenza": 0.05
+      }
+    ]
+  },
+  {
+    "descrizione": "COCA COLA LATT . 33X8",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "C.COLA ZERO LATT.33X8",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "MUTTI PASSATA 235GRX2",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "BAGNO FA MUSCHIO BIAN",
+    "match": [
+      {
+        "id": "550",
+        "nome": "Lip Woolite lana e delicati muschio bianco 1 L",
+        "brand": "reckitt",
+        "confidenza": 0.6
+      }
+    ]
+  },
+  {
+    "descrizione": "FA BAGNO FIORI LUNA",
+    "match": [
+      {
+        "id": "116",
+        "nome": "INAC AUTSPRAY RECKITT AIR WICK FRESH MATIC MAX REF MORBIDA SETA E FIORI DI LUNA 250.0 1 AER",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE XL ORO & FI",
+    "match": []
+  },
+  {
+    "descrizione": "PACE SKIPPER I LT",
+    "match": [
+      {
+        "id": "486",
+        "nome": "Napisan Standard PMC 1l",
+        "brand": "reckitt",
+        "confidenza": 0.55
+      }
+    ]
+  },
+  {
+    "descrizione": "PHILADELPHIA GR250",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "BARILLA PENN . RIG.KG1",
+    "match": []
+  },
+  {
+    "descrizione": "BARILLA TORTIGL.1KG",
+    "match": []
+  },
+  {
+    "descrizione": "MB FETTE DORATE",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE RIS / PRIM",
+    "match": [
+      {
+        "id": "unknown_lenor_perle",
+        "nome": "Lenor Perle",
+        "brand": "Lenor",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "LYSOFORM LAVAT LIQ.C",
+    "match": []
+  },
+  {
+    "descrizione": "AMM . BLU MARE 1800M",
+    "match": [
+      {
+        "id": "496",
+        "nome": "Calgon Polvere 1800 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.75
+      }
+    ]
+  },
+  {
+    "descrizione": "OM BIANCO ADDIT , SMAC",
+    "match": [
+      {
+        "id": "508",
+        "nome": "Vanisch Polvere Bianca 500 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "510",
+        "nome": "Vanisch Polvere Bianca 1000 gr.",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "514",
+        "nome": "Vanisch Gel Bianco 750 ml",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      },
+      {
+        "id": "517",
+        "nome": "Vanisch Gel Bianco 1500 ml",
+        "brand": "reckitt",
+        "confidenza": 0.9
+      }
+    ]
+  },
+  {
+    "descrizione": "OSSETTINI POLLO 7,50",
+    "match": []
+  },
+  {
+    "descrizione": "MAGICPET SALSICCETTE",
+    "match": []
+  },
+  {
+    "descrizione": "ADVENT STRIP CERVO 9",
+    "match": []
+  },
+  {
+    "descrizione": "DENTASTIX MPK LARGE",
+    "match": [
+      {
+        "id": null,
+        "nome": "DENTASTIX MPK LARGE",
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]
