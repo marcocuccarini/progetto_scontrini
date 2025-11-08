@@ -4570,5 +4570,119 @@
     "key": "090e02fb62939064cf8942e311989f6eb584e45d55c7b189560ec997b9305ce2",
     "ItemName": "| * CITROSIL DIS.AGR / LAV |",
     "receipt_description": "* CITROSIL DIS.AGR / LAV"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista dei prodotti fornita (che include solo prodotti 'reckitt')."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'Analista ha correttamente identificato che il prodotto 'LENOR' non rientra nell'ambito dei brand gestiti ('reckitt'), restituendo una spiegazione chiara e una confidenza pari a zero. Il lavoro è preciso e l'applicazione delle regole definite è corretta.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'Analista ha correttamente rilevato l'assenza di prodotti corrispondenti, data la non pertinenza del brand 'LENOR' ai prodotti gestiti ('reckitt'), dimostrando precisione e corretta applicazione delle regole.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista dei prodotti fornita (che include solo prodotti 'reckitt').\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'Analista ha correttamente identificato che il prodotto 'LENOR' non rientra nell'ambito dei brand gestiti ('reckitt'), restituendo una spiegazione chiara e una confidenza pari a zero. Il lavoro è preciso e l'applicazione delle regole definite è corretta.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'Analista ha correttamente rilevato l'assenza di prodotti corrispondenti, data la non pertinenza del brand 'LENOR' ai prodotti gestiti ('reckitt'), dimostrando precisione e corretta applicazione delle regole.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-08T12:13:56.717818Z",
+    "row_idx": 33,
+    "key": "c76bd5d5658bff426c8b0a9a43e787b4a1faa95a7d94613b35b80062d6cfcf7f",
+    "ItemName": "8001090866783 | lenor unstoppable fresh 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR UNSTOPP.FRESH GR.57"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista prodotti fornita. Tutti i prodotti nella lista appartengono al brand 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato l'assenza del brand 'LENOR' nella lista prodotti fornita (limitata a 'reckitt') e ha giustificato in modo chiaro e conciso l'impossibilità di trovare una corrispondenza, assegnando una confidenza pari a 0.0. La logica applicata è solida e appropriata alle limitazioni del dataset.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Il brand 'LENOR' menzionato non è presente nella lista prodotti fornita, che include solo prodotti del brand 'reckitt'. Nessuna corrispondenza è stata trovata.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista prodotti fornita. Tutti i prodotti nella lista appartengono al brand 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato l'assenza del brand 'LENOR' nella lista prodotti fornita (limitata a 'reckitt') e ha giustificato in modo chiaro e conciso l'impossibilità di trovare una corrispondenza, assegnando una confidenza pari a 0.0. La logica applicata è solida e appropriata alle limitazioni del dataset.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Il brand 'LENOR' menzionato non è presente nella lista prodotti fornita, che include solo prodotti del brand 'reckitt'. Nessuna corrispondenza è stata trovata.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T12:14:12.296127Z",
+    "row_idx": 34,
+    "key": "7a313c2ba9261c63073d67e67d06c0c9f516bca7d8c8df133eb601518189c78f",
+    "ItemName": "8001090891099 | lenor per risv primaverile 210 gr 6 pz | p&g",
+    "receipt_description": "PROFUMATORE LENOR RI"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": "Nessuna corrispondenza trovata",
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Il prodotto OCR indica il brand 'LENOR', ma nessuno dei prodotti nella lista fornita appartiene al brand 'LENOR'. Tutti i prodotti nella lista sono del brand 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "Il lavoro dell'analista è accurato e corretto. Ha correttamente identificato il brand 'LENOR' nell'OCR e ha spiegato in modo chiaro che non è stata trovata alcuna corrispondenza perché il brand 'LENOR' non è presente nella lista di prodotti fornita, che contiene solo prodotti del brand 'reckitt'. La confidenza a 0.0 è appropriata per l'assenza di un match valido.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Il brand 'LENOR' identificato nell'OCR non è presente nella lista prodotti fornita, che contiene solo prodotti del brand 'reckitt', portando all'assenza di corrispondenze.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": "Nessuna corrispondenza trovata",
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": \"Nessuna corrispondenza trovata\",\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Il prodotto OCR indica il brand 'LENOR', ma nessuno dei prodotti nella lista fornita appartiene al brand 'LENOR'. Tutti i prodotti nella lista sono del brand 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"Il lavoro dell'analista è accurato e corretto. Ha correttamente identificato il brand 'LENOR' nell'OCR e ha spiegato in modo chiaro che non è stata trovata alcuna corrispondenza perché il brand 'LENOR' non è presente nella lista di prodotti fornita, che contiene solo prodotti del brand 'reckitt'. La confidenza a 0.0 è appropriata per l'assenza di un match valido.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Il brand 'LENOR' identificato nell'OCR non è presente nella lista prodotti fornita, che contiene solo prodotti del brand 'reckitt', portando all'assenza di corrispondenze.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": \"Nessuna corrispondenza trovata\",\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T12:14:25.871552Z",
+    "row_idx": 35,
+    "key": "d132878b254931bcfd041b2b4376e792e81b2b859bcac9fcde175dad1562955b",
+    "ItemName": "8001090891099 | lenor per risv primaverile 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE RISV.PRIMAV.4"
   }
 ]

@@ -1178,5 +1178,38 @@
         "confidenza": 0.0
       }
     ]
+  },
+  {
+    "descrizione": "LENOR UNSTOPP.FRESH GR.57",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "PROFUMATORE LENOR RI",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE RISV.PRIMAV.4",
+    "match": [
+      {
+        "id": null,
+        "nome": "Nessuna corrispondenza trovata",
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]
