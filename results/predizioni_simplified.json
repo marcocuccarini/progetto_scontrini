@@ -1211,5 +1211,324 @@
         "confidenza": 0.0
       }
     ]
+  },
+  {
+    "descrizione": "LENOR PERLE ORO VANIGLIA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "BARILLA DITALINI RIGATI N.47",
+    "match": []
+  },
+  {
+    "descrizione": "BARILLA PENNE RIGATE PROTEIN +",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "DUCK WC FRES DISCS LE CF",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE RISV PRIMA FL GR 195",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "BIO BSP SHOP A S CHARITY",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR UNSTOP.PERLE FLO",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "GLISS BL EXP.NUTRIMENT",
+    "match": []
+  },
+  {
+    "descrizione": "GLISS MASC.4IN1 ILL .",
+    "match": []
+  },
+  {
+    "descrizione": "GLADE DIFF.C / BAST.VAN .",
+    "match": [
+      {
+        "id": "223",
+        "nome": "BASTONCINI BASTONCINI RECKITT AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA 080.0 1 LIQ&BAST",
+        "brand": "reckitt",
+        "confidenza": 0.85
+      }
+    ]
+  },
+  {
+    "descrizione": "TULIP GUANTI BICOLOR",
+    "match": []
+  },
+  {
+    "descrizione": "BIC RAS.U & G 4 FLEX",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE AMESTISTA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "JARDIN D.F.DEO LIQ.FR.",
+    "match": [
+      {
+        "id": "210",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.95
+      }
+    ]
+  },
+  {
+    "descrizione": "SUNSILK SH BYE BYE CRE",
+    "match": []
+  },
+  {
+    "descrizione": "MALIZIA BON BONS BS CO",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "SUNSILK BL COCCO & ALOE",
+    "match": []
+  },
+  {
+    "descrizione": "AQUAFRESH DENT . TRIPLA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "ORAL - B COLLUT.FLUOR.BL",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "FABULOSO PROF . BUC.FLOR",
+    "match": [
+      {
+        "id": "475",
+        "nome": "Napisan Profumo di Primavera ml. 1200",
+        "brand": "reckitt",
+        "confidenza": 0.3
+      }
+    ]
+  },
+  {
+    "descrizione": "MENTADENT SPAZZ.COMFOR",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "HOME C.PANNO VETRI",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE RISV.PRIM",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE ORO & F.VANI FLGR 19",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "OFFERTA ACE GENTILE 4",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PROF.BUC PERLE",
+    "match": []
+  },
+  {
+    "descrizione": "SHOPPERS STAMP",
+    "match": []
+  },
+  {
+    "descrizione": "GIRA E GUIDA VOLANTE",
+    "match": []
+  },
+  {
+    "descrizione": "OFFERTA DASH ECODOSI",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "OFFERTA VIAKAL EXP.BA",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "OFFERTA AJAX SPRAY C-",
+    "match": []
+  },
+  {
+    "descrizione": "OFFERTA PAMPERS SOLEE",
+    "match": [
+      {
+        "id": "419",
+        "nome": "Sole Bianco Splendente_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      },
+      {
+        "id": "420",
+        "nome": "Sole Proteggi Colore_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      },
+      {
+        "id": "421",
+        "nome": "Sole Potere Smacchiante_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      },
+      {
+        "id": "422",
+        "nome": "Sole Igiene e Freschezza_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      },
+      {
+        "id": "423",
+        "nome": "Sole Freschezza Naturale Lavanda_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5
+      }
+    ]
+  },
+  {
+    "descrizione": "T PANE CHIOC.CHIA CU",
+    "match": []
+  },
+  {
+    "descrizione": "T FOCACCIA PANCETTA",
+    "match": []
+  },
+  {
+    "descrizione": "M - T TARALLI COOP FF",
+    "match": []
+  },
+  {
+    "descrizione": "T OVETTI KINDER SORP",
+    "match": []
+  },
+  {
+    "descrizione": "T PESTO GENOVESE",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
   }
 ]

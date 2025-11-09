@@ -4684,5 +4684,1238 @@
     "key": "d132878b254931bcfd041b2b4376e792e81b2b859bcac9fcde175dad1562955b",
     "ItemName": "8001090891099 | lenor per risv primaverile 210 gr 6 pz | p&g",
     "receipt_description": "LENOR PERLE RISV.PRIMAV.4"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessuna corrispondenza trovata. Il brand 'LENOR' non è presente nella lista prodotti fornita (solo 'reckitt')."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato l'assenza del brand 'LENOR' nel database fornito (limitato a 'reckitt'), fornendo una spiegazione chiara e un risultato coerente con l'impossibilità di trovare una corrispondenza.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Nessuna corrispondenza trovata: il brand 'LENOR' non è presente nella lista prodotti fornita (solo brand 'reckitt').",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessuna corrispondenza trovata. Il brand 'LENOR' non è presente nella lista prodotti fornita (solo 'reckitt').\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato l'assenza del brand 'LENOR' nel database fornito (limitato a 'reckitt'), fornendo una spiegazione chiara e un risultato coerente con l'impossibilità di trovare una corrispondenza.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Nessuna corrispondenza trovata: il brand 'LENOR' non è presente nella lista prodotti fornita (solo brand 'reckitt').\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T14:29:51.866275Z",
+    "row_idx": 37,
+    "key": "b0b57c07b7a39c75d4d0371549d885712dd2845acb152e5056e8a32dbd0a6d0d",
+    "ItemName": "8001090891273 | lenor per orofiori vaniglia 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE ORO VANIGLIA"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna informazione utile dalla descrizione OCR, fornendo un risultato vuoto nonostante la chiara leggibilità del testo. Fallimento completo nell'identificazione di entità.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "L'analista non ha estratto alcuna informazione utile dal testo OCR, risultando in un output vuoto e completamente inaffidabile, come evidenziato dal critico.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "[]",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna informazione utile dalla descrizione OCR, fornendo un risultato vuoto nonostante la chiara leggibilità del testo. Fallimento completo nell'identificazione di entità.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione utile dal testo OCR, risultando in un output vuoto e completamente inaffidabile, come evidenziato dal critico.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T14:30:01.211188Z",
+    "row_idx": 37,
+    "key": "2b84c1042aa87148900ae0987e4d709e0ed4bc1dd9659f43ccaa6a3e3cd65352",
+    "ItemName": "| BARILLA DITALINI RIGATI N.47 |",
+    "receipt_description": "BARILLA DITALINI RIGATI N.47"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessuna corrispondenza trovata. Il prodotto OCR 'BARILLA PENNE RIGATE PROTEIN +' appartiene al brand 'BARILLA' e alla categoria 'pasta', mentre la lista fornita contiene solo prodotti del brand 'reckitt' di categorie diverse (detergenti, deodoranti, profilattici, depilatori, ecc.)."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "Il lavoro dell'Analista è eccellente. Ha correttamente identificato il brand e la categoria del prodotto OCR ('BARILLA', 'pasta') e ha fornito una spiegazione chiara e precisa del perché non è stata trovata alcuna corrispondenza, giustificandola con l'ambito ristretto della lista fornita (solo prodotti 'reckitt').",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "Nessuna corrispondenza trovata. Il prodotto OCR (BARILLA PENNE RIGATE PROTEIN +, brand BARILLA, categoria pasta) non rientra nell'ambito della lista di riferimento che contiene solo prodotti del brand RECKITT. L'analisi è stata giudicata eccellente e altamente affidabile.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessuna corrispondenza trovata. Il prodotto OCR 'BARILLA PENNE RIGATE PROTEIN +' appartiene al brand 'BARILLA' e alla categoria 'pasta', mentre la lista fornita contiene solo prodotti del brand 'reckitt' di categorie diverse (detergenti, deodoranti, profilattici, depilatori, ecc.).\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"Il lavoro dell'Analista è eccellente. Ha correttamente identificato il brand e la categoria del prodotto OCR ('BARILLA', 'pasta') e ha fornito una spiegazione chiara e precisa del perché non è stata trovata alcuna corrispondenza, giustificandola con l'ambito ristretto della lista fornita (solo prodotti 'reckitt').\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"Nessuna corrispondenza trovata. Il prodotto OCR (BARILLA PENNE RIGATE PROTEIN +, brand BARILLA, categoria pasta) non rientra nell'ambito della lista di riferimento che contiene solo prodotti del brand RECKITT. L'analisi è stata giudicata eccellente e altamente affidabile.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T14:30:15.763036Z",
+    "row_idx": 37,
+    "key": "56d108e269ff63fc88a9ad4c6c5888a638ec77ac538705ae09511ae22be7a2cb",
+    "ItemName": "| BARILLA PENNE RIGATE PROTEIN + |",
+    "receipt_description": "BARILLA PENNE RIGATE PROTEIN +"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcun testo ('[]') nonostante la presenza di parole chiare e riconoscibili nell'output OCR (es. DUCK, WC, FRES, DISCS). Questo indica un errore grave o una mancata elaborazione completa del dato fornito.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcun testo dall'input OCR, nonostante la presenza di parole riconoscibili. Questo errore grave rende l'analisi completamente inutilizzabile e incompleta.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcun testo ('[]') nonostante la presenza di parole chiare e riconoscibili nell'output OCR (es. DUCK, WC, FRES, DISCS). Questo indica un errore grave o una mancata elaborazione completa del dato fornito.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcun testo dall'input OCR, nonostante la presenza di parole riconoscibili. Questo errore grave rende l'analisi completamente inutilizzabile e incompleta.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T23:54:10.192309Z",
+    "row_idx": 38,
+    "key": "0478985df64dcd2b93b411a9f6d5eed45c5c04a66bf34bc9271c4d98a1633668",
+    "ItemName": "| DUCK WC FRES DISCS LE CF |",
+    "receipt_description": "DUCK WC FRES DISCS LE CF"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. Il brand 'LENOR' nella descrizione OCR non corrisponde a nessuno dei brand ('reckitt') nella lista dei prodotti fornita."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente rilevato che il brand 'LENOR' non rientra nella lista dei prodotti fornita (limitata a 'reckitt'), fornendo una spiegazione chiara e una confidenza pari a 0.0, coerentemente con l'assenza di corrispondenza nel suo catalogo.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Nessun prodotto corrispondente trovato. Il brand 'LENOR' non rientra nella lista dei brand ('reckitt') fornita per la corrispondenza.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. Il brand 'LENOR' nella descrizione OCR non corrisponde a nessuno dei brand ('reckitt') nella lista dei prodotti fornita.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente rilevato che il brand 'LENOR' non rientra nella lista dei prodotti fornita (limitata a 'reckitt'), fornendo una spiegazione chiara e una confidenza pari a 0.0, coerentemente con l'assenza di corrispondenza nel suo catalogo.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Nessun prodotto corrispondente trovato. Il brand 'LENOR' non rientra nella lista dei brand ('reckitt') fornita per la corrispondenza.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T23:54:22.021933Z",
+    "row_idx": 38,
+    "key": "e8fd48c01eb4fd1d77ad2e0b14df5095c3d661be99da644eb952125fc1f91cba",
+    "ItemName": "8001090891099 | lenor per risv primaverile 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE RISV PRIMA FL GR 195"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto nella lista corrisponde alla descrizione OCR 'BIO BSP SHOP A S CHARITY'. I termini presenti nell'OCR (come 'BIO', 'BSP', 'SHOP', 'CHARITY') non sono riscontrabili nei nomi dei prodotti forniti, che sono principalmente articoli per la casa e per la persona con descrizioni dettagliate di marca, tipo di prodotto, fragranza/caratteristica e formato."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "Eccellente. L'analista ha riconosciuto correttamente l'assenza di corrispondenze significative data l'ambiguità dell'OCR. La spiegazione è molto chiara e dettagliata, giustificando la non corrispondenza con un'analisi dei termini e contestualizzando la natura degli articoli presenti nella lista prodotti.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "La conclusione dell'Analista sull'assenza di corrispondenze tra l'OCR e i prodotti disponibili è stata riconosciuta come eccellente e accurata, data l'ambiguità dei termini presenti nell'OCR.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto nella lista corrisponde alla descrizione OCR 'BIO BSP SHOP A S CHARITY'. I termini presenti nell'OCR (come 'BIO', 'BSP', 'SHOP', 'CHARITY') non sono riscontrabili nei nomi dei prodotti forniti, che sono principalmente articoli per la casa e per la persona con descrizioni dettagliate di marca, tipo di prodotto, fragranza/caratteristica e formato.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"Eccellente. L'analista ha riconosciuto correttamente l'assenza di corrispondenze significative data l'ambiguità dell'OCR. La spiegazione è molto chiara e dettagliata, giustificando la non corrispondenza con un'analisi dei termini e contestualizzando la natura degli articoli presenti nella lista prodotti.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"La conclusione dell'Analista sull'assenza di corrispondenze tra l'OCR e i prodotti disponibili è stata riconosciuta come eccellente e accurata, data l'ambiguità dei termini presenti nell'OCR.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-08T23:54:39.347859Z",
+    "row_idx": 38,
+    "key": "2259a7a59e2b223e60c5c089a6621ffe501a2f83929ccf3b698853adbf9bed55",
+    "ItemName": "| BIO BSP SHOP A S CHARITY |",
+    "receipt_description": "BIO BSP SHOP A S CHARITY"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrisponde. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista dei prodotti fornita, che include solo prodotti 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato il brand 'LENOR' e spiegato in modo preciso che non rientra nella lista dei prodotti 'reckitt' fornita, portando a un risultato di non corrispondenza appropriato.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'analisi ha correttamente concluso l'assenza di corrispondenza, poiché il brand 'LENOR' non è presente nella lista dei prodotti 'reckitt'. La valutazione è stata pienamente confermata dal critico.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrisponde. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista dei prodotti fornita, che include solo prodotti 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato il brand 'LENOR' e spiegato in modo preciso che non rientra nella lista dei prodotti 'reckitt' fornita, portando a un risultato di non corrispondenza appropriato.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'analisi ha correttamente concluso l'assenza di corrispondenza, poiché il brand 'LENOR' non è presente nella lista dei prodotti 'reckitt'. La valutazione è stata pienamente confermata dal critico.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:47:54.343140Z",
+    "row_idx": 39,
+    "key": "45313c7799173aa1589fb23cc9630df52432e4a17a2484ad7960bd419accbfe4",
+    "ItemName": "8001090866783 | lenor unstoppable fresh 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR UNSTOP.PERLE FLO"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Non è stato possibile trovare corrispondenze dirette tra il prodotto nella descrizione OCR (\"GLISS BL EXP.NUTRIMENT\") e i prodotti presenti nella lista fornita.\n\nIl termine \"GLISS\" si riferisce a un marchio di prodotti per capelli (Gliss Kur) che appartiene a Henkel, mentre tutti i prodotti nella lista fornita sono del brand \"reckitt\". Non ci sono prodotti Reckitt che contengano \"GLISS\" nel nome.\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'analista ha dimostrato una comprensione eccellente del prodotto OCR, identificando correttamente il marchio 'GLISS' come appartenente a Henkel e notando il conflitto con i prodotti 'reckitt' nella lista fornita. La conclusione che non ci sono corrispondenze dirette è accurata e ben motivata. Tuttavia, il lavoro è stato invalidato da un errore critico di formattazione: l'output non era un JSON valido come struttura primaria, ma una stringa di testo contenente un messaggio esplicativo e un blocco JSON (vuoto) all'interno. Questo ha impedito al sistema di parsare correttamente il risultato atteso.",
+      "affidabilità": 0.4
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "L'analisi ha correttamente identificato la discrepanza tra il brand 'GLISS' (Henkel) e i prodotti 'reckitt' nella lista, concludendo giustamente l'assenza di corrispondenze dirette. Tuttavia, l'output non era un JSON valido come struttura primaria, ma una stringa di testo contenente un blocco JSON, rendendolo non parsabile dal sistema. La logica è corretta, ma la formattazione richiede una revisione.",
+      "match_finale": [],
+      "affidabilità_finale": 0.4
+    },
+    "raw_reasoning": {
+      "analista": "Non è stato possibile trovare corrispondenze dirette tra il prodotto nella descrizione OCR (\"GLISS BL EXP.NUTRIMENT\") e i prodotti presenti nella lista fornita.\n\nIl termine \"GLISS\" si riferisce a un marchio di prodotti per capelli (Gliss Kur) che appartiene a Henkel, mentre tutti i prodotti nella lista fornita sono del brand \"reckitt\". Non ci sono prodotti Reckitt che contengano \"GLISS\" nel nome.\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha dimostrato una comprensione eccellente del prodotto OCR, identificando correttamente il marchio 'GLISS' come appartenente a Henkel e notando il conflitto con i prodotti 'reckitt' nella lista fornita. La conclusione che non ci sono corrispondenze dirette è accurata e ben motivata. Tuttavia, il lavoro è stato invalidato da un errore critico di formattazione: l'output non era un JSON valido come struttura primaria, ma una stringa di testo contenente un messaggio esplicativo e un blocco JSON (vuoto) all'interno. Questo ha impedito al sistema di parsare correttamente il risultato atteso.\",\n  \"affidabilità\": 0.4\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"L'analisi ha correttamente identificato la discrepanza tra il brand 'GLISS' (Henkel) e i prodotti 'reckitt' nella lista, concludendo giustamente l'assenza di corrispondenze dirette. Tuttavia, l'output non era un JSON valido come struttura primaria, ma una stringa di testo contenente un blocco JSON, rendendolo non parsabile dal sistema. La logica è corretta, ma la formattazione richiede una revisione.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.4\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:48:14.621200Z",
+    "row_idx": 39,
+    "key": "a1508a4df8bd9bcd967f86568f576b2dae01c9c4371864a171a805e65cbbec69",
+    "ItemName": "| GLISS BL EXP.NUTRIMENT |",
+    "receipt_description": "GLISS BL EXP.NUTRIMENT"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna informazione da una descrizione OCR che conteneva elementi chiaramente riconoscibili (come brand 'GLISS', tipo di prodotto 'MASC.' per Mascara e caratteristica '4IN1'). Il risultato è completamente inadeguato, in quanto non è stato identificato nulla.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcuna informazione rilevante dalla descrizione OCR, sebbene contenessero elementi chiaramente identificabili come brand e tipo di prodotto. Il risultato è completamente inadeguato.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna informazione da una descrizione OCR che conteneva elementi chiaramente riconoscibili (come brand 'GLISS', tipo di prodotto 'MASC.' per Mascara e caratteristica '4IN1'). Il risultato è completamente inadeguato, in quanto non è stato identificato nulla.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione rilevante dalla descrizione OCR, sebbene contenessero elementi chiaramente identificabili come brand e tipo di prodotto. Il risultato è completamente inadeguato.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:48:22.709950Z",
+    "row_idx": 39,
+    "key": "82bad79dd3a2fee630c7133eba81f078219c2d4d2fb780a501527cf913cb5c5f",
+    "ItemName": "| GLISS MASC.4IN1 ILL . |",
+    "receipt_description": "GLISS MASC.4IN1 ILL ."
+  },
+  {
+    "analista_output": [
+      {
+        "id": "223",
+        "nome": "BASTONCINI BASTONCINI RECKITT AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA 080.0 1 LIQ&BAST",
+        "brand": "reckitt",
+        "confidenza": 0.85,
+        "spiegazione": "L'OCR indica 'GLADE DIFF.C / BAST.VAN .'. Il prodotto trovato appartiene al brand Reckitt, di cui 'Air Wick' è la linea di deodoranti per ambiente. Sebbene l'OCR menzioni 'GLADE' (un brand concorrente), le altre parole chiave si allineano perfettamente: 'DIFF.C / BAST.' è un'ottima corrispondenza per 'BASTONCINI' (diffusore a bastoncini), e 'VAN .' è una chiara abbreviazione di 'VANIGLIA'. Il prodotto 223, 'AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA', contiene 'BASTONCINI' ed un profumo di 'ORCHIDEA VANIGLIA', che si adatta molto bene alla richiesta 'BAST.VAN'. La menzione di 'Orchidea' e 'Ambra' sono dettagli specifici del profumo che arricchiscono la fragranza vaniglia, ma il cuore del profumo rimane 'Vaniglia'. Il discrepanza sul brand 'GLADE' nell'OCR è il principale fattore che riduce la confidenza, ma il resto della descrizione è molto coerente."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'Analista ha identificato correttamente il tipo di prodotto (diffusore a bastoncini) e la fragranza principale (vaniglia) basandosi su corrispondenze forti ('BAST.' -> 'BASTONCINI', 'VAN .' -> 'VANIGLIA'). La discrepanza sul brand ('GLADE' nell'OCR vs 'Reckitt/Air Wick' nel prodotto) è stata correttamente identificata e motivata come fattore di riduzione della confidenza, dimostrando una comprensione approfondita e un'analisi critica. La spiegazione è chiara, logica e ben strutturata.",
+      "affidabilità": 0.85
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "La corrispondenza per tipologia di prodotto (diffusore a bastoncini) e fragranza (vaniglia) è forte e ben motivata. La discrepanza sul brand nell'OCR è stata identificata e gestita correttamente, giustificando la confidenza attribuita.",
+      "match_finale": [
+        {
+          "id": "223",
+          "nome": "BASTONCINI BASTONCINI RECKITT AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA 080.0 1 LIQ&BAST",
+          "brand": "reckitt",
+          "confidenza": 0.85
+        }
+      ],
+      "affidabilità_finale": 0.85
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": \"223\",\n    \"nome\": \"BASTONCINI BASTONCINI RECKITT AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA 080.0 1 LIQ&BAST\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.85,\n    \"spiegazione\": \"L'OCR indica 'GLADE DIFF.C / BAST.VAN .'. Il prodotto trovato appartiene al brand Reckitt, di cui 'Air Wick' è la linea di deodoranti per ambiente. Sebbene l'OCR menzioni 'GLADE' (un brand concorrente), le altre parole chiave si allineano perfettamente: 'DIFF.C / BAST.' è un'ottima corrispondenza per 'BASTONCINI' (diffusore a bastoncini), e 'VAN .' è una chiara abbreviazione di 'VANIGLIA'. Il prodotto 223, 'AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA', contiene 'BASTONCINI' ed un profumo di 'ORCHIDEA VANIGLIA', che si adatta molto bene alla richiesta 'BAST.VAN'. La menzione di 'Orchidea' e 'Ambra' sono dettagli specifici del profumo che arricchiscono la fragranza vaniglia, ma il cuore del profumo rimane 'Vaniglia'. Il discrepanza sul brand 'GLADE' nell'OCR è il principale fattore che riduce la confidenza, ma il resto della descrizione è molto coerente.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'Analista ha identificato correttamente il tipo di prodotto (diffusore a bastoncini) e la fragranza principale (vaniglia) basandosi su corrispondenze forti ('BAST.' -> 'BASTONCINI', 'VAN .' -> 'VANIGLIA'). La discrepanza sul brand ('GLADE' nell'OCR vs 'Reckitt/Air Wick' nel prodotto) è stata correttamente identificata e motivata come fattore di riduzione della confidenza, dimostrando una comprensione approfondita e un'analisi critica. La spiegazione è chiara, logica e ben strutturata.\",\n  \"affidabilità\": 0.85\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"La corrispondenza per tipologia di prodotto (diffusore a bastoncini) e fragranza (vaniglia) è forte e ben motivata. La discrepanza sul brand nell'OCR è stata identificata e gestita correttamente, giustificando la confidenza attribuita.\",\n  \"match_finale\": [\n    {\n      \"id\": \"223\",\n      \"nome\": \"BASTONCINI BASTONCINI RECKITT AIR WICK STD COMPL ORCHIDEA VANIGLIA & AMBRA 080.0 1 LIQ&BAST\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.85\n    }\n  ],\n  \"affidabilità_finale\": 0.85\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:53:10.425623Z",
+    "row_idx": 41,
+    "key": "39a4025b93b451529ebf74cd48241d3b5fee863aef30e1f2638b17666d1d07dd",
+    "ItemName": "| GLADE DIFF.C / BAST.VAN . |",
+    "receipt_description": "GLADE DIFF.C / BAST.VAN ."
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha identificato alcuna informazione o entità dall'input OCR, nonostante la descrizione fosse chiara e apparentemente riferita a un prodotto specifico ('TULIP GUANTI BICOLOR'). È un fallimento completo nella rilevazione di qualsiasi dato.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha identificato alcuna informazione o entità dall'input, risultando in un fallimento completo della rilevazione di dati.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "[]",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha identificato alcuna informazione o entità dall'input OCR, nonostante la descrizione fosse chiara e apparentemente riferita a un prodotto specifico ('TULIP GUANTI BICOLOR'). È un fallimento completo nella rilevazione di qualsiasi dato.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha identificato alcuna informazione o entità dall'input, risultando in un fallimento completo della rilevazione di dati.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:53:20.155319Z",
+    "row_idx": 41,
+    "key": "d42b5a465f198c9e3ae63c935fb5aab8f5a82bfb2cec30021f01598e2c06697b",
+    "ItemName": "| TULIP GUANTI BICOLOR |",
+    "receipt_description": "TULIP GUANTI BICOLOR"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. La descrizione OCR menziona il brand 'BIC' e 'RAS.U & G 4 FLEX' (probabilmente un rasoio), ma la lista dei prodotti fornita contiene esclusivamente prodotti del brand 'Reckitt' (Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish, Veet) e non include rasoi o prodotti BIC."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente, interpretando correttamente la descrizione OCR ('BIC' e 'rasoio') e spiegando con precisione l'assenza di corrispondenze nella lista dei prodotti fornita (esclusivamente brand Reckitt). La confidenza a 0.0 è appropriata data l'assenza di un match all'interno del catalogo disponibile.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Nessun prodotto corrispondente trovato. L'OCR indica un brand 'BIC' e un 'rasoio', mentre la lista dei prodotti fornita contiene esclusivamente prodotti del brand 'Reckitt' e non include rasoi o prodotti BIC.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. La descrizione OCR menziona il brand 'BIC' e 'RAS.U & G 4 FLEX' (probabilmente un rasoio), ma la lista dei prodotti fornita contiene esclusivamente prodotti del brand 'Reckitt' (Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish, Veet) e non include rasoi o prodotti BIC.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente, interpretando correttamente la descrizione OCR ('BIC' e 'rasoio') e spiegando con precisione l'assenza di corrispondenze nella lista dei prodotti fornita (esclusivamente brand Reckitt). La confidenza a 0.0 è appropriata data l'assenza di un match all'interno del catalogo disponibile.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Nessun prodotto corrispondente trovato. L'OCR indica un brand 'BIC' e un 'rasoio', mentre la lista dei prodotti fornita contiene esclusivamente prodotti del brand 'Reckitt' e non include rasoi o prodotti BIC.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:53:35.447441Z",
+    "row_idx": 41,
+    "key": "eb5bd69c10929570dbbdf3c9e8ac8196ff65c9b27dae36be024d2f90edc33ef0",
+    "ItemName": "| BIC RAS.U & G 4 FLEX |",
+    "receipt_description": "BIC RAS.U & G 4 FLEX"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Il brand 'LENOR' menzionato nella descrizione OCR non corrisponde a nessuno dei prodotti nella lista, che sono tutti del brand 'reckitt'. Non è stato trovato un prodotto corrispondente."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato il brand 'LENOR' nella descrizione OCR e ha accuratamente restituito un risultato nullo (confidenza 0.0) dato che il brand non corrisponde a nessuno dei prodotti nella lista fornita (limitata a 'reckitt'). La spiegazione è chiara e precisa, dimostrando una comprensione corretta del task e dei limiti del dataset.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'analista ha correttamente identificato che il brand 'LENOR' dalla descrizione OCR non corrisponde ai prodotti della lista (brand 'reckitt'), restituendo accuratamente un risultato nullo. L'analisi è ritenuta valida e affidabile dal critico.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Il brand 'LENOR' menzionato nella descrizione OCR non corrisponde a nessuno dei prodotti nella lista, che sono tutti del brand 'reckitt'. Non è stato trovato un prodotto corrispondente.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato il brand 'LENOR' nella descrizione OCR e ha accuratamente restituito un risultato nullo (confidenza 0.0) dato che il brand non corrisponde a nessuno dei prodotti nella lista fornita (limitata a 'reckitt'). La spiegazione è chiara e precisa, dimostrando una comprensione corretta del task e dei limiti del dataset.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'analista ha correttamente identificato che il brand 'LENOR' dalla descrizione OCR non corrisponde ai prodotti della lista (brand 'reckitt'), restituendo accuratamente un risultato nullo. L'analisi è ritenuta valida e affidabile dal critico.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:53:48.140665Z",
+    "row_idx": 41,
+    "key": "ec77c3046ffbff9a7e71ed78a33ef0dd27c1447175b43ae3f2fea06acdb79f98",
+    "ItemName": "8006540780978 | lenor per gelsomino scarl 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE AMESTISTA"
+  },
+  {
+    "analista_output": [
+      {
+        "id": "210",
+        "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ",
+        "brand": "reckitt",
+        "confidenza": 0.95,
+        "spiegazione": "La descrizione OCR 'JARDIN D.F.DEO LIQ.FR.' trova un'ottima corrispondenza con il prodotto Air Wick. 'DEO LIQ' è un match quasi perfetto per 'AB.ELE+DEO LIQ' presente nel nome del prodotto, che indica un deodorante liquido per apparecchio elettrico. 'JARDIN' (giardino) si allinea con il profumo 'FRESIA E GELSOMINO' (fresia e gelsomino sono fiori comunemente associati a un giardino). Le abbreviazioni 'D.F.' e 'FR.' possono essere interpretate come 'Deo Fresia' o 'Fragranza Fresia', rafforzando ulteriormente la corrispondenza del profumo e del formato."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente, identificando il prodotto corretto con un'elevata affidabilità. La spiegazione è molto chiara, dettagliata e giustifica in modo convincente ogni corrispondenza tra l'OCR e il nome del prodotto, in particolare l'associazione tra 'DEO LIQ' e 'AB.ELE+DEO LIQ' e tra 'JARDIN' e la fragranza 'FRESIA E GELSOMINO'. Le interpretazioni delle abbreviazioni rimanenti sono plausibili e rafforzano ulteriormente la corrispondenza.",
+      "affidabilità": 0.98
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'analisi è eccellente e dettagliata, giustificando in modo convincente le corrispondenze tra l'OCR e il prodotto (inclusi formato e fragranza). L'identificazione del prodotto è accurata con un'elevata affidabilità.",
+      "match_finale": [
+        {
+          "id": "210",
+          "nome": "ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ",
+          "brand": "reckitt",
+          "confidenza": 0.95
+        }
+      ],
+      "affidabilità_finale": 0.98
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": \"210\",\n    \"nome\": \"ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.95,\n    \"spiegazione\": \"La descrizione OCR 'JARDIN D.F.DEO LIQ.FR.' trova un'ottima corrispondenza con il prodotto Air Wick. 'DEO LIQ' è un match quasi perfetto per 'AB.ELE+DEO LIQ' presente nel nome del prodotto, che indica un deodorante liquido per apparecchio elettrico. 'JARDIN' (giardino) si allinea con il profumo 'FRESIA E GELSOMINO' (fresia e gelsomino sono fiori comunemente associati a un giardino). Le abbreviazioni 'D.F.' e 'FR.' possono essere interpretate come 'Deo Fresia' o 'Fragranza Fresia', rafforzando ulteriormente la corrispondenza del profumo e del formato.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente, identificando il prodotto corretto con un'elevata affidabilità. La spiegazione è molto chiara, dettagliata e giustifica in modo convincente ogni corrispondenza tra l'OCR e il nome del prodotto, in particolare l'associazione tra 'DEO LIQ' e 'AB.ELE+DEO LIQ' e tra 'JARDIN' e la fragranza 'FRESIA E GELSOMINO'. Le interpretazioni delle abbreviazioni rimanenti sono plausibili e rafforzano ulteriormente la corrispondenza.\",\n  \"affidabilità\": 0.98\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'analisi è eccellente e dettagliata, giustificando in modo convincente le corrispondenze tra l'OCR e il prodotto (inclusi formato e fragranza). L'identificazione del prodotto è accurata con un'elevata affidabilità.\",\n  \"match_finale\": [\n    {\n      \"id\": \"210\",\n      \"nome\": \"ELECT PLUGIN RECKITT AIR WICK ESSENTIAL OILS COMPL FRESIA E GELSOMINO 120 1 AB.ELE+DEO LIQ\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.95\n    }\n  ],\n  \"affidabilità_finale\": 0.98\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:54:22.546426Z",
+    "row_idx": 41,
+    "key": "96c661aa2917e181009db547bdf58c0db102a35898fbf5d08486186086af24cf",
+    "ItemName": "| JARDIN D.F.DEO LIQ.FR. |",
+    "receipt_description": "JARDIN D.F.DEO LIQ.FR."
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non è riuscito a estrarre alcuna informazione significativa dal testo OCR, nonostante contenesse elementi chiari come il brand 'Sunsilk' e la tipologia di prodotto ('Shampoo'/'Crema'). Il risultato è completamente vuoto.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcuna informazione significativa dal testo OCR, producendo un risultato completamente vuoto nonostante la presenza di elementi chiari come brand ('Sunsilk') e tipologia di prodotto ('Shampoo'/'Crema').",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "[]",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non è riuscito a estrarre alcuna informazione significativa dal testo OCR, nonostante contenesse elementi chiari come il brand 'Sunsilk' e la tipologia di prodotto ('Shampoo'/'Crema'). Il risultato è completamente vuoto.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione significativa dal testo OCR, producendo un risultato completamente vuoto nonostante la presenza di elementi chiari come brand ('Sunsilk') e tipologia di prodotto ('Shampoo'/'Crema').\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:54:33.914214Z",
+    "row_idx": 41,
+    "key": "411f34ea3962ddebba9ab697550141a4bedb5fbe0921c0345723a8a3cbe52e67",
+    "ItemName": "| SUNSILK SH BYE BYE CRE |",
+    "receipt_description": "SUNSILK SH BYE BYE CRE"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto trovato nella lista fornita corrisponde alla descrizione OCR. Il brand 'MALIZIA' e la linea di prodotti 'BON BONS' non sono presenti né nel campo 'brand' né nel campo 'nome' dei prodotti elencati."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente, identificando correttamente l'assenza di un prodotto corrispondente nella lista fornita. La spiegazione è chiara, precisa e giustifica appieno il risultato 'null' con confidenza 0.0, basato sull'assenza dei termini chiave 'MALIZIA' e 'BON BONS' nei campi rilevanti.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "La conclusione dell'analista, che nessun prodotto corrispondente è stato trovato a causa dell'assenza dei termini chiave 'MALIZIA' e 'BON BONS' nella lista, è stata pienamente convalidata e ritenuta eccellente dal critico. Il risultato 'null' con confidenza 0.0 è giustificato e accurato.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto trovato nella lista fornita corrisponde alla descrizione OCR. Il brand 'MALIZIA' e la linea di prodotti 'BON BONS' non sono presenti né nel campo 'brand' né nel campo 'nome' dei prodotti elencati.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente, identificando correttamente l'assenza di un prodotto corrispondente nella lista fornita. La spiegazione è chiara, precisa e giustifica appieno il risultato 'null' con confidenza 0.0, basato sull'assenza dei termini chiave 'MALIZIA' e 'BON BONS' nei campi rilevanti.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"La conclusione dell'analista, che nessun prodotto corrispondente è stato trovato a causa dell'assenza dei termini chiave 'MALIZIA' e 'BON BONS' nella lista, è stata pienamente convalidata e ritenuta eccellente dal critico. Il risultato 'null' con confidenza 0.0 è giustificato e accurato.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:54:46.995144Z",
+    "row_idx": 41,
+    "key": "21c29fd944e705ea6bee6bbefa10aebc5c027f3e1c5f386a8f337765c08def3b",
+    "ItemName": "| MALIZIA BON BONS BS CO |",
+    "receipt_description": "MALIZIA BON BONS BS CO"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Non ho trovato nessuna corrispondenza tra il prodotto OCR \"SUNSILK BL COCCO & ALOE\" e la lista di prodotti fornita. Tutti i prodotti nella tua lista sono del brand \"reckitt\", mentre il prodotto OCR è del brand \"SUNSILK\".\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un'ottima analisi logica, identificando correttamente il brand 'SUNSILK' nel prodotto OCR e il mismatch con la lista fornita (brand 'reckitt'). La spiegazione del mancato ritrovamento è chiara, precisa e basata su un ragionamento solido. Il problema risiede unicamente nel formato dell'output: invece di restituire direttamente un JSON valido (es. `[]`), l'analista ha prodotto una struttura che segnala un errore di parsing a livello superiore, inglobando il risultato corretto e la spiegazione eccellente all'interno di una stringa 'raw'.",
+      "affidabilità": 0.6
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'analisi logica dell'Analista è eccellente e ha correttamente identificato il brand 'SUNSILK' nel prodotto OCR, giustificando l'assenza di corrispondenze con la lista fornita (brand 'reckitt'). Il risultato corretto '[]' per 'match_finale' era presente nella stringa 'raw' dell'Analista; l'unico problema era un errore di formattazione nell'output JSON a livello superiore. La decisione si basa sulla validità del contenuto analitico.",
+      "match_finale": [],
+      "affidabilità_finale": 0.9
+    },
+    "raw_reasoning": {
+      "analista": "Non ho trovato nessuna corrispondenza tra il prodotto OCR \"SUNSILK BL COCCO & ALOE\" e la lista di prodotti fornita. Tutti i prodotti nella tua lista sono del brand \"reckitt\", mentre il prodotto OCR è del brand \"SUNSILK\".\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un'ottima analisi logica, identificando correttamente il brand 'SUNSILK' nel prodotto OCR e il mismatch con la lista fornita (brand 'reckitt'). La spiegazione del mancato ritrovamento è chiara, precisa e basata su un ragionamento solido. Il problema risiede unicamente nel formato dell'output: invece di restituire direttamente un JSON valido (es. `[]`), l'analista ha prodotto una struttura che segnala un errore di parsing a livello superiore, inglobando il risultato corretto e la spiegazione eccellente all'interno di una stringa 'raw'.\",\n  \"affidabilità\": 0.6\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'analisi logica dell'Analista è eccellente e ha correttamente identificato il brand 'SUNSILK' nel prodotto OCR, giustificando l'assenza di corrispondenze con la lista fornita (brand 'reckitt'). Il risultato corretto '[]' per 'match_finale' era presente nella stringa 'raw' dell'Analista; l'unico problema era un errore di formattazione nell'output JSON a livello superiore. La decisione si basa sulla validità del contenuto analitico.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.9\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:55:07.706883Z",
+    "row_idx": 41,
+    "key": "84002ebddc037695d6e363c1c1ccfefb5a12ae5e0a48fff95040dc5a557fbea6",
+    "ItemName": "| SUNSILK BL COCCO & ALOE |",
+    "receipt_description": "SUNSILK BL COCCO & ALOE"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessuna corrispondenza trovata. Il brand 'AQUAFRESH' non è presente nella lista dei prodotti fornita. Tutti i prodotti nella lista sono del brand 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato 'AQUAFRESH' dalla descrizione OCR. Data la spiegazione che il brand 'AQUAFRESH' non è presente nella lista dei prodotti fornita (limitata al brand 'reckitt'), la conclusione di nessuna corrispondenza e la confidenza pari a 0.0 sono corrette e logicamente motivate. Il lavoro riflette un'accurata aderenza ai vincoli specifici del compito.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "Il brand 'AQUAFRESH' è stato correttamente identificato dall'OCR ma non è presente nella lista dei prodotti fornita, limitata ai prodotti 'reckitt'. Di conseguenza, nessuna corrispondenza valida è stata trovata, e questa conclusione è considerata corretta e ben motivata.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessuna corrispondenza trovata. Il brand 'AQUAFRESH' non è presente nella lista dei prodotti fornita. Tutti i prodotti nella lista sono del brand 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato 'AQUAFRESH' dalla descrizione OCR. Data la spiegazione che il brand 'AQUAFRESH' non è presente nella lista dei prodotti fornita (limitata al brand 'reckitt'), la conclusione di nessuna corrispondenza e la confidenza pari a 0.0 sono corrette e logicamente motivate. Il lavoro riflette un'accurata aderenza ai vincoli specifici del compito.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"Il brand 'AQUAFRESH' è stato correttamente identificato dall'OCR ma non è presente nella lista dei prodotti fornita, limitata ai prodotti 'reckitt'. Di conseguenza, nessuna corrispondenza valida è stata trovata, e questa conclusione è considerata corretta e ben motivata.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:55:21.429870Z",
+    "row_idx": 41,
+    "key": "4372f2a723e23957aa6d55c6a33761d369850dfab1c8c48ea7a24ea467874946",
+    "ItemName": "| AQUAFRESH DENT . TRIPLA |",
+    "receipt_description": "AQUAFRESH DENT . TRIPLA"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessuna corrispondenza trovata. Il prodotto OCR 'ORAL - B COLLUT.FLUOR.BL' appartiene al brand 'Oral-B', che non è presente nella lista dei prodotti forniti (tutti i prodotti nella lista sono del brand 'Reckitt')."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il brand 'Oral-B' dall'OCR e ha giustamente restituito una non corrispondenza. La spiegazione è precisa e chiara, indicando che il brand non rientrava nell'elenco dei prodotti forniti (limitato a 'Reckitt'). Il processo decisionale è stato impeccabile.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Il brand 'Oral-B' del prodotto OCR non corrisponde a nessun brand presente nella lista dei prodotti forniti ('Reckitt').",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessuna corrispondenza trovata. Il prodotto OCR 'ORAL - B COLLUT.FLUOR.BL' appartiene al brand 'Oral-B', che non è presente nella lista dei prodotti forniti (tutti i prodotti nella lista sono del brand 'Reckitt').\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il brand 'Oral-B' dall'OCR e ha giustamente restituito una non corrispondenza. La spiegazione è precisa e chiara, indicando che il brand non rientrava nell'elenco dei prodotti forniti (limitato a 'Reckitt'). Il processo decisionale è stato impeccabile.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Il brand 'Oral-B' del prodotto OCR non corrisponde a nessun brand presente nella lista dei prodotti forniti ('Reckitt').\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:55:33.716496Z",
+    "row_idx": 41,
+    "key": "65858c796a47b710b1e501c415aa2685d5ee8dbca1778ec33244ac0b990f89a4",
+    "ItemName": "| ORAL - B COLLUT.FLUOR.BL |",
+    "receipt_description": "ORAL - B COLLUT.FLUOR.BL"
+  },
+  {
+    "analista_output": [
+      {
+        "id": "475",
+        "nome": "Napisan Profumo di Primavera ml. 1200",
+        "brand": "reckitt",
+        "confidenza": 0.3,
+        "spiegazione": "L'OCR identifica il brand 'Fabuloso', che non corrisponde al brand 'reckitt' di questo prodotto. Nonostante la forte discrepanza nel brand, la descrizione 'PROF. BUC.FLOR' (Profumo Bucato Floreale) si allinea bene con 'Napisan Profumo di Primavera', che è un detersivo per bucato con una fragranza primaverile e floreale. La confidenza è bassa a causa della non corrispondenza del marchio."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha dimostrato un'eccellente capacità di ragionamento: ha correttamente identificato e gestito la forte discrepanza del brand, ma ha saputo interpretare e far corrispondere la parte descrittiva dell'OCR, fornendo una motivazione chiara e logica per la bassa confidenza. Ottimo giudizio nell'individuare un match plausibile nonostante il brand mismatch.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "Match identificato con confidenza bassa (0.3) a causa della forte discrepanza di brand (OCR 'Fabuloso' vs prodotto 'reckitt'). Sebbene l'Analista abbia correttamente giustificato la corrispondenza descrittiva ('PROF. BUC.FLOR'), il mismatch di brand primario richiede una revisione umana per convalidare il match.",
+      "match_finale": [
+        {
+          "id": "475",
+          "nome": "Napisan Profumo di Primavera ml. 1200",
+          "brand": "reckitt",
+          "confidenza": 0.3
+        }
+      ],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": \"475\",\n    \"nome\": \"Napisan Profumo di Primavera ml. 1200\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.3,\n    \"spiegazione\": \"L'OCR identifica il brand 'Fabuloso', che non corrisponde al brand 'reckitt' di questo prodotto. Nonostante la forte discrepanza nel brand, la descrizione 'PROF. BUC.FLOR' (Profumo Bucato Floreale) si allinea bene con 'Napisan Profumo di Primavera', che è un detersivo per bucato con una fragranza primaverile e floreale. La confidenza è bassa a causa della non corrispondenza del marchio.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha dimostrato un'eccellente capacità di ragionamento: ha correttamente identificato e gestito la forte discrepanza del brand, ma ha saputo interpretare e far corrispondere la parte descrittiva dell'OCR, fornendo una motivazione chiara e logica per la bassa confidenza. Ottimo giudizio nell'individuare un match plausibile nonostante il brand mismatch.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"Match identificato con confidenza bassa (0.3) a causa della forte discrepanza di brand (OCR 'Fabuloso' vs prodotto 'reckitt'). Sebbene l'Analista abbia correttamente giustificato la corrispondenza descrittiva ('PROF. BUC.FLOR'), il mismatch di brand primario richiede una revisione umana per convalidare il match.\",\n  \"match_finale\": [\n    {\n      \"id\": \"475\",\n      \"nome\": \"Napisan Profumo di Primavera ml. 1200\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.3\n    }\n  ],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:56:17.136415Z",
+    "row_idx": 41,
+    "key": "300817b5457718faec4491686f9da86f2e4b969d86b812136f272ef8d15ddd4a",
+    "ItemName": "| FABULOSO PROF . BUC.FLOR |",
+    "receipt_description": "FABULOSO PROF . BUC.FLOR"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessuna corrispondenza trovata per il prodotto OCR 'MENTADENT SPAZZ.COMFOR' nella lista fornita. I prodotti nella lista sono di brand diversi come Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish, Veet e Woolite, e non includono articoli per l'igiene orale come Mentadent o spazzolini."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato e giustificato l'assenza del prodotto OCR nella lista di riferimento fornita, dimostrando precisione e coerenza con i dati disponibili.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Il prodotto OCR 'MENTADENT SPAZZ.COMFOR' non è stato trovato nella lista di riferimento fornita, che include brand e categorie merceologiche differenti.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessuna corrispondenza trovata per il prodotto OCR 'MENTADENT SPAZZ.COMFOR' nella lista fornita. I prodotti nella lista sono di brand diversi come Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish, Veet e Woolite, e non includono articoli per l'igiene orale come Mentadent o spazzolini.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato e giustificato l'assenza del prodotto OCR nella lista di riferimento fornita, dimostrando precisione e coerenza con i dati disponibili.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Il prodotto OCR 'MENTADENT SPAZZ.COMFOR' non è stato trovato nella lista di riferimento fornita, che include brand e categorie merceologiche differenti.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:56:30.139769Z",
+    "row_idx": 41,
+    "key": "71bbb511963e351a0e4db074fe0987aa524f289d8dcef6926332465344b29278",
+    "ItemName": "| MENTADENT SPAZZ.COMFOR |",
+    "receipt_description": "MENTADENT SPAZZ.COMFOR"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Non sono state trovate corrispondenze dirette nella lista dei prodotti forniti per la descrizione OCR \"HOME C.PANNO VETRI\". La lista contiene prodotti per la cura della persona (Durex, Veet), il bucato (Sole, Napisan, Vanish, Woolite), la lavastoviglie (Finish) e deodoranti per ambienti (Air Wick), ma nessun prodotto specifico per la pulizia dei vetri o panni per vetri.\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'Analista ha correttamente identificato l'assenza di corrispondenze dirette nella lista prodotti fornita per la descrizione OCR 'HOME C.PANNO VETRI', motivando che la lista non include articoli per la pulizia dei vetri. Questa analisi logica è corretta. Tuttavia, l'output complessivo dell'Analista non è un JSON valido come richiesto, ma un messaggio di errore di parsing JSON, rendendo il risultato non direttamente utilizzabile in modo programmatico, nonostante il contenuto testuale nel campo 'raw' contenga la spiegazione e il JSON atteso (un array vuoto) sia presente all'interno di quella stringa.",
+      "affidabilità": 0.3
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "L'Analista ha correttamente individuato l'assenza di corrispondenze dirette per la descrizione OCR, ma il suo output complessivo non era un JSON valido come richiesto, impedendone l'uso programmatico diretto. La logica di base è corretta, ma il formato dell'output necessita di revisione.",
+      "match_finale": [],
+      "affidabilità_finale": 0.3
+    },
+    "raw_reasoning": {
+      "analista": "Non sono state trovate corrispondenze dirette nella lista dei prodotti forniti per la descrizione OCR \"HOME C.PANNO VETRI\". La lista contiene prodotti per la cura della persona (Durex, Veet), il bucato (Sole, Napisan, Vanish, Woolite), la lavastoviglie (Finish) e deodoranti per ambienti (Air Wick), ma nessun prodotto specifico per la pulizia dei vetri o panni per vetri.\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'Analista ha correttamente identificato l'assenza di corrispondenze dirette nella lista prodotti fornita per la descrizione OCR 'HOME C.PANNO VETRI', motivando che la lista non include articoli per la pulizia dei vetri. Questa analisi logica è corretta. Tuttavia, l'output complessivo dell'Analista non è un JSON valido come richiesto, ma un messaggio di errore di parsing JSON, rendendo il risultato non direttamente utilizzabile in modo programmatico, nonostante il contenuto testuale nel campo 'raw' contenga la spiegazione e il JSON atteso (un array vuoto) sia presente all'interno di quella stringa.\",\n  \"affidabilità\": 0.3\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"L'Analista ha correttamente individuato l'assenza di corrispondenze dirette per la descrizione OCR, ma il suo output complessivo non era un JSON valido come richiesto, impedendone l'uso programmatico diretto. La logica di base è corretta, ma il formato dell'output necessita di revisione.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.3\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:57:05.163686Z",
+    "row_idx": 41,
+    "key": "05d06854df793d3a0c4d1da05ba5809635e62c8c89e6493d282d60fb48e7f830",
+    "ItemName": "| HOME C.PANNO VETRI |",
+    "receipt_description": "HOME C.PANNO VETRI"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Il brand 'LENOR' menzionato nella descrizione OCR non corrisponde a nessun prodotto presente nella lista, in quanto tutti i prodotti nella lista sono del brand 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato il brand 'LENOR' dalla descrizione OCR e ha fornito una spiegazione chiara e logica per l'assenza di corrispondenze con prodotti del brand 'reckitt', assegnando una confidenza appropriata di 0.0.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Il brand 'LENOR' identificato nella descrizione OCR non ha corrispondenze con i prodotti nella lista, in quanto tutti i prodotti disponibili sono del brand 'reckitt'.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Il brand 'LENOR' menzionato nella descrizione OCR non corrisponde a nessun prodotto presente nella lista, in quanto tutti i prodotti nella lista sono del brand 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato il brand 'LENOR' dalla descrizione OCR e ha fornito una spiegazione chiara e logica per l'assenza di corrispondenze con prodotti del brand 'reckitt', assegnando una confidenza appropriata di 0.0.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Il brand 'LENOR' identificato nella descrizione OCR non ha corrispondenze con i prodotti nella lista, in quanto tutti i prodotti disponibili sono del brand 'reckitt'.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:57:16.527134Z",
+    "row_idx": 42,
+    "key": "635af86f9382da555502896876ab6dc2f92321d0397a5b953857f7512aa33d84",
+    "ItemName": "8001090891099 | lenor per risv primaverile 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE RISV.PRIM"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista prodotti fornita. Tutti i prodotti nella lista sono del brand 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato il brand 'LENOR' dall'OCR. La spiegazione è chiara e giustifica pienamente l'assenza di un prodotto corrispondente, dato che il brand non rientra nella lista prodotti fornita (limitata al brand 'reckitt'). Il risultato con confidenza 0.0 è appropriato.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "Nessun prodotto corrispondente trovato. Il brand 'LENOR' identificato nell'OCR non è presente nella lista prodotti fornita, che include solo prodotti del brand 'reckitt'.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. Il brand 'LENOR' menzionato nella descrizione OCR non è presente nella lista prodotti fornita. Tutti i prodotti nella lista sono del brand 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato il brand 'LENOR' dall'OCR. La spiegazione è chiara e giustifica pienamente l'assenza di un prodotto corrispondente, dato che il brand non rientra nella lista prodotti fornita (limitata al brand 'reckitt'). Il risultato con confidenza 0.0 è appropriato.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"Nessun prodotto corrispondente trovato. Il brand 'LENOR' identificato nell'OCR non è presente nella lista prodotti fornita, che include solo prodotti del brand 'reckitt'.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:57:30.732649Z",
+    "row_idx": 43,
+    "key": "755538fcd6fcfdb2fcbc0c22a02df5adab257118a7c44f67e573dfdd860293c9",
+    "ItemName": "8001090891273 | lenor per orofiori vaniglia 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PERLE ORO & F.VANI FLGR 19"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. La marca 'ACE' menzionata nella descrizione OCR non è presente nella lista dei prodotti fornita, che contiene solo prodotti 'reckitt'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato la marca 'ACE' nell'OCR e ha spiegato in modo impeccabile che non è stato trovato un prodotto corrispondente perché 'ACE' non rientra nell'elenco dei prodotti 'reckitt' fornito. Il risultato è preciso e la spiegazione esaustiva, dimostrando una corretta gestione delle limitazioni.",
+      "affidabilità": 0.98
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'Analista ha correttamente identificato l'assenza di un prodotto corrispondente, spiegando che la marca 'ACE' rilevata non rientra nell'elenco dei prodotti 'reckitt' forniti. Il Critico ha validato questa analisi come precisa ed esaustiva.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 0.98
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. La marca 'ACE' menzionata nella descrizione OCR non è presente nella lista dei prodotti fornita, che contiene solo prodotti 'reckitt'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato la marca 'ACE' nell'OCR e ha spiegato in modo impeccabile che non è stato trovato un prodotto corrispondente perché 'ACE' non rientra nell'elenco dei prodotti 'reckitt' fornito. Il risultato è preciso e la spiegazione esaustiva, dimostrando una corretta gestione delle limitazioni.\",\n  \"affidabilità\": 0.98\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'Analista ha correttamente identificato l'assenza di un prodotto corrispondente, spiegando che la marca 'ACE' rilevata non rientra nell'elenco dei prodotti 'reckitt' forniti. Il Critico ha validato questa analisi come precisa ed esaustiva.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 0.98\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:57:44.584851Z",
+    "row_idx": 44,
+    "key": "82f5aa0b004b1de50eb997d175214ac64fb9ecaf29cab319cd8482ba75de071f",
+    "ItemName": "| OFFERTA ACE GENTILE 4 |",
+    "receipt_description": "OFFERTA ACE GENTILE 4"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Data la descrizione OCR \"LENOR PROF.BUC PERLE\" e la lista di prodotti fornita, si cerca una corrispondenza.\n\nAnalisi:\n1.  **Brand**: L'OCR specifica \"LENOR\". Tutti i prodotti nella `Lista prodotti` appartengono al brand \"reckitt\". C'è una chiara discrepanza di brand.\n2.  **Tipo di prodotto**: \"PROF.BUC PERLE\" si riferisce a \"profumo per bucato in perle\", un tipo di additivo per lavatrice (come Lenor Unstoppables).\n3.  **Ricerca nella lista**: Nessun prodotto nella `Lista prodotti` (che include prodotti a marchio Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanisch, Veet, Woolite, tutti sotto Reckitt) corrisponde al brand \"LENOR\" né al tipo di prodotto \"profumo per bucato in perle\". I prodotti Reckitt correlati al bucato (Sole, Napisan, Vanish, Calgon, Woolite) sono detersivi liquidi/polvere, additivi smacchianti o anticalcare, ma non profumi in perle.\n\nConclusione:\nNon è stata trovata alcuna corrispondenza tra la descrizione OCR \"LENOR PROF.BUC PERLE\" e i prodotti presenti nella `Lista prodotti` fornita, principalmente a causa della discrepanza del brand e del tipo di prodotto.\n\n```json\n[]\n```"
+    },
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il brand 'LENOR' e la tipologia di prodotto 'profumo per bucato in perle' dall'OCR, confrontandoli in modo accurato con la lista di prodotti fornita (implicitamente Reckitt-branded). La conclusione di non trovare corrispondenze è ben giustificata da chiare discrepanze di brand e di categoria del prodotto. Il ragionamento è logico, dettagliato e la soluzione (`[]`) è corretta per l'assenza di match. L'unico appunto riguarda il formato di output, che ha generato un errore di parsing a causa dell'inclusione di testo descrittivo prima del blocco JSON finale, sebbene il contenuto analitico sia impeccabile.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analisi ha correttamente identificato l'OCR 'LENOR PROF.BUC PERLE' ma non ha trovato corrispondenze nella lista fornita a causa di una chiara discrepanza di brand (LENOR vs prodotti a marchio Reckitt) e di tipologia di prodotto (profumo per bucato in perle non presente). L'analisi è stata giudicata eccellente e la conclusione di non-match è ben giustificata.",
+      "match_finale": [],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "Data la descrizione OCR \"LENOR PROF.BUC PERLE\" e la lista di prodotti fornita, si cerca una corrispondenza.\n\nAnalisi:\n1.  **Brand**: L'OCR specifica \"LENOR\". Tutti i prodotti nella `Lista prodotti` appartengono al brand \"reckitt\". C'è una chiara discrepanza di brand.\n2.  **Tipo di prodotto**: \"PROF.BUC PERLE\" si riferisce a \"profumo per bucato in perle\", un tipo di additivo per lavatrice (come Lenor Unstoppables).\n3.  **Ricerca nella lista**: Nessun prodotto nella `Lista prodotti` (che include prodotti a marchio Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanisch, Veet, Woolite, tutti sotto Reckitt) corrisponde al brand \"LENOR\" né al tipo di prodotto \"profumo per bucato in perle\". I prodotti Reckitt correlati al bucato (Sole, Napisan, Vanish, Calgon, Woolite) sono detersivi liquidi/polvere, additivi smacchianti o anticalcare, ma non profumi in perle.\n\nConclusione:\nNon è stata trovata alcuna corrispondenza tra la descrizione OCR \"LENOR PROF.BUC PERLE\" e i prodotti presenti nella `Lista prodotti` fornita, principalmente a causa della discrepanza del brand e del tipo di prodotto.\n\n```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il brand 'LENOR' e la tipologia di prodotto 'profumo per bucato in perle' dall'OCR, confrontandoli in modo accurato con la lista di prodotti fornita (implicitamente Reckitt-branded). La conclusione di non trovare corrispondenze è ben giustificata da chiare discrepanze di brand e di categoria del prodotto. Il ragionamento è logico, dettagliato e la soluzione (`[]`) è corretta per l'assenza di match. L'unico appunto riguarda il formato di output, che ha generato un errore di parsing a causa dell'inclusione di testo descrittivo prima del blocco JSON finale, sebbene il contenuto analitico sia impeccabile.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analisi ha correttamente identificato l'OCR 'LENOR PROF.BUC PERLE' ma non ha trovato corrispondenze nella lista fornita a causa di una chiara discrepanza di brand (LENOR vs prodotti a marchio Reckitt) e di tipologia di prodotto (profumo per bucato in perle non presente). L'analisi è stata giudicata eccellente e la conclusione di non-match è ben giustificata.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:58:21.154408Z",
+    "row_idx": 44,
+    "key": "59346b5518894410ef7aa150b18ab90993c88911d8bf810ca0e96ab1001e35f3",
+    "ItemName": "8006540780978 | lenor per gelsomino scarl 210 gr 6 pz | p&g",
+    "receipt_description": "LENOR PROF.BUC PERLE"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista ha fornito un risultato vuoto, non identificando alcun testo dove invece era presente 'SHOPPERS STAMP'. Questo rappresenta un errore grave nella trascrizione.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'Analista ha fornito un risultato vuoto, non identificando 'SHOPPERS STAMP' dove era presente, il che è stato giudicato un errore grave nella trascrizione.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha fornito un risultato vuoto, non identificando alcun testo dove invece era presente 'SHOPPERS STAMP'. Questo rappresenta un errore grave nella trascrizione.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'Analista ha fornito un risultato vuoto, non identificando 'SHOPPERS STAMP' dove era presente, il che è stato giudicato un errore grave nella trascrizione.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:58:29.641940Z",
+    "row_idx": 44,
+    "key": "471e83024374b68aeec36c5309a339d20fc197a08c8e928218c1fec0fb62d3cd",
+    "ItemName": "| SHOPPERS STAMP |",
+    "receipt_description": "SHOPPERS STAMP"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna entità nonostante la chiara indicazione di 'volante' o un oggetto simile nella descrizione OCR ('GIRA E GUIDA VOLANTE' suggerisce fortemente un volante o un sistema di guida).",
+      "affidabilità": 0.1
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "L'Analista non ha estratto alcuna entità, nonostante la chiara indicazione di 'volante' o un oggetto simile nella descrizione OCR ('GIRA E GUIDA VOLANTE'), come evidenziato dal Critico. È necessaria una revisione per identificare l'entità mancante.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "[]",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna entità nonostante la chiara indicazione di 'volante' o un oggetto simile nella descrizione OCR ('GIRA E GUIDA VOLANTE' suggerisce fortemente un volante o un sistema di guida).\",\n  \"affidabilità\": 0.1\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"L'Analista non ha estratto alcuna entità, nonostante la chiara indicazione di 'volante' o un oggetto simile nella descrizione OCR ('GIRA E GUIDA VOLANTE'), come evidenziato dal Critico. È necessaria una revisione per identificare l'entità mancante.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:58:45.514309Z",
+    "row_idx": 44,
+    "key": "5c2b8b9ce7072d9170437d68018f81898740818c161df350aa43fad4b6dd45f8",
+    "ItemName": "| GIRA E GUIDA VOLANTE |",
+    "receipt_description": "GIRA E GUIDA VOLANTE"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. La descrizione OCR menziona il brand 'DASH', ma tutti i prodotti nella lista fornita appartengono al brand 'reckitt'. Non è possibile trovare una corrispondenza diretta per 'DASH ECODOSI' all'interno della lista data."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha correttamente identificato il brand 'DASH' dalla descrizione OCR e ha fornito una spiegazione chiara e logica per l'assenza di corrispondenze, attribuendola alla discrepanza tra il brand rilevato e quelli disponibili nella lista di prodotti. Il risultato 'null' con confidenza 0.0 è appropriato per questa situazione.",
+      "affidabilità": 0.98
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'Analista ha correttamente identificato e motivato l'assenza di corrispondenze, rilevando una discrepanza tra il brand menzionato nella descrizione OCR ('DASH') e i brand disponibili nella lista prodotti ('reckitt'). Il Critico ha validato questa analisi come chiara, logica e appropriata, confermando l'esattezza del risultato nullo con confidenza 0.0.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 0.98
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. La descrizione OCR menziona il brand 'DASH', ma tutti i prodotti nella lista fornita appartengono al brand 'reckitt'. Non è possibile trovare una corrispondenza diretta per 'DASH ECODOSI' all'interno della lista data.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha correttamente identificato il brand 'DASH' dalla descrizione OCR e ha fornito una spiegazione chiara e logica per l'assenza di corrispondenze, attribuendola alla discrepanza tra il brand rilevato e quelli disponibili nella lista di prodotti. Il risultato 'null' con confidenza 0.0 è appropriato per questa situazione.\",\n  \"affidabilità\": 0.98\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'Analista ha correttamente identificato e motivato l'assenza di corrispondenze, rilevando una discrepanza tra il brand menzionato nella descrizione OCR ('DASH') e i brand disponibili nella lista prodotti ('reckitt'). Il Critico ha validato questa analisi come chiara, logica e appropriata, confermando l'esattezza del risultato nullo con confidenza 0.0.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 0.98\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:58:59.313876Z",
+    "row_idx": 44,
+    "key": "80a49ca48505656e0a67d635dd0a0cd599c06b6e6cfb8a88016fde45e45f495a",
+    "ItemName": "| OFFERTA DASH ECODOSI |",
+    "receipt_description": "OFFERTA DASH ECODOSI"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. La parola chiave 'VIAKAL' non è presente in nessuno dei nomi dei prodotti forniti, né nel campo 'brand'."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'Analista ha correttamente interpretato l'input OCR e ha identificato 'VIAKAL' come termine chiave. La sua conclusione di 'nessun prodotto corrispondente trovato' con una confidenza di 0.0 è accurata, basandosi sul fatto che il termine non è presente nei dataset di nomi o brand a sua disposizione. La spiegazione fornita è chiara e precisa, indicando che la limitazione risiede nell'assenza del prodotto nel database di riferimento, non in un errore di analisi.",
+      "affidabilità": 0.95
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'Analista ha correttamente identificato l'assenza di prodotti corrispondenti per la parola chiave 'VIAKAL'. La conclusione di nessun match è accurata e l'analisi valida, come confermato dal Critico.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 0.95
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. La parola chiave 'VIAKAL' non è presente in nessuno dei nomi dei prodotti forniti, né nel campo 'brand'.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'Analista ha correttamente interpretato l'input OCR e ha identificato 'VIAKAL' come termine chiave. La sua conclusione di 'nessun prodotto corrispondente trovato' con una confidenza di 0.0 è accurata, basandosi sul fatto che il termine non è presente nei dataset di nomi o brand a sua disposizione. La spiegazione fornita è chiara e precisa, indicando che la limitazione risiede nell'assenza del prodotto nel database di riferimento, non in un errore di analisi.\",\n  \"affidabilità\": 0.95\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'Analista ha correttamente identificato l'assenza di prodotti corrispondenti per la parola chiave 'VIAKAL'. La conclusione di nessun match è accurata e l'analisi valida, come confermato dal Critico.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 0.95\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:59:13.675194Z",
+    "row_idx": 44,
+    "key": "3345f27ac19e9d94b9d870f6e093635f7aa824035b754d7d7d0c2bba66b2d25d",
+    "ItemName": "| OFFERTA VIAKAL EXP.BA |",
+    "receipt_description": "OFFERTA VIAKAL EXP.BA"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna informazione dalla descrizione OCR, nonostante la presenza di testo chiaro e significativo come 'OFFERTA', 'AJAX', e 'SPRAY'. Il risultato vuoto è completamente errato rispetto all'input.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcuna informazione dalla descrizione OCR, nonostante la presenza di testo chiaro e significativo ('OFFERTA', 'AJAX', 'SPRAY'). Il risultato vuoto è completamente errato e inutilizzabile.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "[]",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna informazione dalla descrizione OCR, nonostante la presenza di testo chiaro e significativo come 'OFFERTA', 'AJAX', e 'SPRAY'. Il risultato vuoto è completamente errato rispetto all'input.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione dalla descrizione OCR, nonostante la presenza di testo chiaro e significativo ('OFFERTA', 'AJAX', 'SPRAY'). Il risultato vuoto è completamente errato e inutilizzabile.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T08:59:24.426479Z",
+    "row_idx": 44,
+    "key": "d3be18a95e7dbf8fd48338c6bc7d8c8d8914df7c8c8e9e4146a89ff036ee5e14",
+    "ItemName": "| OFFERTA AJAX SPRAY C- |",
+    "receipt_description": "OFFERTA AJAX SPRAY C-"
+  },
+  {
+    "analista_output": [
+      {
+        "id": "419",
+        "nome": "Sole Bianco Splendente_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5,
+        "spiegazione": "Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand."
+      },
+      {
+        "id": "420",
+        "nome": "Sole Proteggi Colore_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5,
+        "spiegazione": "Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand."
+      },
+      {
+        "id": "421",
+        "nome": "Sole Potere Smacchiante_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5,
+        "spiegazione": "Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand."
+      },
+      {
+        "id": "422",
+        "nome": "Sole Igiene e Freschezza_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5,
+        "spiegazione": "Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand."
+      },
+      {
+        "id": "423",
+        "nome": "Sole Freschezza Naturale Lavanda_41D",
+        "brand": "reckitt",
+        "confidenza": 0.5,
+        "spiegazione": "Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha dimostrato un'eccellente capacità di interpretazione, associando correttamente 'SOLEE' alla linea di prodotti 'Sole' e al brand 'reckitt'. Cruciale è stata l'identificazione e la chiara spiegazione della forte discrepanza con il brand 'PAMPERS' presente nell'OCR, evidenziando il conflitto. La confidenza delle proposte è stata giustamente moderata a 0.5, riflettendo accuratamente l'incertezza dovuta alla contraddizione rilevata. L'analisi è trasparente e rigorosa nel segnalare le criticità.",
+      "affidabilità": 0.85
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "L'analisi ha identificato correttamente potenziali corrispondenze 'Sole' con confidenza moderata (0.5) e ha evidenziato con precisione la discrepanza critica del brand 'PAMPERS' nell'OCR. Il Critico ha pienamente convalidato questa valutazione, indicando che l'analisi è accurata e ben motivata nonostante la confidenza non elevata dovuta al conflitto.",
+      "match_finale": [
+        {
+          "id": "419",
+          "nome": "Sole Bianco Splendente_41D",
+          "brand": "reckitt",
+          "confidenza": 0.5
+        },
+        {
+          "id": "420",
+          "nome": "Sole Proteggi Colore_41D",
+          "brand": "reckitt",
+          "confidenza": 0.5
+        },
+        {
+          "id": "421",
+          "nome": "Sole Potere Smacchiante_41D",
+          "brand": "reckitt",
+          "confidenza": 0.5
+        },
+        {
+          "id": "422",
+          "nome": "Sole Igiene e Freschezza_41D",
+          "brand": "reckitt",
+          "confidenza": 0.5
+        },
+        {
+          "id": "423",
+          "nome": "Sole Freschezza Naturale Lavanda_41D",
+          "brand": "reckitt",
+          "confidenza": 0.5
+        }
+      ],
+      "affidabilità_finale": 0.5
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": \"419\",\n    \"nome\": \"Sole Bianco Splendente_41D\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.5,\n    \"spiegazione\": \"Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand.\"\n  },\n  {\n    \"id\": \"420\",\n    \"nome\": \"Sole Proteggi Colore_41D\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.5,\n    \"spiegazione\": \"Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand.\"\n  },\n  {\n    \"id\": \"421\",\n    \"nome\": \"Sole Potere Smacchiante_41D\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.5,\n    \"spiegazione\": \"Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand.\"\n  },\n  {\n    \"id\": \"422\",\n    \"nome\": \"Sole Igiene e Freschezza_41D\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.5,\n    \"spiegazione\": \"Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand.\"\n  },\n  {\n    \"id\": \"423\",\n    \"nome\": \"Sole Freschezza Naturale Lavanda_41D\",\n    \"brand\": \"reckitt\",\n    \"confidenza\": 0.5,\n    \"spiegazione\": \"Il termine 'SOLEE' nell'OCR è una buona corrispondenza con la linea di prodotti 'Sole'. Tuttavia, la presenza del brand 'PAMPERS' nell'OCR genera una forte discrepanza, poiché questo prodotto è del brand 'reckitt' e 'Pampers' è un brand diverso. La confidenza è moderata a causa di questo conflitto di brand.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha dimostrato un'eccellente capacità di interpretazione, associando correttamente 'SOLEE' alla linea di prodotti 'Sole' e al brand 'reckitt'. Cruciale è stata l'identificazione e la chiara spiegazione della forte discrepanza con il brand 'PAMPERS' presente nell'OCR, evidenziando il conflitto. La confidenza delle proposte è stata giustamente moderata a 0.5, riflettendo accuratamente l'incertezza dovuta alla contraddizione rilevata. L'analisi è trasparente e rigorosa nel segnalare le criticità.\",\n  \"affidabilità\": 0.85\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"L'analisi ha identificato correttamente potenziali corrispondenze 'Sole' con confidenza moderata (0.5) e ha evidenziato con precisione la discrepanza critica del brand 'PAMPERS' nell'OCR. Il Critico ha pienamente convalidato questa valutazione, indicando che l'analisi è accurata e ben motivata nonostante la confidenza non elevata dovuta al conflitto.\",\n  \"match_finale\": [\n    {\n      \"id\": \"419\",\n      \"nome\": \"Sole Bianco Splendente_41D\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.5\n    },\n    {\n      \"id\": \"420\",\n      \"nome\": \"Sole Proteggi Colore_41D\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.5\n    },\n    {\n      \"id\": \"421\",\n      \"nome\": \"Sole Potere Smacchiante_41D\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.5\n    },\n    {\n      \"id\": \"422\",\n      \"nome\": \"Sole Igiene e Freschezza_41D\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.5\n    },\n    {\n      \"id\": \"423\",\n      \"nome\": \"Sole Freschezza Naturale Lavanda_41D\",\n      \"brand\": \"reckitt\",\n      \"confidenza\": 0.5\n    }\n  ],\n  \"affidabilità_finale\": 0.5\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:00:06.820244Z",
+    "row_idx": 44,
+    "key": "3a6a8fc90277152e3289fc92c1f393c1054b052f493ede6b970dc15bcc542991",
+    "ItemName": "| OFFERTA PAMPERS SOLEE |",
+    "receipt_description": "OFFERTA PAMPERS SOLEE"
+  },
+  {
+    "analista_output": {
+      "error": "Could not parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw": "Non è stata trovata alcuna corrispondenza significativa tra il prodotto OCR \"T PANE CHIOC.CHIA CU\" e i prodotti presenti nella lista fornita. I prodotti nella lista sono principalmente articoli per la casa (deodoranti, detersivi, cura lavastoviglie) e prodotti per la cura personale (preservativi, gel, depilatori), mentre la descrizione OCR suggerisce un prodotto alimentare (pane, chia)."
+    },
+    "critico_output": {
+      "valutazione": "L'analista ha dimostrato una comprensione accurata della descrizione OCR, interpretando correttamente \"T PANE CHIOC.CHIA CU\" come un prodotto alimentare e deducendo con precisione l'assenza di una corrispondenza significativa con la lista prodotti fornita (identificata come composta da articoli per la casa e cura personale). L'analisi logica e la conclusione sono corrette. Tuttavia, il lavoro è gravemente compromesso dal mancato rispetto del formato di output JSON, che ha causato un errore di parsing, rendendo il risultato non direttamente utilizzabile da sistemi automatici.",
+      "affidabilità": 0.3
+    },
+    "final_decision": {
+      "decision": "revisionata",
+      "motivazione": "L'analista ha correttamente dedotto l'assenza di corrispondenze significative e la sua analisi logica è valida, ma il suo output non era in formato JSON valido, rendendo il risultato non direttamente utilizzabile e necessitando di correzione nel formato.",
+      "match_finale": [],
+      "affidabilità_finale": 0.3
+    },
+    "raw_reasoning": {
+      "analista": "Non è stata trovata alcuna corrispondenza significativa tra il prodotto OCR \"T PANE CHIOC.CHIA CU\" e i prodotti presenti nella lista fornita. I prodotti nella lista sono principalmente articoli per la casa (deodoranti, detersivi, cura lavastoviglie) e prodotti per la cura personale (preservativi, gel, depilatori), mentre la descrizione OCR suggerisce un prodotto alimentare (pane, chia).",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha dimostrato una comprensione accurata della descrizione OCR, interpretando correttamente \\\"T PANE CHIOC.CHIA CU\\\" come un prodotto alimentare e deducendo con precisione l'assenza di una corrispondenza significativa con la lista prodotti fornita (identificata come composta da articoli per la casa e cura personale). L'analisi logica e la conclusione sono corrette. Tuttavia, il lavoro è gravemente compromesso dal mancato rispetto del formato di output JSON, che ha causato un errore di parsing, rendendo il risultato non direttamente utilizzabile da sistemi automatici.\",\n  \"affidabilità\": 0.3\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"revisionata\",\n  \"motivazione\": \"L'analista ha correttamente dedotto l'assenza di corrispondenze significative e la sua analisi logica è valida, ma il suo output non era in formato JSON valido, rendendo il risultato non direttamente utilizzabile e necessitando di correzione nel formato.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.3\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:00:34.162142Z",
+    "row_idx": 45,
+    "key": "d9598516d162ba9c5116031f4a27007840b3767ab9e79b5a021f06a9f131bd15",
+    "ItemName": "| T PANE CHIOC.CHIA CU |",
+    "receipt_description": "T PANE CHIOC.CHIA CU"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista ha fallito completamente nell'estrazione di informazioni significative dal testo OCR. Nonostante la presenza di termini chiari e pertinenti come 'FOCACCIA' e 'PANCETTA', il risultato restituito è un elenco vuoto, indicando una mancata identificazione o elaborazione di qualsiasi dato rilevante.",
+      "affidabilità": 0.05
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non è riuscito a estrarre alcuna informazione significativa dal testo OCR, restituendo un elenco vuoto nonostante la presenza di termini chiari e pertinenti.",
+      "match_finale": [],
+      "affidabilità_finale": 0.05
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha fallito completamente nell'estrazione di informazioni significative dal testo OCR. Nonostante la presenza di termini chiari e pertinenti come 'FOCACCIA' e 'PANCETTA', il risultato restituito è un elenco vuoto, indicando una mancata identificazione o elaborazione di qualsiasi dato rilevante.\",\n  \"affidabilità\": 0.05\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non è riuscito a estrarre alcuna informazione significativa dal testo OCR, restituendo un elenco vuoto nonostante la presenza di termini chiari e pertinenti.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.05\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:00:44.606117Z",
+    "row_idx": 45,
+    "key": "65b90f45aec4c86f7328272796b1b90c3d33d13bf8db26576ae02fe9f95f5d82",
+    "ItemName": "| T FOCACCIA PANCETTA |",
+    "receipt_description": "T FOCACCIA PANCETTA"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha estratto alcuna informazione utile dall'input OCR, restituendo un risultato completamente vuoto nonostante la chiara presenza di elementi identificabili come 'TARALLI' (prodotto) e 'COOP' (marchio/distributore). Il lavoro è completamente insufficiente e non offre alcun valore.",
+      "affidabilità": 0.0
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha estratto alcuna informazione utile dall'input OCR, restituendo un risultato completamente vuoto nonostante la chiara presenza di elementi identificabili. Il lavoro è completamente insufficiente e non offre alcun valore.",
+      "match_finale": [],
+      "affidabilità_finale": 0.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha estratto alcuna informazione utile dall'input OCR, restituendo un risultato completamente vuoto nonostante la chiara presenza di elementi identificabili come 'TARALLI' (prodotto) e 'COOP' (marchio/distributore). Il lavoro è completamente insufficiente e non offre alcun valore.\",\n  \"affidabilità\": 0.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha estratto alcuna informazione utile dall'input OCR, restituendo un risultato completamente vuoto nonostante la chiara presenza di elementi identificabili. Il lavoro è completamente insufficiente e non offre alcun valore.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:00:55.460969Z",
+    "row_idx": 45,
+    "key": "5667b7368e62e04b2af8dd7c7907f9a0afcbdf4e0d8d5673782f69299ac0fe78",
+    "ItemName": "| M - T TARALLI COOP FF |",
+    "receipt_description": "M - T TARALLI COOP FF"
+  },
+  {
+    "analista_output": [],
+    "critico_output": {
+      "valutazione": "L'analista non ha identificato alcuna informazione utile, ignorando completamente parole chiave chiare e contestuali come 'KINDER' e 'OVETTI' che erano presenti nell'OCR. Il risultato è assente nonostante la presenza di dati parzialmente riconoscibili.",
+      "affidabilità": 0.05
+    },
+    "final_decision": {
+      "decision": "rifiutata",
+      "motivazione": "L'analista non ha prodotto alcun risultato utile, ignorando completamente parole chiave chiare e contestuali come 'KINDER' e 'OVETTI' presenti nell'OCR.",
+      "match_finale": [],
+      "affidabilità_finale": 0.05
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista non ha identificato alcuna informazione utile, ignorando completamente parole chiave chiare e contestuali come 'KINDER' e 'OVETTI' che erano presenti nell'OCR. Il risultato è assente nonostante la presenza di dati parzialmente riconoscibili.\",\n  \"affidabilità\": 0.05\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"rifiutata\",\n  \"motivazione\": \"L'analista non ha prodotto alcun risultato utile, ignorando completamente parole chiave chiare e contestuali come 'KINDER' e 'OVETTI' presenti nell'OCR.\",\n  \"match_finale\": [],\n  \"affidabilità_finale\": 0.05\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:01:08.747781Z",
+    "row_idx": 45,
+    "key": "b2d80ea20c3b67d8c11fe4b555a2f1969efdad718bcfe9a7488a4e912acc9f8d",
+    "ItemName": "| T OVETTI KINDER SORP |",
+    "receipt_description": "T OVETTI KINDER SORP"
+  },
+  {
+    "analista_output": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0,
+        "spiegazione": "Nessun prodotto corrispondente trovato. La descrizione OCR 'T PESTO GENOVESE' si riferisce a un prodotto alimentare (pesto), mentre la lista prodotti fornita contiene esclusivamente articoli per la casa (deodoranti, detersivi, preservativi, prodotti per la depilazione) dei brand Reckitt, Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish e Veet, nessuno dei quali produce pesto."
+      }
+    ],
+    "critico_output": {
+      "valutazione": "L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il prodotto OCR come alimentare (pesto) e ha fornito una spiegazione esaustiva e accurata sul motivo per cui non è stata trovata alcuna corrispondenza nel catalogo fornito, che include solo articoli per la casa. La confidenza di 0.0 è appropriata.",
+      "affidabilità": 1.0
+    },
+    "final_decision": {
+      "decision": "accettata",
+      "motivazione": "Nessun prodotto corrispondente trovato. Il prodotto OCR 'T PESTO GENOVESE' è alimentare, mentre il catalogo fornito contiene esclusivamente articoli per la casa.",
+      "match_finale": [
+        {
+          "id": null,
+          "nome": null,
+          "brand": null,
+          "confidenza": 0.0
+        }
+      ],
+      "affidabilità_finale": 1.0
+    },
+    "raw_reasoning": {
+      "analista": "```json\n[\n  {\n    \"id\": null,\n    \"nome\": null,\n    \"brand\": null,\n    \"confidenza\": 0.0,\n    \"spiegazione\": \"Nessun prodotto corrispondente trovato. La descrizione OCR 'T PESTO GENOVESE' si riferisce a un prodotto alimentare (pesto), mentre la lista prodotti fornita contiene esclusivamente articoli per la casa (deodoranti, detersivi, preservativi, prodotti per la depilazione) dei brand Reckitt, Air Wick, Finish, Durex, Sole, Napisan, Calgon, Vanish e Veet, nessuno dei quali produce pesto.\"\n  }\n]\n```",
+      "critico": "```json\n{\n  \"valutazione\": \"L'analista ha svolto un lavoro eccellente. Ha correttamente identificato il prodotto OCR come alimentare (pesto) e ha fornito una spiegazione esaustiva e accurata sul motivo per cui non è stata trovata alcuna corrispondenza nel catalogo fornito, che include solo articoli per la casa. La confidenza di 0.0 è appropriata.\",\n  \"affidabilità\": 1.0\n}\n```",
+      "arbitro": "```json\n{\n  \"decision\": \"accettata\",\n  \"motivazione\": \"Nessun prodotto corrispondente trovato. Il prodotto OCR 'T PESTO GENOVESE' è alimentare, mentre il catalogo fornito contiene esclusivamente articoli per la casa.\",\n  \"match_finale\": [\n    {\n      \"id\": null,\n      \"nome\": null,\n      \"brand\": null,\n      \"confidenza\": 0.0\n    }\n  ],\n  \"affidabilità_finale\": 1.0\n}\n```"
+    },
+    "timestamp": "2025-11-09T09:01:20.923345Z",
+    "row_idx": 45,
+    "key": "391d865e7f78aa405afe43768af095af9970d733a97e002ce804ed182a82fd4f",
+    "ItemName": "| T PESTO GENOVESE |",
+    "receipt_description": "T PESTO GENOVESE"
   }
 ]
