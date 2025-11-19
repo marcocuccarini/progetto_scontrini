@@ -1,0 +1,27 @@
+{
+  "LENOR PERLE ROSE VANI": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcuna informazione utile dal testo OCR, nonostante la presenza di elementi chiari e identificabili. Nessun dato è stato fornito.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "DASH LAV 30 E / POSLAV": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcuna informazione utile, ignorando elementi chiari nella descrizione e producendo un output vuoto e inaccettabile per l'estrazione.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "FRIA CARTA TUM IN CH": {
+    "decision": "rifiutata",
+    "motivazione": "OCR illeggibile e nessuna corrispondenza trovata con i prodotti Kukident Ultimate.",
+    "match_finale": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ],
+    "affidabilità_finale": 0.98
+  }
+}

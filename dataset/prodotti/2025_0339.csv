@@ -1,0 +1,63 @@
+id;brand;nome;nome_normalizzato;ean;codice_prodotto;prezzo_unitario;nome_normalizzato_gs1;note
+1;Reckitt;Calgon 4in1 gel 750ml;Calgon 4 in 1 Power Gel Anticalcare Lavatrice 750 ml;8002910063405;;;Calgon Power Gel 4in1 Anticalcare lavatrice 750 ml;Prodotto trovato su GS1
+2;Reckitt;Calgon 4in1 gel 1500ml;Calgon 4 in 1 Power Gel Anticalcare Lavatrice 1500 ml;8002910063658;;;Calgon Power Gel 4in1 Anticalcare lavatrice 1500 ml;Prodotto trovato su GS1
+3;Reckitt;Calgon Igiene+ 750ml;Calgon Igiene+ Gel Anticalcare e Igienizzante Lavatrice 750 ml;8002910063597;;;Calgon Igiene+ Gel Anticalcare disinfettante lavatrice 750 ml;Prodotto trovato su GS1
+4;Reckitt;Calgon Igiene+ 1500ml;Calgon Igiene+ Gel Anticalcare e Igienizzante Lavatrice 1500 ml;8002910063573;;;Calgon Igiene+ Gel Anticalcare disinfettante lavatrice 1500 ml;Prodotto trovato su GS1
+5;Reckitt;Calgon 4in1 tabs 15 pezzi;Calgon 4 in 1 Powerball Tabs Anticalcare Lavatrice 15 pezzi;8002910063931;;;Calgon Power Tabs 4in1 Anticalcare lavatrice 15 Tabs 195 gr;Prodotto trovato su GS1
+6;Reckitt;Calgon 4in1 gel 2250ml;Calgon 4 in 1 Power Gel Anticalcare Lavatrice 2250 ml;8002910063634;;;Calgon Power Gel 4in1 Anticalcare lavatrice 2250 ml;Prodotto trovato su GS1
+7;Reckitt;Calgon 4in1 tabs 30 pezzi;Calgon 4 in 1 Powerball Tabs Anticalcare Lavatrice 30 pezzi;8002910063535;;;Calgon Power Tabs 4in1 Anticalcare lavatrice 30 Tabs 390 gr;Prodotto trovato su GS1
+8;Reckitt;Calgon 4in1 polvere 900grammi;Calgon 4 in 1 Power Polvere Anticalcare Lavatrice 900 g;8002910064433;;;Calgon Original Power Polvere 4in1 Anticalcare lavatrice 900 gr;Prodotto trovato su GS1
+9;Reckitt;Calgon Igiene+ 2250ml;Calgon Igiene+ Gel Anticalcare e Igienizzante Lavatrice 2250 ml;8002910063672;;;Calgon Igiene+ Gel Anticalcare disinfettante lavatrice 2250 ml;Prodotto trovato su GS1
+10;Reckitt;Calgon 4in1 polvere 1800 grammi;Calgon 4 in 1 Power Polvere Anticalcare Lavatrice 1800 g;8002910064419;;;Calgon Original Power Polvere 4in1 Anticalcare lavatrice 1,8 kg;Prodotto trovato su GS1
+11;Reckitt;Calgon 4in1 gel 1200ml;Calgon 4 in 1 Power Gel Anticalcare Lavatrice 1200 ml;8002910066093;;;Calgon Gel Anticalcare Lavatrice 1,2 L;Prodotto trovato su GS1
+12;Reckitt;Calgon gel Natura+ 750ml;Calgon Natura+ Gel Anticalcare Lavatrice 750 ml;8002910064396;;;Calgon Natura+ Gel Anticalcare lavatrice 750 ml;Prodotto trovato su GS1
+13;Reckitt;Sole Bianco Splendente_29D;Sole Detersivo Lavatrice Liquido Bianco Splendente 29 Lavaggi;8002910029203;;;Sole Detersivo lavatrice Bianco Splendente 29 lavaggi 1,305 L;Prodotto trovato su GS1
+14;Reckitt;Sole Proteggi Colore_29D;Sole Detersivo Lavatrice Liquido Proteggi Colore 29 Lavaggi;8002910029289;;;Sole Detersivo lavatrice Proteggi Colore 29 lavaggi 1,305 L;Prodotto trovato su GS1
+15;Reckitt;Sole Potere Smacchiante_29D;Sole Detersivo Lavatrice Liquido Potere Smacchiante 29 Lavaggi;8002910029265;;;Sole Detersivo lavatrice Potere Smacchiante 29 lavaggi 1,305 L;Prodotto trovato su GS1
+16;Reckitt;Sole Freschezza Naturale Lavanda_29D;Sole Detersivo Lavatrice Liquido Freschezza Naturale Lavanda 29 Lavaggi;8002910029241;;;Sole Detersivo lavatrice Freschezza Naturale Lavanda 29 lavaggi 1,305 L;Prodotto trovato su GS1
+17;Reckitt;Sole Igiene e Freschezza_29D;Sole Detersivo Lavatrice Liquido Igiene e Freschezza 29 Lavaggi;8002910029104;;;Sole Detersivo lavatrice Igiene e Freschezza 29 lavaggi 1,305 L;Prodotto trovato su GS1
+18;Reckitt;Sole Bianco Splendente (bipacco)_29Dx2;Sole Detersivo Lavatrice Liquido Bianco Splendente Bipacco 2 x 29 Lavaggi;8002910029227;;;Sole Detersivo lavatrice Bianco Splendente 58 lavaggi 2 x 1,305 L;Prodotto trovato su GS1
+19;Reckitt;Sole Proteggi Colore (bipacco)_29Dx2;Sole Detersivo Lavatrice Liquido Proteggi Colore Bipacco 2 x 29 Lavaggi;8002910029180;;;Sole Detersivo lavatrice Proteggi Colore 58 lavaggi 2 x 1,305 L;Prodotto trovato su GS1
+20;Reckitt;Sole Igiene e Freschezza (bipacco)_29Dx2;Sole Detersivo Lavatrice Liquido Igiene e Freschezza Bipacco 2 x 29 Lavaggi;8002910029166;;;Sole Detersivo lavatrice Igiene e Freschezza 58 lavaggi 2 x 1,305 L;Prodotto trovato su GS1
+21;Reckitt;Sole Bianco Splendente_41D;Sole Detersivo Lavatrice Liquido Bianco Splendente 41 Lavaggi;8002910028787;;;Sole Detersivo lavatrice Bianco Splendente 41 lavaggi 1,845 L;Prodotto trovato su GS1
+22;Reckitt;Sole Proteggi Colore_41D;Sole Detersivo Lavatrice Liquido Proteggi Colore 41 Lavaggi;8002910028763;;;Sole Detersivo lavatrice Proteggi Colore 41 lavaggi 1,845 L;Prodotto trovato su GS1
+23;Reckitt;Sole Potere Smacchiante_41D;Sole Detersivo Lavatrice Liquido Potere Smacchiante 41 Lavaggi;8002910028749;;;Sole Detersivo lavatrice Potere Smacchiante 41 lavaggi 1,845 L;Prodotto trovato su GS1
+24;Reckitt;Sole Igiene e Freschezza_41D;Sole Detersivo Lavatrice Liquido Igiene e Freschezza 41 Lavaggi;8002910028923;;;Sole Detersivo lavatrice Igiene e Freschezza 41 lavaggi 1,845 L;Prodotto trovato su GS1
+25;Reckitt;Sole Freschezza Naturale Lavanda_41D;Sole Detersivo Lavatrice Liquido Freschezza Naturale Lavanda 41 Lavaggi;8002910028886;;;Sole Detersivo lavatrice Freschezza Naturale Lavanda 41 lavaggi 1,845 L;Prodotto trovato su GS1
+26;Reckitt;Sole Bianco Splendente (tripacco)_41Dx3;Sole Detersivo Lavatrice Liquido Bianco Splendente Tripacco 3 x 41 Lavaggi;8002910029159;;;Sole Detersivo lavatrice Bianco Splendente 123 lavaggi 3 x 1,845 L;Prodotto trovato su GS1
+27;Reckitt;Sole Proteggi Colore (tripacco)_41Dx3;Sole Detersivo Lavatrice Liquido Proteggi Colore Tripacco 3 x 41 Lavaggi;8002910029135;;;Sole Detersivo lavatrice Proteggi Colore 123 lavaggi 3 x 1,845 L;Prodotto trovato su GS1
+28;Reckitt;Sole Potere Smacchiante (tripacco)_41Dx3;Sole Detersivo Lavatrice Liquido Potere Smacchiante Tripacco 3 x 41 Lavaggi;8002910029074;;;Sole Detersivo lavatrice Potere smacchiante 123 lavaggi 3 x 1,845 L;Prodotto trovato su GS1
+29;Reckitt;Sole Igiene e Freschezza (tripacco)_41Dx3;Sole Detersivo Lavatrice Liquido Igiene e Freschezza Tripacco 3 x 41 Lavaggi;8002910029098;;;Sole Detersivo lavatrice Igiene e Freschezza 123 lavaggi 3 x 1,845 L;Prodotto trovato su GS1
+30;Reckitt;Sole Proteggi Colore (bipacco)_41Dx2;Sole Detersivo Lavatrice Liquido Proteggi Colore Bipacco 2 x 41 Lavaggi;8002910028909;;;Sole Detersivo lavatrice Proteggi Colore 82 lavaggi 2 x 1,845 L;Prodotto trovato su GS1
+31;Reckitt;Sole Bianco Splendente (bipacco)_41Dx2;Sole Detersivo Lavatrice Liquido Bianco Splendente Bipacco 2 x 41 Lavaggi;8002910028985;;;Sole Detersivo lavatrice Bianco Splendente 82 lavaggi 2 x 1,845 L;Prodotto trovato su GS1
+32;Reckitt;Sole Igiene e Freschezza_61D;Sole Detersivo Lavatrice Liquido Igiene e Freschezza 61 Lavaggi;8002910028701;;;Sole Detersivo lavatrice Igiene e Freschezza 61 lavaggi 2,745 L;Prodotto trovato su GS1
+33;Reckitt;Sole Potere Smacchiante_61D;Sole Detersivo Lavatrice Liquido Potere Smacchiante 61 Lavaggi;8002910028824;;;Sole Detersivo lavatrice Potere Smacchiante 61 lavaggi 2,745 L;Prodotto trovato su GS1
+34;Reckitt;Sole Proteggi Colore_61D;Sole Detersivo Lavatrice Liquido Proteggi Colore 61 Lavaggi;8002910062859;;;Sole Detersivo lavatrice Proteggi Colore 61 lavaggi 2,745 L;Prodotto trovato su GS1
+35;Reckitt;Sole Bianco Splendente_61D;Sole Detersivo Lavatrice Liquido Bianco Splendente 61 Lavaggi;8002910062873;;;Sole Detersivo lavatrice Bianco Splendente 61 lavaggi 2,745 L;Prodotto trovato su GS1
+36;Reckitt;Sole Bianco Splendente_26D;Sole Detersivo Lavatrice Liquido Bianco Splendente 26 Lavaggi;8002910029470;;;Sole Polvere lavatrice Bianco Splendente 26 lavaggi 1,3 kg;Prodotto trovato su GS1
+37;Reckitt;Sole Bianco Splendente_52D;Sole Detersivo Lavatrice Liquido Bianco Splendente 52 Lavaggi;8002910029456;;;Sole Polvere lavatrice Bianco Splendente 52 lavaggi 2,6 kg;Prodotto trovato su GS1
+38;Reckitt;Sole Bianco Splendente_61D;Sole Detersivo Lavatrice Liquido Bianco Splendente 61 Lavaggi;8002910029418;;;Sole Polvere lavatrice Bianco Splendente 61 lavaggi 3,05 kg;Prodotto trovato su GS1
+39;Reckitt;Sole Bianco Splendente_78D;Sole Detersivo Lavatrice Liquido Bianco Splendente 78 Lavaggi;8002910067588;;;Sole Bianco Splendente Polvere lavatrice 78 misurini 3,9 kg;Prodotto trovato su GS1
+40;Reckitt;Sole Bianco Splendente_90D;Sole Detersivo Lavatrice Liquido Bianco Splendente 90 Lavaggi;8002910067618;;;Sole Bianco Splendente Polvere lavatrice 90 misurini 4,5 kg;Prodotto trovato su GS1
+41;Reckitt;Sole Bianco Splendente_115D;Sole Detersivo Lavatrice Liquido Bianco Splendente, 115 Lavaggi;8002910029371;;;Sole Polvere lavatrice Bianco Splendente 115 lavaggi 5,75 kg;Prodotto trovato su GS1
+42;Reckitt;Sole Lana e Delicati Classico_16D;Sole Detersivo Liquido per Lana e Delicati Classico, 16 Lavaggi;8002910005658;;;Sole Detersivo per Capi Delicati 16mis Lana e Seta 1 L;Prodotto trovato su GS1
+43;Reckitt;Sole Lana e Delicati Classico_33D;Sole Detersivo Liquido per Lana e Delicati Classico, 33 Lavaggi;8002910041694;;;Sole Detersivo lavatrice Classico per Capi Fini 33 lavaggi 2 L;Prodotto trovato su GS1
+44;Reckitt;Sole Lana e Delicati Capi Scuri_16D;Sole Detersivo Liquido per Lana e Delicati Capi Scuri, 16 Lavaggi;8002910015237;;;Sole Detersivo lavatrice Capi Scuri 16 lavaggi 1 L;Prodotto trovato su GS1
+45;Reckitt;Sole Lana e Delicati Capi Scuri_33D;Sole Detersivo Liquido per Lana e Delicati Capi Scuri, 33 Lavaggi;8002910041670;;;Sole Detersivo lavatrice Capi Scuri 33 lavaggi 2 L;Prodotto trovato su GS1
+46;Reckitt;Sole Lana e Delicati Carezza di Talco_16D;Sole Detersivo Liquido per Lana e Delicati Carezza di Talco, 16 Lavaggi;8002910020521;;;Sole Detersivo per Capi Delicati 16mis Carezza di Talco 1 L;Prodotto trovato su GS1
+47;Reckitt;Sole Lana e Delicati Tutticolori_16D;Sole Detersivo Liquido per Lana e Delicati Tutticolori, 16 Lavaggi;8002910025106;;;Sole Detersivo lavatrice Tutticolori 16 lavaggi 1 L;Prodotto trovato su GS1
+48;Reckitt;Sole Sapone Bianco;Sole Sapone di Marsiglia Bianco, 250g;8002910041939;;;Sole Sapone per bucato Bianco 2 x 250 gr;Prodotto trovato su GS1
+49;Reckitt;Sole Sapone Giallo;Sole Sapone di Marsiglia Giallo, 250g;8002910041915;;;Sole Granbucato 500 g;Prodotto trovato su GS1
+50;Reckitt;Sole Bucato a Mano Polvere;Sole Detersivo in Polvere per Bucato a Mano, 16 Misurini;8002910010003;;;Sole Detersivo bucato a mano Classico 380 g;Prodotto trovato su GS1
+51;Reckitt;Sole Bianco Splendente_22D;Sole Detersivo Lavatrice Liquido Bianco Splendente, 22 Lavaggi;8002910029357;;;sole polv.b.co 22 mis;Prodotto trovato su GS1
+52;Reckitt;Sole Bianco Splendente_72D;Sole Detersivo Lavatrice Liquido Bianco Splendente, 72 Lavaggi;8002910029432;;;Sole Polvere lavatrice Bianco Splendente 72 lavaggi 3,6 kg;Prodotto trovato su GS1
+53;Reckitt;Sole Bianco Splendente_82D;Sole Detersivo Lavatrice Liquido Bianco Splendente, 82 Lavaggi;8002910029395;;;Sole Polvere lavatrice Bianco Splendente 82 lavaggi 4,1 kg;Prodotto trovato su GS1
+54;Reckitt;Sole Curalavatrice Freschezza d'Agrumi;Sole Curalavatrice Liquido Freschezza d'Agrumi, 250 ml;5601217129413;;;Sole Freschezza d'Agrumi Cura Lavatrice 250 ml x 2;Prodotto trovato su GS1
+55;Reckitt;Sole Curalavatrice Freschezza Alpina;Sole Curalavatrice Liquido Freschezza Alpina, 250 ml;8002910036096;;;Sole Freschezza Alpina Cura Lavatrice 250 ml x 2;Prodotto trovato su GS1
+56;Reckitt;Sole Curalavatrice Freschezza Floreale;Sole Curalavatrice Liquido Freschezza Floreale, 250 ml;8002910066307;;;Sole Freschezza Floreale Cura Lavatrice 250 ml;Prodotto trovato su GS1
+57;Reckitt;Sole Curalavatrice Express bipacco;Sole Curalavatrice Express, Confezione Doppia 2x250 ml;8002910028961;;;Sole Cura Lavatrice Express 2 x 250 mL;Prodotto trovato su GS1
+58;Reckitt;Sole Curalavatrice Igiene/Express;Sole Curalavatrice Igiene Express, 250 ml;8002910049041;;;Sole Igiene Cura Lavatrice 250 ml con Coupon;Prodotto trovato su GS1
+59;Reckitt;Woolite Rosa_25D;Woolite Detersivo Liquido per Capi Delicati, 25 Lavaggi;8002910030988;;;Woolite Detersivo lavatrice Rosa per Capi Fini 25 lavaggi 1,5 L;Prodotto trovato su GS1
+60;Reckitt;Woolite Mix Color_25D;Woolite Detersivo Liquido per Capi Colorati, 25 Lavaggi;8002910020804;;;Woolite Detersivo lavatrice Mix Color per Capi Fini 25 lavaggi 1,5 L;Prodotto trovato su GS1
+61;Reckitt;Woolite Mix Noir_25D;Woolite Detersivo Liquido Mix Neri 25 Lavaggi;8002910022426;;;Woolite Detersivo lavatrice Mix Noir per Capi Fini 25 lavaggi 1,5 L;Prodotto trovato su GS1
+62;Reckitt;Woolite Mix Keratina 25D;Woolite Detersivo Liquido Delicati con Cheratina 25 Lavaggi;8002910046583;;;Woolite Detersivo lavatrice Keratina 25 lavaggi 1,5 L;Prodotto trovato su GS1

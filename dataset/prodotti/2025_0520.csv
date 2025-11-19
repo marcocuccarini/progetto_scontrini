@@ -1,0 +1,327 @@
+id;brand;nome;nome_normalizzato;ean;codice_prodotto;prezzo_unitario;nome_normalizzato_gs1;note
+1;C&P;AJAX APC CLASSIC 1x12x950ML RTS I;Ajax Detergente Pavimenti Classico 950 ml;8718951600379;;;;Prodotto non trovato su GS1
+2;C&P;AJAX APC CLASSIC 1x12x1230ML I;Ajax Detergente Pavimenti Classico 1230 ml;8718951600430;;;Ajax detersivo pavimenti Classico igiene e freschezza 1,23 L;Prodotto trovato su GS1
+3;C&P;AJAX APC CLASSIC 1x12x1250ML MUP I;Ajax Detergente Pavimenti Classico 1250 ml;8718951607378;;;Ajax detersivo pavimenti Classico igiene e freschezza 1,25 L;Prodotto trovato su GS1
+4;C&P;Ajax BDC Classico 1X6x1.9L;Ajax Detergente con Candeggina Classico 1.9 L;8718951627895;;;Ajax detersivo pavimenti Classico igiene e freschezza 1,9 L;Prodotto trovato su GS1
+5;C&P;AJAX APC LEMON GRN 1x12x950ML I;Ajax Detergente Pavimenti Limone Verde 950 ml;8718951600461;;;Ajax detersivo pavimenti Limone ultra sgrassante 950 ml;Prodotto trovato su GS1
+6;C&P;AJAX APC LEMON GRN 1x12x1230ML I;Ajax Detergente Pavimenti Limone Verde 1230 ml;8718951600126;;;Ajax detersivo pavimenti Limone ultra sgrassante 1,23 L;Prodotto trovato su GS1
+7;C&P;AJAX APC LEM 1x12x1250ML MUP I;Ajax Detergente Pavimenti Limone 1250 ml;8718951607408;;;Ajax detersivo pavimenti Limone ultra sgrassante 1,25L ;Prodotto trovato su GS1
+8;C&P;AJAX APC DISINF 1x12x950ML I;Ajax Detergente Pavimenti Disinfettante 950 ml;8718951627666;;;Ajax detersivo pavimenti Disinfettante multisuperficie senza candeggina 950 ml;Prodotto trovato su GS1
+9;C&P;AJAX APC DISINF 1x12x1230ML I;Ajax Detergente Pavimenti Disinfettante 1230 ml;8718951627604;;;Ajax detersivo pavimenti Disinfettante multisuperficie senza candeggina 1,23 L;Prodotto trovato su GS1
+10;C&P;AJAX APC DISINF 1x12x1250ML MUP I;Ajax Detergente Pavimenti Disinfettante 1250 ml;8718951627611;;;Ajax detersivo pavimenti Disinfettante multisuperficie senza candeggina 1,25 L;Prodotto trovato su GS1
+11;C&P;AJAX APC EXPL 1x12x950ML I;Ajax Detergente Pavimenti Fiori di Primavera 950 ml;8718951600522;;;Ajax detersivo pavimenti Expel multisuperficie 950 ml;Prodotto trovato su GS1
+12;C&P;AJAX APC EUCAL 1x12x1250ML MUP I;Ajax Detergente Pavimenti Eucalipto 1250 ml;8718951627703;;;Ajax detersivo pavimenti Expel multisuperficie 1,25 L;Prodotto trovato su GS1
+13;C&P;AJAX APC ALMOND 1x12x950ML I;Ajax Detergente Pavimenti Latte di Mandorla 950 ml;8718951607538;;;Ajax detersivo pavimenti in Legno e Parquet olio di mandorle 950ml;Prodotto trovato su GS1
+14;C&P;AJAX APC ALMOND 1x12x1250ML MUP I;Ajax Detergente Pavimenti Latte di Mandorla 1250 ml;8718951607484;;;Ajax detersivo pavimenti in Legno e Parquet olio di mandorle 1,25 L;Prodotto trovato su GS1
+15;C&P;AJAX BLEACH PINE 1x12x950ML I;Ajax Detergente con Candeggina e Pino 950 ml;8718951627567;;;Ajax detersivo pavimenti gel con candeggina e Pino igienizzante 950 ml;Prodotto trovato su GS1
+16;C&P;AJAX MSBC LEMON 12x1x950ML I;Ajax Maxi Sgrassatore Bicarbonato e Limone 950 ml;8718951627536;;;Ajax detersivo pavimenti gel con candeggina e limone 950 ml;Prodotto trovato su GS1
+17;C&P;AJAX APC STRONG&SAFE 1x12x950ML I;Ajax Detergente Pavimenti Forte e Sicuro 950 ml;8718951567795;;;Ajax detersivo pavimenti Casa Sicura igiene profonda 950 ml;Prodotto trovato su GS1
+18;C&P;AJAX SC SHOWER 1x10x600ML TRIG I;Ajax Spray Bagno Anticalcare 600 ml;8718951593985;;;Ajax detersivo Spray Shower Power 360° anticalcare per doccia 600 ml;Prodotto trovato su GS1
+19;C&P;AJAX SC DISINF 1x10x600ML I;Ajax Spray Disinfettante Multisuperficie 600 ml;8718951591776;;;Ajax detersivo spray Disinfettante multisuperficie 600 ml;Prodotto trovato su GS1
+20;C&P;AJAX BLEACH DISINF 12x1x675ML TRIG I;Ajax Spray con Candeggina Disinfettante 675 ml;8718951591806;;;Ajax detersivo Spray con candeggina igienizzante, 675 ml;Prodotto trovato su GS1
+21;C&P;AJAX SC SGRASS MULTI 1X10x600ML TRIG I;Ajax Sgrassatore Multisuperficie Spray 600 ml;8718951594043;;;Ajax detersivo spray 360° Sgrassatore Universale 600 ml;Prodotto trovato su GS1
+22;C&P;AJAX SC SGRASS IGIEN 1x10x600ML TRIG I;Ajax Sgrassatore Igienizzante Spray 600 ml;8718951594012;;;Ajax detersivo spray Sgrassatore Igienizzante pulito e igiene 600 ml;Prodotto trovato su GS1
+23;C&P;AJAX SC BATH 1x10x600ML TRIG I;Ajax Spray Bagno Anticalcare 600 ml;8718951593947;;;Ajax detersivo spray 360° igienizzante bagno 600 ml ;Prodotto trovato su GS1
+24;C&P;AJAX SC STRONG&SAFE 1x10x600ML I;Ajax Forte & Sicuro Spray Multisuperficie 600 ml;8718951567856;;;Ajax detersivo spray Casa Sicura igiene profonda, 600 ml;Prodotto trovato su GS1
+25;C&P;AJAX GLASS CRYST 1x12x750ML TRIG I;Ajax Crystal Vetri Spray 750 ml;8714789744360;;;Ajax detersivo spray Cristal Vetri 100% Anti-Alone 750 ml;Prodotto trovato su GS1
+26;C&P;SPRAY AJAX CRYSTAL CL.750ML REFILL;Ajax Crystal Vetri Ricarica 750 ml;8714789744391;;;Ajax detersivo spray Crystal Vetri 100% Anti-Alone ricarica 750ml;Prodotto trovato su GS1
+27;C&P;AJAX GLASS TRIPLAC 1x12x750ML TRIG I;Ajax Vetri Tripla Azione Spray 750 ml;8718951351714;;;Ajax detersivo spray Tripla Azione Vetri&Superfici Laminate 750 ml;Prodotto trovato su GS1
+28;C&P;AJAX SC  WC POWER 1x10x600ML TRIG 600ML;Ajax WC Power Spray 600 ml;8718951667631;;;Ajax detersivo Spray 360° WC Power 600 ml;Prodotto trovato su GS1
+29;C&P;AJAX SC POWER  ANTI-LIMESCALE 1x10x600ml IT;Ajax Power Anticalcare Spray 600 ml;8718951643901;;;Ajax detersivo Spray 360° anticalcare 600 ml;Prodotto trovato su GS1
+30;C&P;AJAX DET BLEACH PINE 1x12x950ML IT;Ajax Detergente Pavimenti con Candeggina e Pino 950 ml;8718951642461;;;;Prodotto non trovato su GS1
+31;C&P;AJAX DET MSBC LEMON 12x1x950ML IT;Ajax Detergente Pavimenti Limone e Bicarbonato 950 ml;8718951642522;;;;Prodotto non trovato su GS1
+32;C&P;COLG KIT LED MAX WHI 1x4BOX DEV EU;Colgate Max White Ultimate Kit Sbiancante LED;8718951557659;;;Colgate LED e siero sbiancante a casa Max White Ultimate Kit;Prodotto trovato su GS1
+33;C&P;COLG MAX WHI PEN 1x6x2.5ML SRP SEH;Colgate Max White Penna Sbiancante Notte 2.5 ml;8718951447578;;;Colgate Max White Overnight siero sbiancante notturno 2,5 ml;Prodotto trovato su GS1
+34;C&P;TP - COLG- PEN MAX WHITE;Colgate Max White Expert Kit Penna Sbiancante + Dentifricio 75 ml;8718951533028;;;Colgate Max White Overnight siero sbiancante notturno 2,5 ml;Prodotto trovato su GS1
+35;C&P;TP COLGA SENSATION WHITE X6 75ML;Colgate Sensation White Dentifricio 75 ml;8718951600225;;;Colgate dentifricio sbiancante Sensation White 6x75 ml;Prodotto trovato su GS1
+36;C&P;TP COLG SENS WHITE 75ml X6;Colgate Sensation White Dentifricio 75 ml;8718951336179;;;Colgate dentifricio sbiancante Sensation White 6x75 ml;Prodotto trovato su GS1
+37;C&P;COLG TP MAXFRBL 6X75ML AMZ;Colgate Max Fresh Blue Dentifricio 75 ml;8718951554085;;;;Prodotto non trovato su GS1
+38;C&P;COLG TP MAX WHITE ULTRA MULTIPROT 1x12x0;Colgate Max White Ultra Multiprotezione Dentifricio 50 ml;8718951563582;;;Colgate dentifricio sbiancante Max White Ultra Multiprotect 50 ml;Prodotto trovato su GS1
+39;C&P;COLG TP MW ULTRA 1x12x050MLL SRP;Colgate Max White Ultra Multiprotezione Dentifricio 50 ml;8718951505599;;;Colgate dentifricio sbiancante Max White Ultra Active Foam 50 ml;Prodotto trovato su GS1
+40;C&P;DENT COLG ELIXIR COOL DETOX 1x06x80ml;Colgate Elixir Cool Detox Dentifricio 80 ml;6920354828683;;;Colgate dentifricio elixir Cool Detox al carbone con cocco 80ml;Prodotto trovato su GS1
+41;C&P;DENT COLG ELIXIR WHITE RESTORE 1x06x80ml;Colgate Dentifricio Elixir White Restore 80ml;6920354828669;;;Colgate dentifricio sbiancante elixir White Restore 80 ml;Prodotto trovato su GS1
+42;C&P;DENT COLG PROT CARIES 75ML X 6;Colgate Dentifricio Protezione Carie 75ml;8714789503769;;;Colgate dentifricio Protezione Carie con calcio 6x75 ml;Prodotto trovato su GS1
+43;C&P;DENT COLG EXPERT WHITE 75ML RTS;Colgate Dentifricio Expert White 75ml;7509546064864;;;Colgate dentifricio sbiancante Max White Expert Original 75 ml;Prodotto trovato su GS1
+44;C&P;COLG TP MAX CRL 4x075ML AMZ;Colgate Dentifricio Max White Crystal 4x75ml;8718951555440;;;;Prodotto non trovato su GS1
+45;C&P;COLG TP MAX OPT 4x075ML AMZ;Colgate Dentifricio Max White Optic 4x75ml;8718951555600;;;;Prodotto non trovato su GS1
+46;C&P;COLG TP MAXWPUR 4x075MLL AMZ;Colgate Dentifricio Max White Purple Reveal 4x75ml;8718951572980;;;;Prodotto non trovato su GS1
+47;C&P;COLG TP TOTAL 4x100ML AMZ;Colgate Dentifricio Total Original 4x100ml;8718951564183;;;;Prodotto non trovato su GS1
+48;C&P;COLG TP DEEP CLEAN BITUBE 2x6x75 ML;Colgate Dentifricio Total Deep Clean 2x75ml;8718951582750;;;Colgate dentifricio sbiancante Deep Clean Whitening 2x75 ml;Prodotto trovato su GS1
+49;C&P;COLG TP TRIPLE ACTION BIT 2x06x075MLL I/;Colgate Dentifricio Triple Action 2x75ml;8718951565517;;;Colgate dentifricio Triple Action protezione carie 2x75 ml;Prodotto trovato su GS1
+50;C&P;DENT COLG ANTICAV 2X06X075MLL;Colgate Dentifricio Protezione Carie 2x75ml;8718951569799;;;Colgate dentifricio Maximum Caries Protection, protezione carie 2x75 ml;Prodotto trovato su GS1
+51;C&P;TP COLG MAX FRESH X3 75ML;Colgate Dentifricio Max Fresh Cooling Crystals 3x75ml;8718951601338;;;Colgate dentifricio Max Fresh Cristalli Rinfrescanti 3x75 ml;Prodotto trovato su GS1
+52;C&P;TP COLG MAX WHITE X3 75ML;Colgate Dentifricio Max White Crystal Mint 3x75ml;8718951600348;;;Colgate dentifricio sbiancante Max White Cristalli Bianchi 3x75 ml;Prodotto trovato su GS1
+53;C&P;TP COLG MICROGRANULI X3 75ML;Colgate Dentifricio Herbal White con Microgranuli 3x75ml;8718951600744;;;Colgate dentifricio Max Clean Microgranuli pulizia profonda 3x75 ml;Prodotto trovato su GS1
+54;C&P;TP COLG SENSATION WHITE X3 75ML;Colgate Dentifricio Sensation White 3x75ml;8718951600256;;;Colgate dentifricio sbiancante Sensation White 3x75 ml;Prodotto trovato su GS1
+55;C&P;COLG TP TOTAL PLAQ PROT 1x12x100MLL new;Colgate Dentifricio Total Plaque Protection 100ml;8718951227002;;;Colgate dentifricio Total Detox protezione completa 24h, 100 ml;Prodotto trovato su GS1
+56;C&P;DENT COLG TOTAL FRESH 100ML new;Colgate Dentifricio Total Fresh Stripe 100ml;8718951225985;;;Colgate dentifricio Total Active Fresh 24h di protezione attiva 100 ml;Prodotto trovato su GS1
+57;C&P;DENT COLG TOTAL ORIGINAL 100MLL PROMO;Colgate Dentifricio Total Original 100ml;8718951224902;;;Colgate dentifricio Total Original protezione completa 24h, 100ml;Prodotto trovato su GS1
+58;C&P;DENT COLG TOTAL+W 100ML new;Colgate Dentifricio Total Whitening 100ml;8718951224933;;;Colgate dentifricio sbiancante Total Whitening 24h di protezione attiva 100 ml;Prodotto trovato su GS1
+59;C&P;COLG TP MAX CLEAN 1x12x100MLL I SRP;Colgate Dentifricio Max Clean Mineral Scrub 100ml;8718951553149;;;Colgate dentifricio Max Clean Microgranuli pulizia profonda 100 ml;Prodotto trovato su GS1
+60;C&P;COLG TP MAX FRESH 1X12X100MLL F/IT SRP;Colgate Dentifricio Max Fresh Cooling Crystals 100ml;8718951553774;;;Colgate dentifricio Max Fresh Cristalli Rinfrescanti 100 ml;Prodotto trovato su GS1
+61;C&P;COLG TP MAXWITE 1x12x100MLL F/IT SRP;Colgate Max White One Dentifricio 100 ml;8718951554917;;;Colgate dentifricio sbiancante Max White Cristalli Bianchi 100 ml;Prodotto trovato su GS1
+62;C&P;COLG TP SEN WHI 1X12X100MLL I/F/BE SRP;Colgate Sensitive Whitening Dentifricio 100 ml;8718951579828;;;Colgate dentifricio sbiancante Sensation White 100 ml;Prodotto trovato su GS1
+63;C&P;DENT COLG BAKING SODA 75 ML X4;Colgate Dentifricio con Bicarbonato 75 ml;8718951631670;;;;Prodotto non trovato su GS1
+64;C&P;COLG TP ANTICAV - DISP 1X06X100ML;Colgate Anticavity Dentifricio Protezione Carie 100 ml;8718951560079;;;Colgate dentifricio Maximum Caries Protection, protezione carie 100 ml;Prodotto trovato su GS1
+65;C&P;DENT COLG PROT CARIE 100ML DISP 6PZ;Colgate Protezione Carie Dentifricio 100 ml;8003520000743;;;Colgate dentifricio Protezione Carie con calcio 100 ml;Prodotto trovato su GS1
+66;C&P;COLG TP MX WH CARBON BOGOF X2 75ML;Colgate Max White Charcoal Dentifricio 2 x 75 ml;8718951458611;;;Colgate dentifricio sbiancante minerale Max White Carbon 2x75 ml;Prodotto trovato su GS1
+67;C&P;COLG TP OPTIC BOGOF X2 75ML;Colgate Max White Optic Dentifricio 2 x 75 ml;8718951458567;;;Colgate dentifricio sbiancante istantaneo Max White Optic 2x75 ml;Prodotto trovato su GS1
+68;C&P;COLG TP TOTAL ORIG BOGOF X2 75ML;Colgate Total Original Dentifricio 2 x 75 ml;8718951391642;;;Colgate dentifricio Total Original 24h di protezione attiva 2 x 75 ml;Prodotto trovato su GS1
+69;C&P;COLG TP TOTAL W BOGOF X2 75ML 2022;Colgate Total Whitening Dentifricio 2 x 75 ml;8718951442009;;;Colgate dentifricio sbiancante Total Whitening protezione 24h 2x75 ml;Prodotto trovato su GS1
+70;C&P;COLG TP ANTICAV 75ML X3;Colgate Anticavity Dentifricio Protezione Carie 3 x 75 ml;8718951583863;;;Colgate dentifricio Maximum Caries Protection, protezione carie 3x75 ml;Prodotto trovato su GS1
+71;C&P;COLG TP TARTARW 3x4x075MLL IT;Colgate Tartar Control Whitening Dentifricio 75 ml;8718951577107;;;Colgate dentifricio sbiancante Antitartaro + Whitening 3x75 ml;Prodotto trovato su GS1
+72;C&P;COLG TP TRIPLAC 3x4x075MLL I/G SRP;Colgate Triple Action Dentifricio 75 ml;8718951577145;;;Colgate dentifricio Triple Action protezione carie 3x75 ml;Prodotto trovato su GS1
+73;C&P;COLG TP NATCARB BIO 1x12x075MLL IT SRP;Colgate Naturals Charcoal Dentifricio 75 ml;8718951506824;;;Colgate dentifricio sbiancante natural extracts BIO al carbone 75ml;Prodotto trovato su GS1
+74;C&P;COLG TP NATLEM BIO 1x12x075MLL IT SRP;Colgate Naturals Lemon Dentifricio 75 ml;8718951506947;;;Colgate dentifricio natural extracts BIO limone e agrumi 75 ml;Prodotto trovato su GS1
+75;C&P;COLGATE MAX WHITE INFINITE 75ML;Colgate Max White Ultimate Catalyst Dentifricio 75 ml;8718951484771;;;Colgate dentifricio sbiancante Max White Infinite 75 ml;Prodotto trovato su GS1
+76;C&P;Colgate Max White Purple 1x12x75 ml;Colgate Max White Purple Reveal Dentifricio Sbiancante 75 ml;8718951607712;;;Colgate dentifricio sbiancante Max White Purple Reveal 75 ml;Prodotto trovato su GS1
+77;C&P;DENT COLG MAX CARBON 1x12x075ML SRP;Colgate Max White Charcoal Dentifricio 75 ml;8718951249950;;;Colgate dentifricio sbiancante minerale Max White Carbon 75 ml;Prodotto trovato su GS1
+78;C&P;DENT COLG MAX OPTIC 1x12x075ML SRP;Colgate Max White Optic Dentifricio 75 ml;8714789928425;;;Colgate dentifricio sbiancante istantaneo Max White Optic 75 ml;Prodotto trovato su GS1
+79;C&P;DENT COLG MAX WHITE ARGILLA 1x12x075ML S;Colgate Max White Clay & Minerals Dentifricio Sbiancante 75 ml;8718951380042;;;Colgate dentifricio sbiancante Max White Argilla e Minerali 75ml;Prodotto trovato su GS1
+80;C&P;DENT COLG TOTAL FRESH 75ML new;Colgate Total Active Fresh Dentifricio 75 ml;8718951224575;;;Colgate dentifricio Total Active Fresh 24h di protezione attiva 75 ml;Prodotto trovato su GS1
+81;C&P;DENT COLG TOTAL ORIGINAL 75ML NEW;Colgate Dentifricio Total Original 75 ml;8718951224605;;;Colgate dentifricio Total Original 24h di protezione attiva 75 ml;Prodotto trovato su GS1
+82;C&P;DENT COLG TOTAL+W 75ML new;Colgate Dentifricio Total Whitening 75 ml;8718951224094;;;Colgate dentifricio sbiancante Total Whitening 24h di protezione attiva 75 ml;Prodotto trovato su GS1
+83;C&P;COLG TP MAX CLEAN 1x12x75ML I SRP;Colgate Dentifricio Max Clean 75 ml;8718951553101;;;Colgate dentifricio Max Clean Microgranuli pulizia profonda 75 ml;Prodotto trovato su GS1
+84;C&P;COLG TP MAX FRESH 1x12x75ML I SRP;Colgate Dentifricio Max Fresh 75 ml;8718951559561;;;Colgate dentifricio Max Fresh Cristalli Rinfrescanti 75 ml;Prodotto trovato su GS1
+85;C&P;COLG TP MAX WHITE 1x12x75ML I SRP;Colgate Dentifricio Max White 75 ml;8718951554856;;;Colgate dentifricio sbiancante Max White Cristalli Bianchi 75 ml;Prodotto trovato su GS1
+86;C&P;COLG TP SEN WHI 1x12x075MLL IG SRP;Colgate Dentifricio Sensitive Whitening 75 ml;8718951580930;;;Colgate dentifricio sbiancante Sensation White 75 ml;Prodotto trovato su GS1
+87;C&P;DENT COLG MAX ONE 1x12x075ML SRP;Colgate Dentifricio Max One 75 ml;8714789574820;;;Colgate dentifricio sbiancante Max White One 75 ml;Prodotto trovato su GS1
+88;C&P;DENT COLG MAXPROT CARE 1x12x75ML RTS;Colgate Dentifricio Maximum Protection Caries 75 ml;8718951396609;;;Colgate dentifricio Max Protect Care multi protezione 75 ml;Prodotto trovato su GS1
+89;C&P;DENT COLG MAXWITE 1x12x75MLL SRP;Colgate Dentifricio Max White 75 ml;8718951315334;;;Colgate dentifricio sbiancante Max White Cristalli Bianchi 75 ml;Prodotto trovato su GS1
+90;C&P;DENT COLG SEN WHI 1x12x75MLL SRP;Colgate Dentifricio Sensitive Whitening 75 ml;8718951312289;;;Colgate dentifricio sbiancante Sensation White 75 ml;Prodotto trovato su GS1
+91;C&P;COLG TP ANTICAV 1x12x100MLL  WEH/IT;Colgate Dentifricio Anticarie 100 ml;8718951559684;;;Colgate dentifricio Maximum Caries Protection, protezione carie 100 ml;Prodotto trovato su GS1
+92;C&P;COLG TP DEEP CLEAN 1x12x100MLL I;Colgate Dentifricio Deep Clean 100 ml;8718951567559;;;Colgate dentifricio sbiancante Deep Clean Whitening 100 ml;Prodotto trovato su GS1
+93;C&P;COLG TP TRIPLE ACTION  1x12x100MLL IT/PT;Colgate Dentifricio Triple Action 100 ml;8718951565579;;;Colgate dentifricio Triple Action protezione carie 100 ml;Prodotto trovato su GS1
+94;C&P;DENT COLG DEEP CLEAN W 100ML;Colgate Dentifricio Deep Clean Whitening 100 ml;8714789115474;;;Colgate dentifricio sbiancante Deep Clean Whitening 100 ml;Prodotto trovato su GS1
+95;C&P;DENT COLG TRIPLAC 1x12x100MLL SRP;Colgate Dentifricio Triple Action 100 ml;8718951287921;;;Colgate dentifricio Triple Action protezione carie 100 ml;Prodotto trovato su GS1
+96;C&P;COLG TP ANTICAV 1x12x075MLL G/IT;Colgate Dentifricio Anticarie 75 ml;8718951558830;;;Colgate dentifricio Maximum Caries Protection, protezione carie 75 ml;Prodotto trovato su GS1
+97;C&P;COLG TP DEEPWHITE 1X12X075MLL I;Colgate Dentifricio Deep White 75 ml;8718951567689;;;Colgate dentifricio sbiancante Deep Clean Whitening 75 ml;Prodotto trovato su GS1
+98;C&P;COLG TP TARTARW 1x12x075MLL IT;Colgate Dentifricio Tartar Control Whitening 75 ml;8718951567580;;;Colgate dentifricio sbiancante Antitartaro + Whitening 75 ml;Prodotto trovato su GS1
+99;C&P;COLG TP TRIPLE ACTION 1x12x75MLL I;Colgate Dentifricio Triple Action 75 ml;8718951564343;;;Colgate dentifricio Triple Action protezione carie 75 ml;Prodotto trovato su GS1
+100;C&P;DENT COLG ANTICAV 75ML;Colgate Dentifricio Anticarie 75 ml;8410372152306;;;Colgate dentifricio Protezione Carie con calcio 75 ml;Prodotto trovato su GS1
+101;C&P;DENT COLG TARTAR+W 75ML;Colgate Dentifricio Tartar + Whitening 75 ml;8410372242304;;;Colgate dentifricio sbiancante Antitartaro + Whitening 75 ml;Prodotto trovato su GS1
+102;C&P;COLG TP BMINGEL 1x12x100MLL I/EP SRP;Colgate Dentifricio per Bambini 6+ anni 100 ml;8718951576247;;;Colgate dentifricio Fresh Gel alito fresco 100 ml;Prodotto trovato su GS1
+103;C&P;COLG TP FAMACTION 1X12X100MLL IT/GR;Colgate Dentifricio Family Action 100 ml;6920354836152;;;Colgate dentifricio Family Action protezione carie 100 ml;Prodotto trovato su GS1
+104;C&P;DENT COLG FAMILY ACTION 100ML;Colgate Dentifricio Family Action 100 ml;8718951219786;;;Colgate dentifricio Family Action 100 ml;Prodotto trovato su GS1
+105;C&P;COLG TP MAXCLN 100ML X2 2023;Colgate Dentifricio Max Clean 2x100 ml;8718951631137;;;Colgate dentifricio Max Clean Microgranuli pulizia profonda 2x100 ml;Prodotto trovato su GS1
+106;C&P;TP COLG MAX CLEAN 100ML X2;Colgate Dentifricio Max Clean 2x100 ml;8718951527805;;;Colgate dentifricio Max Clean Microgranuli 2x100 ml;Prodotto trovato su GS1
+107;C&P;DENT COLG TOTAL ORGINAL 20ML 12PZ;Colgate Dentifricio Total Original 20 ml;8718951226890;;;Colgate dentifricio Total Original protezione 24h 20 ml;Prodotto trovato su GS1
+108;C&P;COLG TP BAKSODA 1X12X075ML IT/GR;Colgate Dentifricio Baking Soda 75 ml;6920354836077;;;Colgate dentifricio sbiancante White Teeth Baking Soda 75 ml;Prodotto trovato su GS1
+109;C&P;COLG TP FAMACTION 1X12X075MLL IT/GR;Colgate Dentifricio Family Action 75 ml;6920354836138;;;Colgate dentifricio Family Action protezione carie 75 ml;Prodotto trovato su GS1
+110;C&P;COLG TP HERBAL 1x12x075MLL IT/GR;Colgate Dentifricio Herbal 75 ml;8718951566682;;;Colgate dentifricio Herbal Original per denti sani 75 ml;Prodotto trovato su GS1
+111;C&P;DENT COLG BAKING SODA 75ML;Colgate Dentifricio Baking Soda 75 ml;8003520004406;;;Colgate dentifricio sbiancante White Teeth Baking Soda 75 ml;Prodotto trovato su GS1
+112;C&P;DENT COLG FAMILY ACTION 1x12x075MLL;Colgate Dentifricio Family Action 75 ml;8714789706627;;;Colgate dentifricio Family Action 75 ml;Prodotto trovato su GS1
+113;C&P;COLG TP ANTICAV 1x12x050MLL IT;Colgate Dentifricio Protezione Carie 50 ml;8718951558052;;;Colgate dentifricio Maximum Caries Protection, protezione carie 50 ml;Prodotto trovato su GS1
+114;C&P;SPAZZ COLG KEEP CHARCOAL  x1;Colgate Spazzolino Keep Starter Pack Carbone 1 pezzo;8718951541962;;;Colgate spazzolino Keep Slim Soft setole al carbone, morbido, 2 testine sostituibili;Prodotto trovato su GS1
+115;C&P;Spazz Batt COLG Floss Tip Refill 2x12PZ;Colgate Testine di Ricambio Floss Tip per Spazzolino a Batteria 2 pezzi;8718951465930;;;Colgate ricariche spazzolino a batteria 360 Sonic Slim Tip morbido;Prodotto trovato su GS1
+116;C&P;Spazz Batt COLG Floss Tip 1x12PZ;Colgate Spazzolino a Batteria 360 Floss Tip 1 pezzo;8718951465893;;;Colgate spazzolino a batteria 360 Sonic Slim Tip, morbido;Prodotto trovato su GS1
+117;C&P;SPAZZ COLG BATTERY MINIONS x1;Colgate Spazzolino Elettrico per Bambini Minions 1 pezzo;8718951132429;;;Colgate Minions spazzolino a batteria per bambini dai 3 anni in su, extra morbido;Prodotto trovato su GS1
+118;C&P;SPAZZ COLG SONIC POWER PLATINUM x1;Colgate Spazzolino a Batteria 360° Sonic Power Platinum 1 pezzo;8714789184586;;;Colgate spazzolino sbiancante batteria Sonic Power Platinum medio;Prodotto trovato su GS1
+119;C&P;SPAZZ COLG ZIG ZAG x6;Colgate Spazzolino Zig Zag 6 pezzi;9300632065547;;;Colgate spazzolino Zig Zag pulizia profonda, medio, 6 pezzi;Prodotto trovato su GS1
+120;C&P;COLG MAX WHITE 1+1;Colgate Dentifricio Max White 2x75 ml;8714789637389;;;Colgate spazzolino sbiancante Max White medio, 2 pezzi;Prodotto trovato su GS1
+121;C&P;RICARICHE SPAZZ COLG KEEP CHARCOAL x1;Colgate Testine di Ricambio per Spazzolino Keep Carbone Attivo 2 Pezzi;8718951542013;;;Colgate spazzolino Keep Slim Soft, ricariche 2 testine, morbido;Prodotto trovato su GS1
+122;C&P;SPAZZ COLG TRIPLE ACTION X4;Colgate Spazzolino Manuale Triple Action Setole Medie 4 Pezzi;8714789738536;;;Colgate spazzolino Triple Action, medio, 4 pezzi;Prodotto trovato su GS1
+123;C&P;SPAZZ Zig Zag Charcoal x3;Colgate Spazzolino Manuale Zig Zag Carbone Setole Medie 3 Pezzi;8718951305212;;;Colgate spazzolino Zig Zag Charcoal al carbone, medio, 3 pezzi;Prodotto trovato su GS1
+124;C&P;SPAZZ COLG ZIG ZAG x3;Colgate Spazzolino Manuale Zig Zag Setole Medie 3 Pezzi;8714789135243;;;Colgate ZigZag Medio Spazzolino 3 pezzi;Prodotto trovato su GS1
+125;C&P;SPAZZ COLG EXTRA CLEAN x4;Colgate Spazzolino Manuale Extra Clean Setole Medie 4 Pezzi;8714789177229;;;Colgate spazzolino Extra Clean, medio, 4 pezzi;Prodotto trovato su GS1
+126;C&P;COLG SPAZZ MANUALE Twister x2;Colgate Spazzolino Manuale Twister Setole Medie 2 Pezzi;8714789740027;;;Colgate spazzolino Twister alito fresco, medio, 2 pezzi;Prodotto trovato su GS1
+127;C&P;SPAZZ COLG RECYCLEAN x1;Colgate Spazzolino Manuale RecyClean Setole Morbide 1 Pezzo;8718951379480;;;Colgate spazzolino Recyclean pulizia profonda, morbido;Prodotto trovato su GS1
+128;C&P;SPAZZOLINO OMNI Charcoal x1;Colgate Spazzolino 360° Whole Mouth Clean Charcoal 1 Pezzo;8718951557116;;;Colgate spazzolino 360 Charcoal al carbone pulizia profonda, medio;Prodotto trovato su GS1
+129;C&P;COLG SPAZ SLIM SOFT Charcoal x1;Colgate Spazzolino Manuale Slim Soft Charcoal Setole Morbide 1 Pezzo;8718951559400;;;Colgate spazzolino Slim Soft al carbone pulizia profonda, morbido;Prodotto trovato su GS1
+130;C&P;SPAZ Bamboo Carbonx1;Colgate Spazzolino Manuale Bamboo Setole Morbide con Carbone 1 Pezzo;8718951559301;;;Colgate spazzolino Bambù Carbone pulizia profonda, morbido;Prodotto trovato su GS1
+131;C&P;SPAZ RecyClean x1;Colgate Spazzolino Manuale RecyClean Setole Medie 1 Pezzo;8718951559271;;;Colgate spazzolino RecyClean pulizia profonda, morbido;Prodotto trovato su GS1
+132;C&P;SPAZZOLINO OMNI Deep Clean x1;Colgate Spazzolino 360° Deep Clean Setole Medie 1 Pezzo;8718951562059;;;Colgate spazzolino 360° pulizia profonda, medio;Prodotto trovato su GS1
+133;C&P;SPAZZ COLG MAX WHITE;Colgate Spazzolino Manuale Max White Setole Medie 1+1 Gratis;8714789417066;;;;Prodotto non trovato su GS1
+134;C&P;COLG SPAZZ  MAXWHITEONE;Colgate Spazzolino Manuale Max White One Setole Medie 1 Pezzo;8718951087910;;;;Prodotto non trovato su GS1
+135;C&P;SPAZZ COLG KIDS Batman+WonderWoman;Colgate Spazzolino per Bambini 6+ Anni Personaggi Assortiti 2 Pezzi;8714789194783;;;Colgate spazzolino modelli assortiti Kids bimbi 6+ anni morbido;Prodotto trovato su GS1
+136;C&P;SPAZZ COLG 2-6 MINIONS+TROLL x1;Colgate Spazzolino per Bambini 2-5 Anni Personaggi Assortiti Setole Extra Morbide 1 Pezzo;8714789086477;;;Colgate spazzolino modelli assortiti bambini 2-6 anni extra morbido;Prodotto trovato su GS1
+137;C&P;SPAZZ COLG TRIPLE ACTION 1+1;Colgate Spazzolino Manuale Triple Action Setole Medie Confezione 1+1 Gratis;8718951309609;;;Colgate spazzolino Triple Action, medio, 2 pezzi;Prodotto trovato su GS1
+141;C&P;SPAZZ COLG PORTABLE x1;Colgate Spazzolino da Viaggio 1 Pezzo;9300632074037;;;Colgate spazzolino portable formato viaggio, morbido;Prodotto trovato su GS1
+142;C&P;SPAZZ COLG PREMIER CLEAN x1;Colgate Spazzolino Premier Clean 1 Pezzo;8850006330449;;;Colgate spazzolino sbiancante Premier Clean, medio;Prodotto trovato su GS1
+143;C&P;COLG MR PLAXICE 500x1;Colgate Collutorio Plax Ice 500 ml;8718951178830;;;Colgate collutorio Plax Ice con antibatterico 500 ml;Prodotto trovato su GS1
+144;C&P;COLGATE PLAX GREEN 500x1;Colgate Collutorio Plax Tè Verde 500 ml;8718951179042;;;Colgate collutorio Plax Fresh & Protect Soft Mint con antibatterico 500 ml;Prodotto trovato su GS1
+145;C&P;COLG PLAX CHARCOAL 500x1;Colgate Collutorio Plax Charcoal 500 ml;8718951414426;;;Colgate collutorio sbiancante carbone Plax White & Protect Charcoal 500 ml;Prodotto trovato su GS1
+146;C&P;COLG PLAX CHARCOAL 500x2;Colgate Collutorio Plax Charcoal Bipacco 2x500 ml;8718951408937;;;Colgate collutorio sbiancante carbone Plax White+Charcoal 2x500ml;Prodotto trovato su GS1
+147;C&P;COLGATE PLAX GREEN 500x2;Colgate Collutorio Plax Tè Verde Bipacco 2x500 ml;8718951211230;;;Colgate collutorio Plax Soft Mint con antibatterico 2x500 ml;Prodotto trovato su GS1
+148;C&P;COLGATE PLAX GREEN 1000x1;Colgate Collutorio Plax Tè Verde 1000 ml;8718951208681;;;Colgate collutorio Plax Cool Mint con antibatterico 1 L;Prodotto trovato su GS1
+149;C&P;COLGATE PLAX BLUW 1000x1;Colgate Collutorio Plax Cool Mint 1000 ml;8718951208698;;;Colgate collutorio Plax Soft Mint con antibatterico 1 L;Prodotto trovato su GS1
+150;C&P;COLGATE PLAX GREEN 100x1;Colgate Collutorio Plax Tè Verde 100 ml;8718951217300;;;Colgate collutorio Plax Soft Mint con antibatterico 100 ml;Prodotto trovato su GS1
+151;C&P;FABL FSCONC LAV 1x12x1250ML I;Fabuloso Ammorbidente Concentrato Freschezza di Lavanda 1250 ml;8718951586505;;;Fabuloso ammorbidente concentrato profumato Lavanda 1,25 L;Prodotto trovato su GS1
+152;C&P;FABL FSCONC BLUE 1x12x1250ML I;Fabuloso Ammorbidente Concentrato Freschezza Mattutina 1250 ml;8718951586444;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,25 L;Prodotto trovato su GS1
+153;C&P;FABL FSCONC HYP 12x1x1250ML I;Fabuloso Ammorbidente Concentrato Ipoallergenico 1250 ml;8718951584846;;;Fabuloso ammorbidente concentrato Ipoallergenico 1,25 L;Prodotto trovato su GS1
+154;C&P;FABL FSCONC VAN 1x12x1250ML I;Fabuloso Ammorbidente Concentrato Vaniglia e Orchidea 1250 ml;8718951585294;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,25 L;Prodotto trovato su GS1
+155;C&P;FABL FSCONCSENS COCON 1x12x1250ML I;Fabuloso Ammorbidente Concentrato Sensations Cocco 1250 ml;8718951588707;;;Fabuloso ammorbidente concentrato profumato Cocco 1,25 L;Prodotto trovato su GS1
+156;C&P;FABL FSCONCSENS MAGN1x12x1250ML I;Fabuloso Ammorbidente Concentrato Sensations Magnolia 1250 ml;8718951588820;;;Fabuloso ammorbidente concentrato profumato Magnolia 1,25 L;Prodotto trovato su GS1
+157;C&P;FABL FSCONCSENS MAND1x12x1250ML I;Fabuloso Ammorbidente Concentrato Sensations Mandorla 1250 ml;8718951588448;;;Fabuloso ammorbidente concentrato profumato Mandarino 1,25 L;Prodotto trovato su GS1
+158;C&P;FABL FSCONC BLUE 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Freschezza Mattutina 1900 ml;8718951586413;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,9 L;Prodotto trovato su GS1
+159;C&P;FABL FSCONC VAN 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Vaniglia e Orchidea 1900 ml;8718951585324;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,9 L;Prodotto trovato su GS1
+160;C&P;FABL FSCONCSENS COCON 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Sensations Cocco 1900 ml;8718951588738;;;Fabuloso ammorbidente concentrato profumato Cocco 1,9 L;Prodotto trovato su GS1
+161;C&P;FABL FSCONCSENS MAGN 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Freschezza di Magnolia 1900 ml;8718951590274;;;Fabuloso ammorbidente concentrato profumato Magnolia 1,9 L;Prodotto trovato su GS1
+162;C&P;FABL FSCONC BLUE 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Freschezza Intensa 1900 ml;8718951586413;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,9 L;Prodotto trovato su GS1
+163;C&P;FABL FSCONC VAN 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Vaniglia e Orchidea 1900 ml;8718951585324;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,9 L;Prodotto trovato su GS1
+164;C&P;FABL FSCONCSENS COCON 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Dolce Cocco 1900 ml;8718951588738;;;Fabuloso ammorbidente concentrato profumato Cocco 1,9 L;Prodotto trovato su GS1
+165;C&P;FABL FSCONCSENS MAGN 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Freschezza di Magnolia 1900 ml;8718951590274;;;Fabuloso ammorbidente concentrato profumato Magnolia 1,9 L;Prodotto trovato su GS1
+166;C&P;FABL FSCONC LAV 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza di Lavanda 1600 ml;8718951586475;;;Fabuloso ammorbidente concentrato profumato Lavanda 1,6 L;Prodotto trovato su GS1
+167;C&P;FABL FSCONC BLUE 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza Intensa 1600 ml;8718951585232;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,6 L;Prodotto trovato su GS1
+168;C&P;FABL FSCONC ALOE 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza di Aloe Vera 1600 ml;8718951585263;;;Fabuloso ammorbidente concentrato Aloe 72 lavaggi 1,6 L;Prodotto trovato su GS1
+169;C&P;FABL FSCONC HYP 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Ipoallergenico 1600 ml;8718951585201;;;Fabuloso ammorbidente concentrato Ipoallergenico 1,6 L;Prodotto trovato su GS1
+170;C&P;FABL FSCONC VAN 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Vaniglia e Orchidea 1600 ml;8718951586659;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,6 L;Prodotto trovato su GS1
+171;C&P;FABL FSCONCSENS COCON 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Dolce Cocco 1600 ml;8718951588790;;;Fabuloso ammorbidente concentrato profumato Cocco 1,6 L;Prodotto trovato su GS1
+172;C&P;FABL FSCONCSENS MAGN 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Freschezza di Magnolia 1600 ml;8718951588769;;;Fabuloso ammorbidente concentrato profumato Cocco 1,7 L;Prodotto trovato su GS1
+173;C&P;FABL FSCONCSENS MAND 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Dolce Mandorla 1600 ml;8718951588509;;;Fabuloso ammorbidente concentrato profumato Mandarino 1,6 L;Prodotto trovato su GS1
+174;C&P;FABL FSCONC LAV 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza di Lavanda 1600 ml;8718951586475;;;Fabuloso ammorbidente concentrato profumato Lavanda 1,6 L;Prodotto trovato su GS1
+175;C&P;FABL FSCONC BLUE 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza Intensa 1600 ml;8718951585232;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,6 L;Prodotto trovato su GS1
+176;C&P;FABL FSCONC ALOE 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Freschezza di Aloe Vera 1600 ml;8718951585263;;;Fabuloso ammorbidente concentrato Aloe 72 lavaggi 1,6 L;Prodotto trovato su GS1
+177;C&P;FABL FSCONC HYP 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Ipoallergenico 1600 ml;8718951585201;;;Fabuloso ammorbidente concentrato Ipoallergenico 1,6 L;Prodotto trovato su GS1
+178;C&P;FABL FSCONC VAN 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Vaniglia e Orchidea 1600 ml;8718951586659;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,6 L;Prodotto trovato su GS1
+179;C&P;FABL FSCONCSENS COCON 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Dolce Cocco 1600 ml;8718951588790;;;Fabuloso ammorbidente concentrato profumato Cocco 1,6 L;Prodotto trovato su GS1
+180;C&P;FABL FSCONCSENS MAGN 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Pelli Sensibili Freschezza di Magnolia 1600 ml;8718951588769;;;Fabuloso ammorbidente concentrato profumato Cocco 1,7 L;Prodotto trovato su GS1
+181;C&P;FABL FSCONCSENS MAND 1x9x1600ML+ I;Fabuloso Ammorbidente Concentrato Sensitive Mandorla 1600 ml;8718951588509;;;Fabuloso ammorbidente concentrato profumato Mandarino 1,6 L;Prodotto trovato su GS1
+182;C&P;FABL FSCONCSENS COCON 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Sensitive Cocco 1700 ml;8718951588769;;;Fabuloso ammorbidente concentrato profumato Cocco 1,7 L;Prodotto trovato su GS1
+183;C&P;FABL FSCONCSENS MAGN 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Sensitive Magnolia 1700 ml;8718951590335;;;Fabuloso ammorbidente concentrato profumato Magnolia 1,7 L;Prodotto trovato su GS1
+184;C&P;FABL FSCONCSENS MAND 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Sensitive Mandorla 1700 ml;8718951588479;;;Fabuloso ammorbidente concentrato profumato Mandarino 1,7 L;Prodotto trovato su GS1
+185;C&P;FABL FSCONC BLUE 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Fresco Mattino 1700 ml;8718951584907;;;Fabuloso ammorbidente concentrato profumato Fresco Mattino 1,7 L;Prodotto trovato su GS1
+186;C&P;FABL FSCONC HYP 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Ipoallergenico 1700 ml;8718951585171;;;Fabuloso ammorbidente concentrato Ipoallergenico 1,7 L;Prodotto trovato su GS1
+187;C&P;FABL FSCONC VAN 1x9x1700ML I;Fabuloso Ammorbidente Concentrato Vaniglia 1700 ml;8718951585355;;;Fabuloso ammorbidente concentrato profumato Vaniglia 1,7 L;Prodotto trovato su GS1
+188;C&P;FABL FSCONC BLUE 1x12x1000ML I;Fabuloso Ammorbidente Concentrato Fresco Mattino 1000 ml;8718951584877;;;Fabuloso ammorbidente concentrato Fresco mattino 45 lavaggi 1 L;Prodotto trovato su GS1
+189;C&P;FABL FSCONC VAN 1x12x1000ML I;Fabuloso Ammorbidente Concentrato Vaniglia 1000 ml;8718951586680;;;Fabuloso ammorbidente concentrato Vaniglia 45 lavaggi 1 L;Prodotto trovato su GS1
+190;C&P;FAB TAORMINA 12x1x1250ML;Fabuloso Ammorbidente Concentrato Le Freschezze di Taormina 1250 ml;8718951617667;;;Fabuloso ammorbidente concentrato Profumi di Taormina 1,25 L;Prodotto trovato su GS1
+191;C&P;FAB SANREMO 12x1x1250ML;Fabuloso Ammorbidente Concentrato Le Freschezze di Sanremo 1250 ml;8718951617698;;;Fabuloso ammorbidente concentrato Profumi di Sanremo 1,25 L;Prodotto trovato su GS1
+192;C&P;FAB TAORMINA 1x9x1700ml IT;Fabuloso Ammorbidente Concentrato Le Freschezze di Taormina 1700 ml;8718951617728;;;Fabuloso ammorbidente concentrato Profumi di Taormina 1,7 L;Prodotto trovato su GS1
+193;C&P;FAB SANREMO 1x9x1700ml IT;Fabuloso Ammorbidente Concentrato Le Freschezze di Sanremo 1700 ml;8718951617759;;;Fabuloso ammorbidente concentrato Profumi di Sanremo 1,7 L;Prodotto trovato su GS1
+194;C&P;FAB SANREMO 1x9x1600ml IT;Fabuloso Ammorbidente Concentrato Le Freschezze di Sanremo 1600 ml;8718951627680;;;;Prodotto non trovato su GS1
+195;C&P;FAB TAORMINA 1x9x1600ml IT;Fabuloso Ammorbidente Concentrato Le Freschezze di Taormina 1600 ml;8718951627727;;;;Prodotto non trovato su GS1
+196;C&P;FAB ML TAORMINA 1x12x585ml IT;Fabuloso Spray Multiuso Le Freschezze di Taormina 585 ml;8718951664043;;;Fabuloso ammorbidente concentrato Profumi di Taormina 585 ml;Prodotto trovato su GS1
+197;C&P;FAB ML SANREMO 1x12x585ml IT;Fabuloso Spray Multiuso Le Freschezze di Sanremo 585 ml;8718951664074;;;Fabuloso ammorbidente concentrato Profumi di Sanremo 585 ml;Prodotto trovato su GS1
+198;C&P;FAB ML SIENA 1x12x585ml IT;Fabuloso Spray Multiuso Le Freschezze di Siena 585 ml;8718951664135;;;Fabuloso ammorbidente concentrato Profumi di Siena 585 ml;Prodotto trovato su GS1
+199;C&P;FAB ML SORRENTO 1x12x585ml IT;Fabuloso Spray Multiuso Le Freschezze di Sorrento 585 ml;8718951664104;;;Fabuloso ammorbidente concentrato Profumi di Sorrento 585 ml;Prodotto trovato su GS1
+200;C&P;FAB ML STINTINO 1x12x585ml IT;Fabuloso Spray Multiuso Le Freschezze di Stintino 585 ml;8718951664166;;;Fabuloso ammorbidente concentrato Profumi di Stintino 585 ml;Prodotto trovato su GS1
+201;C&P;FABL FSCONC HYP 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Ipoallergenico 1900 ml;8718951668201;;;Fabuloso ammorbidente concentrato Ipoallergenico 1,9 L;Prodotto trovato su GS1
+202;C&P;FABL FSCONCSENS MAND 1x6x1900ML I;Fabuloso Ammorbidente Concentrato Sensations Mandorla 1900 ml;8718951668171;;;Fabuloso ammorbidente concentrato profumato Mandarino 1,9 L;Prodotto trovato su GS1
+203;C&P;FABL FSCONC BLUE 1x12x585ML  I;Fabuloso Ammorbidente Concentrato Freschezza Intensa 585 ml;8718951680906;;;;Prodotto non trovato su GS1
+204;C&P;FABL FSCONC VAN 1x12x585ML I;Fabuloso Ammorbidente Concentrato Vaniglia 585 ml;8718951680937;;;;Prodotto non trovato su GS1
+205;C&P;FABL FS DIL BLUE 1x12x1500ML I;Fabuloso Ammorbidente Freschezza Mattutina 1500 ml;8718951586567;;;Fabuloso ammorbidente diluito Fresco Mattino 21 lavaggi 1,5 L;Prodotto trovato su GS1
+206;C&P;FABL FS DIL BLUE 1x4x4L I;Fabuloso Ammorbidente Freschezza Mattutina 4 L;8718951587168;;;Fabuloso ammorbidente diluito Fresco Mattino 57 lavaggi 4 L;Prodotto trovato su GS1
+207;C&P;FABL FS DIL VA/OR 1x12x1500ML I;Fabuloso Ammorbidente Vaniglia e Orchidea 1500 ml;8718951587229;;;Fabuloso ammorbidente diluito Vaniglia e Orchidea 21 lavaggi 1,5L;Prodotto trovato su GS1
+208;C&P;FABL FS DIL VAN/OR 1x4x4L I;Fabuloso Ammorbidente Vaniglia e Orchidea 4 L;8718951587250;;;Fabuloso ammorbidente diluito Vaniglia e Orchidea 57 lavaggi 4 L;Prodotto trovato su GS1
+209;C&P;FABL FS DIL HYP 12x1x1500ML I;Fabuloso Ammorbidente Ipoallergenico 1500 ml;8718951587199;;;Fabuloso ammorbidente diluito ipoallergenico 21 lavaggi 1,5 L;Prodotto trovato su GS1
+210;C&P;FABL FS DIL BLUE 1x4x3.7L I;Fabuloso Ammorbidente Freschezza Mattutina 3.7 L;8718951679009;;;;Prodotto non trovato su GS1
+211;C&P;FABL FS DIL VAN/OR 1x4x3.7L I;Fabuloso Ammorbidente Vaniglia e Orchidea 3.7 L;8718951679085;;;;Prodotto non trovato su GS1
+212;C&P;FABL FS SPRAY BLUE 1X6X250ML IT;Fabuloso Spray per Tessuti Freschezza Mattutina 250 ml;8718951572409;;;Fabuloso spray profumatore per tessuti Fresco Mattino 250 ml;Prodotto trovato su GS1
+213;C&P;FABL FS SPRAY PURPLE 1X6X250ML IT;Fabuloso Spray per Tessuti Lavanda 250 ml;8718951572430;;;Fabuloso spray profumatore per tessuti Lavanda e Relax 250 ml;Prodotto trovato su GS1
+214;C&P;IT FAB bipacco Fresh Up Blu 2x250ml;Fabuloso Spray per Tessuti Freschezza Mattutina Bipacco 2x250 ml;8718951634114;;;Fabuloso spray profumatore per tessuti Fresco Mattino 2x250ml;Prodotto trovato su GS1
+215;C&P;FABL APC FDF LAV 1x12x950ML I;Fabuloso Pavimenti Lavanda 950 ml;8718951517639;;;Fabuloso detersivo pavimenti profumato Freschezza Lavanda 950 ml;Prodotto trovato su GS1
+216;C&P;FABL APC FDF LAV 1x12x950ML I RTS;Fabuloso Pavimenti Lavanda 950 ml;8718951517639;;;Fabuloso detersivo pavimenti profumato Freschezza Lavanda 950 ml;Prodotto trovato su GS1
+217;C&P;FABL APC FDF LAV 1x12x1230ML I;Fabuloso Pavimenti Lavanda 1230 ml;8718951517660;;;Fabuloso detersivo pavimenti profumato Freschezza Lavanda 1,23 L;Prodotto trovato su GS1
+218;C&P;FABL APC LAVENDER 1x12x1250ML MUP I;Fabuloso Pavimenti Lavanda 1250 ml;8718951512061;;;Fabuloso detersivo pavimenti profumato Freschezza Lavanda 1,25 L;Prodotto trovato su GS1
+219;C&P;Fabuloso BDC Lavender 1X6x1.9L;Fabuloso Pavimenti Lavanda 1.9 L;8718951627925;;;Fabuloso detersivo pavimenti profumato Freschezza Lavanda 1,9 L;Prodotto trovato su GS1
+220;C&P;FABL APC FDF LOTUS  1x12x950ML I;Fabuloso Pavimenti Fiori di Loto 950 ml;8718951517608;;;Fabuloso detersivo pavimenti profumato Fiori di Loto 950 ml;Prodotto trovato su GS1
+221;C&P;FABL APC LOTUS1x12x1250ML MUP I;Fabuloso Pavimenti Freschezza Floreale Fiori di Loto 1250 ml;8718951512177;;;Fabuloso detersivo pavimenti profumato Fiori di Loto 1,25 L;Prodotto trovato su GS1
+222;C&P;FABL APC BLUE 1x12x950 ML I;Fabuloso Pavimenti Freschezza Oceanica 950 ml;8718951517653;;;Fabuloso detersivo pavimenti profumato Fresco Mattino 950 ml;Prodotto trovato su GS1
+223;C&P;FABL APC BLUE 1x12x1230 ML I;Fabuloso Pavimenti Freschezza Oceanica 1230 ml;8718951517646;;;Fabuloso detersivo pavimenti profumato Fresco Mattino 1,23 L;Prodotto trovato su GS1
+224;C&P;FABL APC BLUE 1x12x1250 ML MUP I;Fabuloso Pavimenti Freschezza Oceanica 1250 ml;8718951512092;;;Fabuloso detersivo pavimenti profumato Fresco Mattino 1,25 L;Prodotto trovato su GS1
+225;C&P;FABL APC FDF GREEN 1x12x950ML I;Fabuloso Pavimenti Freschezza Floreale Fiori di Campo 950 ml;8718951525702;;;Fabuloso detersivo pavimenti profumato Fiori di Campo 950 ml;Prodotto trovato su GS1
+226;C&P;FABL APC FDF PINK 1x12x950ML I;Fabuloso Pavimenti Freschezza Floreale Fiori di Ciliegio 950 ml;8718951517615;;;Fabuloso detersivo pavimenti profumato Freschezza di Rosa 950 ml;Prodotto trovato su GS1
+227;C&P;FABL APC FDF PINK 1x12x1230ML I;Fabuloso Pavimenti Freschezza Floreale Fiori di Ciliegio 1230 ml;8718951517622;;;Fabuloso detersivo pavimenti profumato Freschezza di Rosa 1,23 L;Prodotto trovato su GS1
+228;C&P;FABL APC PINK 1x12x1250ML MUP I;Fabuloso Pavimenti Freschezza Floreale Fiori di Ciliegio 1250 ml;8718951512122;;;Fabuloso detersivo pavimenti profumato Freschezza di Rosa 1,25 L;Prodotto trovato su GS1
+229;C&P;FABL APC MIX 1x12x950ML I;Fabuloso Pavimenti Freschezza Floreale Mix Fiori 950 ml;8718951522084;;;;Prodotto non trovato su GS1
+230;C&P;FABL APC MIX 1x12x1230ML I;Fabuloso Pavimenti Freschezza Floreale Mix Fiori 1230 ml;8718951522114;;;;Prodotto non trovato su GS1
+231;C&P;FABL APC FRESC. LIMONE 1x12x950 ML I;Fabuloso Pavimenti Freschezza Agrumata Limone 950 ml;8718951663787;;;Fabuloso detersivo pavimenti profumato Freschezza Limone 950 ml;Prodotto trovato su GS1
+232;C&P;FABL APC LAV 1x10x600MLTRIG I;Fabuloso Sgrassatore Universale Spray Lavanda 600 ml;8718951591837;;;Fabuloso detersivo spray sgrassatore Freschezza Lavanda 600 ml;Prodotto trovato su GS1
+233;C&P;FABL APC LIME 1x10x600MLTRIG I;Fabuloso Sgrassatore Universale Spray Lime 600 ml;8718951591868;;;Fabuloso detersivo spray sgrassatore Freschezza Limone 600 ml;Prodotto trovato su GS1
+234;C&P;SPRAY FABULOSO VETRI 600ML;Ajax Vetri Tripla Azione Spray 600 ml;8714789771069;;;Fabuloso detersivo spray Vetri Freschezza Floreale 600 ml;Prodotto trovato su GS1
+235;C&P;Profumi Italia TAORMINA 585ml;Fabuloso Pavimenti Profumi d'Italia Brezza di Taormina 585 ml;8718951664043;;;Fabuloso ammorbidente concentrato Profumi di Taormina 585 ml;Prodotto trovato su GS1
+236;C&P;Profumi Italia SANREMO 585ml;Fabuloso Pavimenti Profumi d'Italia Fiori di Sanremo 585 ml;8718951664074;;;Fabuloso ammorbidente concentrato Profumi di Sanremo 585 ml;Prodotto trovato su GS1
+237;C&P;Profumi Italia SIENA 585ml;Fabuloso Pavimenti Profumi d'Italia Colli di Siena 585 ml;8718951664135;;;Fabuloso ammorbidente concentrato Profumi di Siena 585 ml;Prodotto trovato su GS1
+238;C&P;Profumi Italia SORRENTO 585ml;Fabuloso Pavimenti Profumi d'Italia Costiera di Sorrento 585 ml;8718951664104;;;Fabuloso ammorbidente concentrato Profumi di Sorrento 585 ml;Prodotto trovato su GS1
+239;C&P;Profumi Italia STINTINO 585ml;Fabuloso Pavimenti Profumi d'Italia Spiagge di Stintino 585 ml;8718951664166;;;Fabuloso ammorbidente concentrato Profumi di Stintino 585 ml;Prodotto trovato su GS1
+240;C&P;Fabuloso Spray Fresco Mattino 250ml;Fabuloso Deodorante per Ambienti Spray Fresco Mattino 250 ml;8718951572409;;;Fabuloso spray profumatore per tessuti Fresco Mattino 250 ml;Prodotto trovato su GS1
+241;C&P;Fabuloso Spray Lavanda & Relax 250ml;Fabuloso Spray Profumatore per Ambienti Lavanda & Relax 250 ml;8718951572430;;;Fabuloso spray profumatore per tessuti Lavanda e Relax 250 ml;Prodotto trovato su GS1
+242;C&P;Fabuloso Spray Cocco 250 ml;Fabuloso Spray Profumatore per Ambienti Cocco 250 ml;8718951673649;;;Fabuloso spray profumatore per tessuti Cocco 250 ml;Prodotto trovato su GS1
+243;C&P;Fabuloso Spray Bipacco Fresco Mattino 250 ml;Fabuloso Spray Profumatore per Ambienti Fresco Mattino Bipacco 2x250 ml;8718951634114;;;Fabuloso spray profumatore per tessuti Fresco Mattino 2x250ml;Prodotto trovato su GS1
+244;C&P;PO NAT ALMOND BS 18x4x90g EU;Palmolive Naturals Saponetta Mandorla e Latte 4x90g;8718951597594;;;Palmolive sapone solido Naturals Latte e Mandorla 4x90 g;Prodotto trovato su GS1
+245;C&P;PO NAT ORCHID BS 18x4x90g EU;Palmolive Naturals Saponetta Orchidea Nera e Latte 4x90g;8718951597693;;;Palmolive sapone solido Naturals Orchidea 4x90 g;Prodotto trovato su GS1
+246;C&P;PO NAT MILK&HONEY BS 18x4x90g EU;Palmolive Naturals Saponetta Latte e Miele 4x90g;8718951597648;;;Palmolive sapone solido Naturals Latte e Miele 4x90 g;Prodotto trovato su GS1
+247;C&P;PO NAT OLIVE BS 18x4x90g EU;Palmolive Naturals Saponetta Oliva e Latte 4x90g;8718951597822;;;Palmolive sapone solido Naturals Oliva e Latte 4x90 g;Prodotto trovato su GS1
+248;C&P;PO NAT ALMOND BS 24x3x90g EU - IT;Palmolive Naturals Saponetta Mandorla e Latte 3x90g;8718951598072;;;Palmolive sapone solido Naturals Latte e Mandorla 3x90 g;Prodotto trovato su GS1
+249;C&P;PO NAT OLIVE BS 24x3x90g EU - IT;Palmolive Naturals Saponetta Oliva e Latte 3x90g;8718951598027;;;Palmolive sapone solido Naturals Oliva e Latte 3x90 g;Prodotto trovato su GS1
+250;C&P;PALM SH NAT 2IN1 1x12x350ML SE CEE;Palmolive Naturals Shampoo & Balsamo 2 in 1 Tutti i Tipi di Capelli 350 ml;8718951577008;;;Palmolive shampoo Naturals Hydra Balance 2in1 con pesca 350 ml;Prodotto trovato su GS1
+251;C&P;PALM SH NAT ANTD 1x12x350ML SE CEE;Palmolive Naturals Shampoo Antiforfora con Menta Selvatica 350 ml;8718951576919;;;Palmolive Naturals Anti-Dandruff antiforfora shampoo 350 ml;Prodotto trovato su GS1
+252;C&P;PALM SH NAT BRLT 1x12x350ML SE;Palmolive Naturals Shampoo Brilliant Colour con estratto di Melograno 350 ml;8718951576940;;;Palmolive shampoo Naturals Brilliant Color con melograno 350 ml;Prodotto trovato su GS1
+253;C&P;PALM SH NAT LG&S 1x12x350ML;Palmolive Naturals Shampoo Silky Shine Effect con Aloe Vera 350 ml;8718951577039;;;Palmolive shampoo Naturals Morbidezza&Lucentezza con oliva 350 ml;Prodotto trovato su GS1
+254;C&P;PALM SH NAT SHINE 1x12x350ML SE CEE;Palmolive Naturals Shampoo Lucentezza & Vitalità 350 ml;8718951576971;;;Palmolive shampoo Naturals Effetto Seta Silky Shine 350 ml;Prodotto trovato su GS1
+255;C&P;PALM SHCREAM CLAS 2X12X100ML SE;Palmolive Crema da Barba Classica 100 ml;8003520001191;;;Palmolive crema da barba Men Classica idratante 100 ml;Prodotto trovato su GS1
+256;C&P;PALM SHCREAM MENT 2X12X100ML I;Palmolive Crema da Barba Rinfrescante al Mentolo 100 ml;8003520001207;;;Palmolive crema da barba Men Rinfrescante al Mentolo 100 ml;Prodotto trovato su GS1
+257;C&P;PALM SHFOAM CLAS 1x12x300ML I_ADR;Palmolive Schiuma da Barba Classic 300 ml;8718951540675;;;Palmolive schiuma da barba Men Classica idratante 300 ml;Prodotto trovato su GS1
+258;C&P;PALM SHFOAM MINT 1x12x300ML WE_ADR;Palmolive Schiuma da Barba Rinfrescante alla Menta 300 ml;8718951540644;;;Palmolive schiuma da barba Men Rinfrescante al Mentolo 300 ml;Prodotto trovato su GS1
+259;C&P;PALM LHS AQU 1x8x500ML PUM;Palmolive Sapone Liquido Aquarium 500 ml;8718951561298;;;Palmolive sapone liquido mani Aquarium vegano 500 ml;Prodotto trovato su GS1
+260;C&P;PALM LHS NOU 1x8x500ML PUM SE;Palmolive Naturals Sapone Liquido Oliva e Latte 500 ml;8718951561069;;;Palmolive sapone liquido mani Naturals Latte e Mandorla 500 ml;Prodotto trovato su GS1
+261;C&P;PALM LHS HYG RED 1x8x500ML PUM SE;Palmolive Hygiene Plus Sapone Liquido 500 ml;8718951561892;;;Palmolive sapone liquido Hygiene Plus protettivo antibatterico 500 ml;Prodotto trovato su GS1
+262;C&P;PALM LHS HYG RED 1x12x300ML PUM SE;Palmolive Hygiene Plus Sapone Liquido 300 ml;8718951561861;;;Palmolive sapone liquido Hygiene Plus protettivo antibatterico 300 ml;Prodotto trovato su GS1
+263;C&P;PALM LHS AQU 1X12X300ML PUM SE;Palmolive Aquarium Sapone Liquido 300 ml;8718951570047;;;Palmolive sapone liquido mani Aquarium vegano 300 ml;Prodotto trovato su GS1
+264;C&P;PALM LHS ALM 1X12X300ML PUM SE;Palmolive Naturals Latte & Mandorla Sapone Liquido 300 ml;8718951561236;;;Palmolive sapone liquido mani Naturals Latte e Mandorla 300 ml;Prodotto trovato su GS1
+265;C&P;PALM LHS M&H 1X12X300ML PUM SE;Palmolive Naturals Latte & Miele Sapone Liquido 300 ml;8718951561267;;;Palmolive sapone liquido mani Naturals Latte e Miele 300 ml;Prodotto trovato su GS1
+266;C&P;PALM LHS ALOE 1x12x300ML PUM SE;Palmolive Naturals Oliva & Aloe Sapone Liquido 300 ml;8718951561922;;;Palmolive sapone liquido mani Hygiene Plus antibatterico 300 ml;Prodotto trovato su GS1
+267;C&P;PALM LHS ODR 1x12x300ML PUM SE;Palmolive Odor Defense Sapone Liquido Cucina 300 ml;8718951561328;;;Palmolive sapone liquido mani Hygiene Plus Cucina 300 ml;Prodotto trovato su GS1
+268;C&P;PALM LHS AQU 1x12x500ML DOY SE;Palmolive Aquarium Sapone Liquido Ricarica 500 ml;8718951571594;;;Palmolive ricarica sapone liquido mani Aquarium vegano 500 ml;Prodotto trovato su GS1
+269;C&P;PALM LHS ALM 1x12x500ML DOY SE;Palmolive Naturals Latte & Mandorla Sapone Liquido Ricarica 500 ml;8718951571624;;;Palmolive ricarica sapone liquido mani Latte e Mandorla 500 ml;Prodotto trovato su GS1
+270;C&P;PALM LHS HYG RED 1x10x900ML DOY;Palmolive Hygiene Plus Sapone Liquido Ricarica 900 ml;8718951508996;;;Palmolive ricarica sapone liquido Hygiene Plus protettivo 900 ml;Prodotto trovato su GS1
+271;C&P;PALM LHS AQUARIUM 1X10X900ML DOY SE;Palmolive Aquarium Sapone Liquido Ricarica 900 ml;8718951688179;;;Palmolive Ricarica Sapone Liquido Mani Aquarium vegano 900 ml;Prodotto trovato su GS1
+272;C&P;PALM LHS ALM 1x10x900ML SE;Palmolive Naturals Latte & Mandorla Sapone Liquido Ricarica 900 ml;8718951508798;;;Palmolive ricarica sapone liquido mani Latte e Mandorla 900 ml;Prodotto trovato su GS1
+273;C&P;PALM LHS M&H 1x10x900ML DOY SE;Palmolive Naturals Latte & Miele Sapone Liquido Ricarica 900 ml;8718951508842;;;Palmolive ricarica sapone liquido mani Naturals Latte e Miele 900 ml;Prodotto trovato su GS1
+274;C&P;PALM LHS ALM 6x2x300ML TR&TR I;Palmolive Naturals Latte & Mandorla Sapone Liquido Bipacco 2x300 ml;8718951561984;;;Palmolive sapone liquido mani Naturals Latte e Mandorla 2x300 ml;Prodotto trovato su GS1
+275;C&P;PALM LHS HYG RED 6x2x300ML TR&TR I;Palmolive Hygiene Plus Sapone Liquido Bipacco 2x300 ml;8718951561953;;;Palmolive sapone liquido Hygiene Plus protettivo antibatterico 2x300 ml;Prodotto trovato su GS1
+276;C&P;PALM LHS AQUARIUM 6x2x300ML PU+PU SE;Palmolive Aquarium Sapone Liquido Bipacco 2x300 ml;8718951679849;;;Palmolive sapone liquido mani Aquarium vegano 2x300 ml;Prodotto trovato su GS1
+277;C&P;PALM LHS M&H 6x2x300ML TR&TR I;Palmolive Naturals Latte & Miele Sapone Liquido Bipacco 2x300 ml;8718951562011;;;Palmolive sapone liquido mani Naturals Latte e Miele 2x300 ml;Prodotto trovato su GS1
+278;C&P;PALM SG OLV 2x6x220ML IT Suave;Palmolive Naturals Oliva & Latte Doccia Schiuma 220 ml;8718951543249;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 220 ml;Prodotto trovato su GS1
+279;C&P;PALM SG ALM 2x6x220ML IT Suave;Palmolive Naturals Mandorla & Latte Doccia Schiuma 220 ml;8718951542204;;;Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 220 ml;Prodotto trovato su GS1
+280;C&P;PALM SG MAC 2x6x220ML IT Suave;Palmolive Naturals Macadamia & Cacao Doccia Schiuma 220 ml;8718951543959;;;Palmolive bagnoschiuma Naturals Macadamia e Cacao idratante 220 ml;Prodotto trovato su GS1
+281;C&P;PALM SG RLX 2x6x220ML IT;Palmolive Gel Doccia Aroma Sensations So Relaxed 220ml;8718951544192;;;Palmolive bagnoschiuma Aroma Essence Ultimate Relax 220 ml;Prodotto trovato su GS1
+282;C&P;PALM SG HAPPY 2x6x220ML IT;Palmolive Gel Doccia Aroma Sensations So Happy 220ml;8718951546196;;;Palmolive bagnoschiuma Aroma Essence Forever Happy 220 ml;Prodotto trovato su GS1
+283;C&P;PALM SG MASS 2x6x220ML IT;Palmolive Gel Doccia Aroma Sensations Mineral Massage 220ml;8718951546233;;;Palmolive bagnoschiuma Thermal Spa Mineral Massage 220 ml;Prodotto trovato su GS1
+284;C&P;PALM SG SMOOTH BUTTER  2x6x220ML IT;Palmolive Doccia Crema Body Butter Chocolate Passion 220ml;8718951546271;;;Palmolive bagnoschiuma Thermal Spa Smooth Butter 220 ml;Prodotto trovato su GS1
+285;C&P;PALM SG SILKY OIL 2x6x220ML IT;Palmolive Gel Doccia Mediterranean Moments Olio di Argan e Mandorla 220ml;8718951546318;;;Palmolive bagnoschiuma Thermal Spa Silky Oil 220 ml;Prodotto trovato su GS1
+286;C&P;PALM SG REVITAL GEL 2x6x220ML IT;Palmolive Gel Doccia Aroma Sensations Feel Glamorous 220ml;8718951545403;;;Palmolive bagnoschiuma Thermal Spa Revitalising 220 ml;Prodotto trovato su GS1
+287;C&P;PALM SG PAMPER OIL 2x6x220ML IT;Palmolive Gel Doccia Ayurituel Energy 220ml;8718951545441;;;Palmolive bagnoschiuma Thermal Spa Pampering Oil 220 ml;Prodotto trovato su GS1
+288;C&P;PALM SG MEN BLUE 2x6x220ML IT;Palmolive Uomo Gel Doccia 3-in-1 Refreshing 220ml;8718951545489;;;Palmolive bagnoschiuma Men Refreshing 3 in 1 con oli essenziali 220 ml;Prodotto trovato su GS1
+289;C&P;PALM SG MEN SPORT 2x6x220ML IT;Palmolive Uomo Gel Doccia 3-in-1 Sport 220ml;8718951545564;;;Palmolive bagnoschiuma Men Sport 3 in 1 con oli essenziali 220 ml;Prodotto trovato su GS1
+290;C&P;PALM BW ALMOND 1x12x350ML IT;Palmolive Naturals Sapone Liquido Ricarica Mandorla e Latte 350ml;8718951629660;;; Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 350 ml;Prodotto trovato su GS1
+291;C&P;PALM BW OLIVE 1x12x350ML IT;Palmolive Naturals Sapone Liquido Ricarica Oliva e Latte 350ml;8718951629639;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 350 ml;Prodotto trovato su GS1
+292;C&P;PALM BAGNO NAT OLIVA 500ML;Palmolive Naturals Bagnodoccia Oliva e Latte 500ml;8718951543287;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 500 ml;Prodotto trovato su GS1
+293;C&P;PALM BF M&H 2x6x500ML IT Suave;Palmolive Naturals Bagnodoccia Latte e Miele 500ml;8718951543508;;;Palmolive bagnoschiuma Naturals Miele e Latte idratante 500 ml;Prodotto trovato su GS1
+294;C&P;PALM BF ORCH 2x6x500ML IT Suave;Palmolive Naturals Bagnodoccia Orchidea Nera 500ml;8718951541245;;;Palmolive bagnoschiuma Naturals Orchidea Selvatica con idratante 500 ml;Prodotto trovato su GS1
+295;C&P;PALM BF ALM 2x6x500ML IT Suave;Palmolive Naturals Bagnodoccia Mandorla e Latte 500ml;8718951541368;;;Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 500 ml;Prodotto trovato su GS1
+296;C&P;PALM BF MLK 2x6x500ML IT Suave;Palmolive Naturals Bagnodoccia Delicate Care con Latte 500ml;8718951543751;;;Palmolive bagnoschiuma Naturals Latte Idratante pelli sensibili 500ml;Prodotto trovato su GS1
+297;C&P;PALM SG MAC 2x6x500ML IT Suave;Palmolive Naturals Bagnodoccia Olio di Macadamia e Cacao 500ml;8718951540224;;;Palmolive bagnoschiuma Naturals Macadamia e Cacao idratante 500ml;Prodotto trovato su GS1
+298;C&P;PALM SG CAM 2x6x500ML NE CEE SE;Palmolive Naturals Bagnodoccia Olio di Camelia e Mandorla 500ml;8718951127388;;;Palmolive bagnoschiuma Naturals Camelia e Mandorla 500 ml;Prodotto trovato su GS1
+299;C&P;PALM BF RLX 2x6x500ML SE AU;Palmolive Bagnodoccia Aroma Sensations So Relaxed 500ml;8718951544031;;;Palmolive bagnoschiuma Aroma Essence Ultimate Relax 500 ml;Prodotto trovato su GS1
+300;C&P;PALM BF MASS 2x6x500ML SE;Palmolive Bagnodoccia Aroma Sensations Mineral Massage 500ml;8718951427846;;;Palmolive bagnoschiuma Thermal Spa Mineral Massage 500 ml;Prodotto trovato su GS1
+301;C&P;PALM BF SMOOTH BUTTER  2x6x500ML IT;Palmolive Naturals Bagnodoccia Burro di Karitè 500 ml;8718951544154;;;Palmolive bagnoschiuma Thermal Spa Smooth Butter 500 ml;Prodotto trovato su GS1
+302;C&P;PALM BF HAPPY 2x6x500ML SE CEE;Palmolive Aroma Sensations Feel Happy Bagnodoccia 500 ml;8718951427358;;;Palmolive bagnoschiuma Aroma Essence Forever Happy 500 ml;Prodotto trovato su GS1
+303;C&P;PALM BAGNO MEN ENERGIZZANTE 500ML;Palmolive Men Energising Doccia Shampoo 3 in 1 500 ml;8714789733111;;;Palmolive bagnoschiuma Men Energising 3 in 1 con oli essenziali 500 ml;Prodotto trovato su GS1
+304;C&P;PALM BAGNO MEN RINFRESCANTE 500ML;Palmolive Men Refreshing Doccia Shampoo 3 in 1 500 ml;8714789733104;;;Palmolive bagnoschiuma Men Refreshing 3 in 1 con oli essenziali 500 ml;Prodotto trovato su GS1
+305;C&P;PALM BF OLV 2x6x650ML IT Suave;Palmolive Naturals Bagnodoccia Oliva e Latte Idratante 650 ml;8718951543362;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 650 ml;Prodotto trovato su GS1
+306;C&P;PALM BF M&H 2x6x650ML IT Suave;Palmolive Naturals Bagnodoccia Latte e Miele 650 ml;8718951543461;;;Palmolive bagnoschiuma Naturals Miele e Latte idratante 650 ml;Prodotto trovato su GS1
+307;C&P;PALM BF ORCH 2x6x650ML IT Suave;Palmolive Naturals Bagnodoccia Orchidea Nera e Latte Idratante 650 ml;8718951541207;;;Palmolive bagnoschiuma Naturals Orchidea Selvatica con idratante 650 ml;Prodotto trovato su GS1
+308;C&P;PALM BF ALM 2x6x650ML IT Suave;Palmolive Naturals Bagnodoccia Mandorla e Latte Idratante 650 ml;8718951541320;;;Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 650 ml;Prodotto trovato su GS1
+309;C&P;PALM BF MLK 2x6x650ML IT Suave;Palmolive Naturals Delicate Care Bagnodoccia con Latte Idratante 650 ml;8718951543799;;;Palmolive bagnoschiuma Naturals Latte Idratante pelli sensibili 650 ml;Prodotto trovato su GS1
+310;C&P;PALM BF MAC 2x6x650ML IT Suave;Palmolive Naturals Bagnodoccia Olio di Macadamia e Cacao 650 ml;8718951543997;;;Palmolive bagnoschiuma Naturals Macadamia e Cacao idratante 650 ml;Prodotto trovato su GS1
+311;C&P;PALM SG CAM 2x6x650ML IT Suave;Palmolive Gourmet SPA Doccia Crema Olio di Camelia e Mandorla 650 ml;8718951540309;;;;Prodotto non trovato su GS1
+312;C&P;PALM BF OLV 2x6x750ML IT Suave;Palmolive Naturals Bagnodoccia Oliva e Latte Idratante 750 ml;8718951543423;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 750 ml;Prodotto trovato su GS1
+313;C&P;PALM BF M&H 2x6x750ML SE Suave;Palmolive Naturals Bagnodoccia Latte e Miele 750 ml;8718951541085;;;Palmolive bagnoschiuma Naturals Miele e Latte idratante 750 ml;Prodotto trovato su GS1
+314;C&P;PALM BF MLK 2x6x750ML IT Suave;Palmolive Naturals Delicate Care Bagnodoccia con Latte Idratante 750 ml;8718951543874;;;Palmolive bagnoschiuma Naturals Latte Idratante pelli sensibili 750 ml;Prodotto trovato su GS1
+315;C&P;PALM BF ORCH 2x6x750ML IT Suave;Palmolive Naturals Bagnodoccia Orchidea Nera e Latte Idratante 750 ml;8718951541122;;;Palmolive bagnoschiuma Naturals Orchidea Selvatica con idratante 750 ml;Prodotto trovato su GS1
+316;C&P;PALM BF ALM 2x6x750ML IT Suave;Palmolive Naturals Bagnodoccia Mandorla e Latte Idratante 750 ml;8718951543669;;;Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 750 ml;Prodotto trovato su GS1
+317;C&P;PALM BF MAC 2x6x750ML IT Suave;Palmolive Naturals Bagnodoccia Olio di Macadamia e Cacao 750 ml;8718951540262;;;Palmolive bagnoschiuma Naturals Macadamia e Cacao idratante 750 ml;Prodotto trovato su GS1
+318;C&P;PALM SG CAM 2x6x750ML IT;Palmolive Gourmet SPA Doccia Crema Olio di Camelia e Mandorla 750 ml;8718951540347;;;Palmolive bagnoschiuma Naturals Camelia e Mandorla 750 ml;Prodotto trovato su GS1
+319;C&P;PALM BF MLK 2x6x1000ML IT Suave;Palmolive Naturals Delicate Care Bagnodoccia con Latte Idratante 1000 ml;8718951543911;;;Palmolive bagnoschiuma Naturals Latte Idratante pelli sensibili 1 L;Prodotto trovato su GS1
+320;C&P;PALM BF M&H 2x6x1000ML IT Suave;Palmolive Naturals Bagnodoccia Latte e Miele 1000 ml;8718951541047;;;Palmolive bagnoschiuma Naturals Miele e Latte idratante 1 L;Prodotto trovato su GS1
+321;C&P;PALM SG RLX 6X2x500ML DUO IT;Palmolive Naturals Doccia Schiuma Relax Lavanda e Ylang Ylang, 2 x 500 ml;8718951544079;;;Palmolive bagnoschiuma Aroma Essence Ultimate Relax 2x500 ml;Prodotto trovato su GS1
+322;C&P;PALM SG MASS 6X2x500ML DUO IT;Palmolive Aroma Sensations Docciaschiuma Feel The Massage, 2 x 500 ml;8718951544116;;;Palmolive bagnoschiuma Thermal Spa Mineral Massage 2x500 ml;Prodotto trovato su GS1
+323;C&P;PALM BAGNO NAT MANDORLA 500ML x2;Palmolive Naturals Bagnoschiuma Latte & Mandorla, 2 x 500 ml;8718951541283;;;Palmolive bagnoschiuma Naturals Fiori di Mandorlo con idratante 2x500 ml;Prodotto trovato su GS1
+324;C&P;PALM BAGNO NAT ORCHIDEA 500ML x2;Palmolive Naturals Bagnoschiuma Orchidea Nera, 2 x 500 ml;8718951541160;;;Palmolive bagnoschiuma Naturals Orchidea Selvatica con idratante 2x500 ml;Prodotto trovato su GS1
+325;C&P;PALM BAGNO NAT OLIVA 500ML x2;Palmolive Naturals Bagnoschiuma Oliva & Latte, 2 x 500 ml;8718951543324;;;Palmolive bagnoschiuma Naturals Oliva Verde e Latte Idratante 2x500 ml;Prodotto trovato su GS1
+326;C&P;SOFL FFLD PNK 1x12x900ML I;Soflan Ammorbidente Concentrato Seta e Fiori di Loto, 900 ml;8718951219328;;;Soflan detersivo liquido Classic per lana, seta, sintetici 900 ml;Prodotto trovato su GS1
+327;C&P;SOFL FFD BLACK 1x12x900ML I;Soflan Ammorbidente Concentrato Vaniglia e Orchidea Nera, 900 ml;8718951219175;;;Soflan detersivo liquido, per capi scuri 900 ml;Prodotto trovato su GS1
+328;C&P;SOFL FFLD VAN 1x12x900ML I;Soflan Ammorbidente Concentrato Vaniglia e Mandorla, 900 ml;8718951218963;;;Soflan detersivo liquido Vaniglia per lana, seta, sintetici 900 ml;Prodotto trovato su GS1
+329;C&P;SOFL FFLD COLOR 1x12x900ML I;Soflan Ammorbidente Concentrato Freschezza di Cotone, 900 ml;8718951219298;;;Soflan detersivo liquido, capi colorati, colori intensi 900 ml;Prodotto trovato su GS1

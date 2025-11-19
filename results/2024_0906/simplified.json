@@ -1,0 +1,156 @@
+{
+  "LENOR PERLE ROSE VANI": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha prodotto alcun risultato, ignorando informazioni chiare come il brand 'LENOR' e la possibile linea di prodotto 'PERLE ROSE', rendendo il suo output inaccettabile.",
+    "match_finale": [],
+    "affidabilità_finale": 0.1
+  },
+  "DASH LAV 30 E / POSLAV": {
+    "decision": "rifiutata",
+    "motivazione": "Nessuna corrispondenza trovata: il brand 'DASH' e la tipologia di prodotto (lavatrice) non combaciano con la lista fornita (brand 'reckitt'/'Finish', prodotti per lavastoviglie). L'analisi è accurata nonostante un problema di formattazione dell'output JSON dell'Analista.",
+    "match_finale": [],
+    "affidabilità_finale": 0.75
+  },
+  "FRIA CARTA TUM IN CH": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista ha restituito un risultato completamente vuoto, indicando un fallimento nella trascrizione e nell'identificazione. Nonostante la bassa affidabilità del Critico, l'osservazione oggettiva di un risultato vuoto dall'analista è verificabile.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "ELMEX DENT.SENS.167 % P": {
+    "decision": "revisionata",
+    "motivazione": "L'Analista non ha estratto alcuna informazione. Sebbene il Critico abbia indicato la possibile presenza di dati riconoscibili nell'input (es. 'ELMEX', 'DENT.SENS.'), la sua affidabilità è troppo bassa (0.05) per confermare in modo affidabile tale affermazione. Il risultato vuoto dell'Analista richiede una revisione.",
+    "match_finale": [],
+    "affidabilità_finale": 0.05
+  },
+  "MARCUS CER . STR.DEL.ASS": {
+    "decision": "rifiutata",
+    "motivazione": "Nessuna corrispondenza trovata tra il testo OCR e i prodotti forniti nella lista. L'analista ha correttamente identificato l'assenza di similitudini, e tale valutazione è stata confermata e ritenuta affidabile dal critico.",
+    "match_finale": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ],
+    "affidabilità_finale": 0.95
+  },
+  "NONNA PAP . ST.G.36L.LIM": {
+    "decision": "rifiutata",
+    "motivazione": "La corrispondenza identificata ha una confidenza estremamente bassa (0.05) a causa di numerose e forti contraddizioni tra il testo OCR e i dettagli del prodotto, rendendo il match inaffidabile.",
+    "match_finale": [
+      {
+        "id": "2",
+        "nome": "CURA- FINISH CURALAVASTOVIGLIE SL LEMON 250 ml",
+        "brand": "reckitt",
+        "confidenza": 0.05
+      }
+    ],
+    "affidabilità_finale": 0.95
+  },
+  "GILLE.GEL / B.SER.RIVIT": {
+    "decision": "accettata",
+    "motivazione": "L'input OCR è estremamente ambiguo e frammentato, rendendo impossibile estrarre informazioni significative con sufficiente confidenza. La decisione dell'Analista di non trovare match è considerata un approccio prudente e corretto, evitando la generazione di dati errati o speculativi.",
+    "match_finale": [],
+    "affidabilità_finale": 0.9
+  },
+  "DOVE DOCC.DOL.NUTRIMEN": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista ha fallito nell'estrazione di qualsiasi dato significativo, restituendo un elenco vuoto nonostante l'input OCR 'DOVE DOCC.DOL.NUTRIMEN' contenga parole potenzialmente riconoscibili come 'DOVE', 'DOCC' (doccia) e 'NUTRIMEN' (nutrimento). Il lavoro è incompleto e non ha fornito alcun valore aggiunto.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "LINES SETA UL . ALT": {
+    "decision": "rifiutata",
+    "motivazione": "Nessuna corrispondenza trovata. La descrizione OCR 'LINES SETA UL . ALT' presenta un brand e una tipologia (LINES SETA) completamente diversi dai prodotti candidati (Finish Curalavastoviglie, Finish Cristalli di Sale).",
+    "match_finale": [],
+    "affidabilità_finale": 1.0
+  },
+  "COTONEVE DISC . LEV.OVAL SCINTIL LUC": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista ha restituito un risultato vuoto, non estraendo alcuna informazione dalla descrizione OCR che conteneva chiari elementi identificativi del prodotto. Il lavoro è insufficiente e inaffidabile.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "SUNSILK SH SCINTILL": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non è riuscito a estrarre alcuna informazione da una descrizione OCR che conteneva elementi chiaramente identificabili (brand, tipologia prodotto), restituendo un risultato vuoto.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "SUNSILK BAL F.FORTE": {
+    "decision": "revisionata",
+    "motivazione": "L'Analista non ha estratto alcuna informazione dal testo OCR, rendendo impossibile qualsiasi ricerca di match. È necessaria una revisione completa dell'estrazione del testo per identificare il prodotto.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "T OLIO EVO BASSO ML .": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcuna informazione da un testo OCR che conteneva elementi chiari e significativi, suggerendo un errore o una mancata identificazione delle entità rilevanti.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "T YOG TEDDI ALB2X115": {
+    "decision": "revisionata",
+    "motivazione": "L'Analista non ha fornito alcun risultato o interpretazione per l'input, producendo un output vuoto. Il processo necessita di revisione e il risultato non può essere accettato o rifiutato senza dati.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "T PISELLI PRIMAV . FI": {
+    "decision": "accettata",
+    "motivazione": "L'analisi ha correttamente identificato che l'OCR ('T PISELLI PRIMAV . FI') si riferisce a un prodotto alimentare (piselli), il quale non trova corrispondenza tra i prodotti forniti (detergenti/additivi per lavastoviglie). Il Critico conferma la correttezza, la logica e la precisione dell'analisi, validando l'assenza di corrispondenze.",
+    "match_finale": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ],
+    "affidabilità_finale": 1.0
+  },
+  "T YOG TEDDI BAN 2X11": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcun dato significativo, restituendo un risultato vuoto nonostante la potenziale presenza di testo. Il processo di estrazione non ha prodotto alcun match.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "T PR.COTTO AQ NEGR11": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcuna informazione utile dal testo fornito, restituendo un risultato vuoto e rendendo impossibile procedere con l'abbinamento.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "LENOR PERLE RISV .": {
+    "decision": "revisionata",
+    "motivazione": "L'analista non ha estratto alcuna informazione, indicando una potenziale fallimento nel processo di analisi, nonostante il testo di origine sia stato giudicato significativo dal critico (anche se con affidabilità del critico a 0.0). È necessaria una revisione per comprendere il motivo di questa mancanza di estrazione.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "ASS . LAURELLA P.SLI": {
+    "decision": "rifiutata",
+    "motivazione": "L'analista non ha estratto alcun dato significativo dal testo OCR, risultando in un array vuoto nonostante la presenza di dati leggibili.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "GREY ACCHIAPPACOLORE": {
+    "decision": "revisionata",
+    "motivazione": "L'analista non ha estratto alcuna informazione dalla descrizione OCR, ignorando un nome prodotto chiaramente identificabile.",
+    "match_finale": [],
+    "affidabilità_finale": 0.0
+  },
+  "PROF.LENOR UNSTOPP .": {
+    "decision": "rifiutata",
+    "motivazione": "Nessun prodotto corrisponde alla descrizione OCR. Il brand 'LENOR UNSTOPP' non è presente tra i prodotti forniti a marchio 'reckitt'.",
+    "match_finale": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ],
+    "affidabilità_finale": 1.0
+  }
+}

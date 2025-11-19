@@ -1,0 +1,272 @@
+[
+  {
+    "descrizione": "LENOR PERLE ROSE VANI",
+    "match": []
+  },
+  {
+    "descrizione": "DASH LAV 30 E / POSLAV",
+    "match": []
+  },
+  {
+    "descrizione": "FRIA CARTA TUM IN CH",
+    "match": []
+  },
+  {
+    "descrizione": "ELMEX DENT.SENS.167 % P",
+    "match": []
+  },
+  {
+    "descrizione": "MARCUS CER . STR.DEL.ASS",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "NONNA PAP . ST.G.36L.LIM",
+    "match": []
+  },
+  {
+    "descrizione": "GILLE.GEL / B.SER.RIVIT",
+    "match": []
+  },
+  {
+    "descrizione": "DOVE DOCC.DOL.NUTRIMEN",
+    "match": [
+      {
+        "id": "5",
+        "nome": "Masseria Settearchi - Primitivo di Manduria DOC 750ml",
+        "brand": "Casa Vinicola Zonin Spa",
+        "confidenza": 0.05
+      }
+    ]
+  },
+  {
+    "descrizione": "LINES SETA UL . ALT",
+    "match": []
+  },
+  {
+    "descrizione": "COTONEVE DISC . LEV.OVAL SCINTIL LUC",
+    "match": []
+  },
+  {
+    "descrizione": "SUNSILK SH SCINTILL",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "SUNSILK BAL F.FORTE",
+    "match": []
+  },
+  {
+    "descrizione": "LINES SETA UL . ALT DISC . LEV.OVAL",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "COTONEVE . SCINTIL LUC",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "T OLIO EVO BASSO ML .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "T YOG TEDDI ALB2X115",
+    "match": []
+  },
+  {
+    "descrizione": "T PISELLI PRIMAV . FI",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "ASS . LAURELLA P.SLI",
+    "match": []
+  },
+  {
+    "descrizione": "GREY ACCHIAPPACOLORE",
+    "match": []
+  },
+  {
+    "descrizione": "PROF.LENOR UNSTOPP .",
+    "match": []
+  },
+  {
+    "descrizione": "PETTO DI POLLO FETTE",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "GARNIER HYAL.SIER.VIS .",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "AMM LENOR PERLE 270GR NEW AME",
+    "match": []
+  },
+  {
+    "descrizione": "PARASOLE AUTO 130X60CM SILVER",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PROF.BUC UNSTO",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PROF.BUC UNSTO",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "CORNETTO BURRO MAXI GR75",
+    "match": []
+  },
+  {
+    "descrizione": "CROISS.INTEG.E ZUCC .",
+    "match": []
+  },
+  {
+    "descrizione": "PROSECCO VALD.DOCG",
+    "match": []
+  },
+  {
+    "descrizione": "KINDER PAN E CIOC GR",
+    "match": []
+  },
+  {
+    "descrizione": "BISC.FIBREXTRA RIP.A",
+    "match": []
+  },
+  {
+    "descrizione": "CROCCHETTE DI PATATE",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR UNSTOPPABLES L",
+    "match": []
+  },
+  {
+    "descrizione": "T BEV HAP.FRIZ PET C",
+    "match": [
+      {
+        "id": "7",
+        "nome": "Masseria Settearchi - Negroamaro Spumante Brut 750ml",
+        "brand": "Casa Vinicola Zonin Spa",
+        "confidenza": 0.45
+      }
+    ]
+  },
+  {
+    "descrizione": "BISC.NOVELL.CAMPIELL",
+    "match": []
+  },
+  {
+    "descrizione": "KIT KAT GR 41,5",
+    "match": []
+  },
+  {
+    "descrizione": "KIT KAT DARK 70 % G 4",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE OROERISVEGL.G",
+    "match": []
+  },
+  {
+    "descrizione": "SOTTOBOSC.TERRIC.UNIV.LT4",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LENOR PERLE AMESTISTA",
+    "match": []
+  },
+  {
+    "descrizione": "LENOR PERLE XL RISVEG",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "LIBRI CD CL . D7",
+    "match": [
+      {
+        "id": null,
+        "nome": null,
+        "brand": null,
+        "confidenza": 0.0
+      }
+    ]
+  },
+  {
+    "descrizione": "QUOTIDIANI",
+    "match": []
+  }
+]

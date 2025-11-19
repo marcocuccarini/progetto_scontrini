@@ -1,0 +1,86 @@
+id;brand;nome;nome_normalizzato;ean;codice_prodotto;prezzo_unitario;nome_normalizzato_gs1;note
+1;Reckitt;finish - ULTIMATE PLUS 14 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 14 Capsule;8002910063481;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 14 lavaggi 170,8 g;Prodotto trovato su GS1
+2;Reckitt;finish - ULTIMATE PLUS 22 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 22 Capsule;8002910063467;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 22 lavaggi 268,4 g;Prodotto trovato su GS1
+3;Reckitt;finish - ULTIMATE PLUS 22 REGULAR;Finish Ultimate Plus Detersivo Lavastoviglie Regular, 22 Capsule;8002910063443;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 22 lavaggi 268,4 g;Prodotto trovato su GS1
+4;Reckitt;finish - ULTIMATE PLUS 31 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 31 Capsule;8002910063429;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 31 lavaggi 378,2 g;Prodotto trovato su GS1
+5;Reckitt;finish - ULTIMATE PLUS 48 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 48 Capsule;8002910063382;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 48 lavaggi 585,6 g;Prodotto trovato su GS1
+6;Reckitt;finish - ULTIMATE PLUS 48 REGULAR;Finish Ultimate Plus Detersivo Lavastoviglie Regular, 48 Capsule;8002910063344;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 48 lavaggi 585,6 g;Prodotto trovato su GS1
+7;Reckitt;finish - ULTIMATE PLUS 62 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 62 Capsule;8002910067045;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 62 lavaggi 756,4 g;Prodotto trovato su GS1
+8;Reckitt;finish - ULTIMATE PLUS 62 REGULAR;Finish Ultimate Plus Detersivo Lavastoviglie Regular, 62 Capsule;8002910067083;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 62 lavaggi 756,4 g;Prodotto trovato su GS1
+9;Reckitt;finish - ULTIMATE PLUS 56 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 56 Capsule;8002910063368;;;Finish Ultimate Plus All In One Lemon pastiglie lavastoviglie 56 lavaggi 683,2 g;Prodotto trovato su GS1
+10;Reckitt;finish - ULTIMATE INFINITY SHINE PLUS 73 REGULAR;Finish Ultimate Plus Infinity Shine Detersivo Lavastoviglie Regular, 73 Capsule;4251758419583;;;;Prodotto non trovato su GS1
+11;Reckitt;finish - ULTIMATE INFINITY SHINE PLUS 73X2 REGULAR;Finish Ultimate Plus Infinity Shine Detersivo Lavastoviglie Regular, 146 Capsule (2x73);4251758426512;;;;Prodotto non trovato su GS1
+12;Reckitt;finish - ULTIMATE INFINITY SHINE PLUS 105 LEMON;Finish Ultimate Plus Infinity Shine Detersivo Lavastoviglie Limone, 105 Capsule;5059001016492;;;;Prodotto non trovato su GS1
+13;Reckitt;finish - ULTIMATE PLUS 14X7 LIMONE;Finish Ultimate Plus Detersivo Lavastoviglie Limone, 98 Capsule (7x14);8002910067854;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 98 lavaggi 1195,6 g;Prodotto trovato su GS1
+14;Reckitt;finish - FINISH DEODORANTE PROFUMO DI FRESCO;Finish Deodorante per Lavastoviglie Profumo di Fresco, 1 Pezzo;8410104437268;;;Finish Deodorante Profumo di Fresco deodorante lavastoviglie 4 ml;Prodotto trovato su GS1
+15;Reckitt;finish - FINISH DEODORANTE LIMONE E LIME;Finish Deodorante per Lavastoviglie Limone e Lime, 1 Pezzo;8002910004798;;;Finish Deodorante Limone e Lime deodorante lavastoviglie 4 ml;Prodotto trovato su GS1
+16;Reckitt;finish - FINISH DEODORANTE LIMONE E LIME X 2;Finish Deodorante per Lavastoviglie Limone e Lime, 2 Pezzi;8002910038960;;;Finish Deodorante Limone e Lime deodorante lavastoviglie 2 x 4 ml;Prodotto trovato su GS1
+17;Reckitt;finish - FINISH BRILLASCIUGA LEMON 250 ML;Finish Brillantante Limone, 250 ml;8002910006716;;;Finish Brillasciuga Lemon brillantante lavastoviglie 250 ml;Prodotto trovato su GS1
+18;Reckitt;finish - FINISH BRILLASCIUGA REGULAR 250 ML;Finish Brillantante Regular, 250 ml;8000580204869;;;Finish Brillasciuga Regular brillantante lavastoviglie 250 ml;Prodotto trovato su GS1
+19;Reckitt;finish - FINISH BRILLASCIUGA REGULAR 500 ML;Finish Brillantante Regular, 500 ml;8000580204906;;;Finish Brillasciuga brillantante lavastoviglie Regular 500 ml;Prodotto trovato su GS1
+20;Reckitt;finish - FINISH BRILLASCIUGA SL REGULAR 250 ML;Finish Brillantante Regular, 250 ml;8002910039189;;;Finish Brillasciuga Regular brillantante lavastoviglie 250 ml;Prodotto trovato su GS1
+21;Reckitt;finish - FINISH BRILLASCIUGA SL LEMON 250 ML;Finish Brillantante Limone, 250 ml;8002910039165;;;Finish Brillasciuga Lemon brillantante lavastoviglie 250 ml;Prodotto trovato su GS1
+22;Reckitt;finish - FINISH 0% BRILLASCIUGA 250 ML;Finish Brillantante 0%, 250 ml;8002910052959;;;Finish Brillasciuga 0% brillantante lavastoviglie 250 ml;Prodotto trovato su GS1
+23;Reckitt;finish - FINISH CURALAVASTOVIGLIE REGULAR 250 ml;Finish Curalavastoviglie Regular, 250 ml;8002910024925;;;Finish Curalavastoviglie regular 250 ml;Prodotto trovato su GS1
+24;Reckitt;finish - FINISH CURALAVASTOVIGLIE SL LEMON 250 ml;Finish Curalavastoviglie Limone, 250 ml;8002910039127;;;Finish Curalavastoviglie cura lavastoviglie Limone 250 ml;Prodotto trovato su GS1
+25;Reckitt;finish - FINISH CURALAVASTOVIGLIE SL REGULAR 250 ml;Finish Curalavastoviglie Regular, 250 ml;8002910039141;;;Finish Curalavastoviglie cura lavastoviglie Regular 250 ml;Prodotto trovato su GS1
+26;Reckitt;finish - FINISH CICLO PIENO;Finish Curalavastoviglie a Ciclo Pieno, 3 Pastiglie;8002910047511;;;Finish Curalavastoviglie Ciclo Pieno cura lavastoviglie 3 x 17 g;Prodotto trovato su GS1
+27;Reckitt;finish - FINISH BRILLASCIUGA LEMON 500 MLX2;Finish Brillantante Limone, 2 x 500 ml;8002910051341;;;;Prodotto non trovato su GS1
+28;Reckitt;finish - FINISH BRILLASCIUGA LEMON 500 ML (1);Finish Brillantante Limone, 500 ml;8000580205903;;;Finish Brillasciuga Lemon brillantante lavastoviglie 500 ml;Prodotto trovato su GS1
+29;Reckitt;finish - FINISH CURALAVASTOVIGLIE LEMON 250 ml x 2;Finish Curalavastoviglie Limone, 2 x 250 ml;8002910042370;;;Finish Curalavastoviglie Lemon 2 x 250 ml;Prodotto trovato su GS1
+30;Reckitt;finish - FINISH CURALAVASTOVIGLIE LEMON 250 ml (1);Finish Curalavastoviglie Limone, 250 ml;8002910024949;;;Finish Curalavastoviglie Lemon 250 ml;Prodotto trovato su GS1
+31;Reckitt;finish - FINISH CURALAVASTOVIGLIE LEMON 250MLX3;Finish Curalavastoviglie Limone, 3 x 250 ml;8002910051365;;;;Prodotto non trovato su GS1
+32;Reckitt;finish - ULTIMATE PLUS 12 FRESH;Finish Powerball Ultimate Plus Fresh, 12 Pastiglie;8002910069254;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 12 lavaggi 146,4 g;Prodotto trovato su GS1
+33;Reckitt;finish - ULTIMATE PLUS 30 FRESH;Finish Powerball Ultimate Plus Fresh, 30 Pastiglie;8002910069230;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 30 lavaggi 366 g;Prodotto trovato su GS1
+34;Reckitt;finish - ULTIMATE PLUS 31 FRESH;Finish Powerball Ultimate Plus Fresh, 31 Pastiglie;8002910069278;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 31 lavaggi 378,2 g;Prodotto trovato su GS1
+35;Reckitt;finish - ULTIMATE PLUS 65 LIMONE;Finish Powerball Ultimate Plus Limone, 65 Pastiglie;8002910069018;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 65 lavaggi 793 g;Prodotto trovato su GS1
+36;Reckitt;finish - ULTIMATE PLUS 65 FRESH;Finish Powerball Ultimate Plus Fresh, 65 Pastiglie;8002910069032;;;Finish Ultimate Plus Fresh pastiglie lavastoviglie 65 lavaggi 793 g;Prodotto trovato su GS1
+37;Reckitt;finish - ULTIMATE PLUS 75 LIMONE;Finish Powerball Ultimate Plus Limone, 75 Pastiglie;8002910068035;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 75 lavaggi 915 g;Prodotto trovato su GS1
+38;Reckitt;finish - ULTIMATE PLUS 115 LIMONE;Finish Powerball Ultimate Plus Limone, 115 Pastiglie;8002910069124;;;Finish Ultimate Plus Limone pastiglie lavastoviglie 115 lavaggi 1403 g;Prodotto trovato su GS1
+39;Reckitt;napisan - Napisan Detersivo Classico_23D;Napisan Detersivo Liquido Classico, 23 Lavaggi;8002910060411;;; Napisan Classico Liquido lavatrice 1,15 L;Prodotto trovato su GS1
+40;Reckitt;napisan - Napisan Detersivo Color_23D;Napisan Detersivo Liquido Color, 23 Lavaggi;8002910060398;;;Napisan Color Liquido lavatrice 1,15 L;Prodotto trovato su GS1
+41;Reckitt;napisan - Napisan Deterisvo Odorstop_23D;Napisan Detersivo Liquido Lavatrice Igienizzante Odorstop 23 Lavaggi;8002910060374;;;Napisan Odorstop Liquido lavatrice 1,15 L;Prodotto trovato su GS1
+42;Reckitt;napisan - Napisan Detersivo Classico_40D;Napisan Detersivo Liquido Lavatrice Igienizzante Classico 40 Lavaggi;8002910028688;;;Napisan Classico Liquido lavatrice 2 L;Prodotto trovato su GS1
+43;Reckitt;napisan - Napisan Detersivo Color_40D;Napisan Detersivo Liquido Lavatrice Igienizzante Capi Colorati 40 Lavaggi;8002910028602;;;Napisan Color Liquido lavatrice 2 L;Prodotto trovato su GS1
+44;Reckitt;napisan - Napisan Detersivo Classico_40D x2;Napisan Detersivo Liquido Lavatrice Igienizzante Classico 2x40 Lavaggi;8002910064921;;;Napisan Multipacco Classico Liquido lavatrice 2000 ml x 2 con Coupon;Prodotto trovato su GS1
+45;Reckitt;napisan - Napisan Detersivo Color_40D x2;Napisan Detersivo Liquido Lavatrice Igienizzante Capi Colorati 2x40 Lavaggi;8002910064808;;;Napisan Multipacco Color Liquido lavatrice 2000 ml x 2 con Coupon;Prodotto trovato su GS1
+46;Reckitt;napisan - Napisan Detersivo Classico_23D X3;Napisan Detersivo Liquido Lavatrice Igienizzante Classico 3x23 Lavaggi;8002910060473;;;Napisan Multipacco Classico Liquido lavatrice 1150 ml x 3 con Coupon;Prodotto trovato su GS1
+47;Reckitt;napisan - Napisan Detersivo Color_23D x3;Napisan Detersivo Liquido Lavatrice Igienizzante Capi Colorati 3x23 Lavaggi;8002910060497;;;Napisan Multipacco Color Liquido lavatrice 1150 ml x 3 con Coupon;Prodotto trovato su GS1
+48;Reckitt;napisan - Napisan Deterisvo Odorstop_23D x3;Napisan Detersivo Liquido Lavatrice Igienizzante Odorstop 3x23 Lavaggi;8002910060459;;;Napisan Multipacco Odorstop Liquido lavatrice 1150 ml x 3 con Coupon;Prodotto trovato su GS1
+49;Reckitt;napisan - Napisan Curalavatrice Igienizzante;Napisan Curalavatrice Igienizzante Liquido 250 ml;8002910047429;;;Napisan Cura Lavatrice igienizzante 250 ml;Prodotto trovato su GS1
+50;Reckitt;napisan - Napisan Curalavatrice Igienizzante (bipacco);Napisan Curalavatrice Igienizzante Liquido 2x250 ml;8002910028947;;;Napisan Cura Lavatrice Igienizzante 2 x 250 mL;Prodotto trovato su GS1
+51;Reckitt;napisan - Napisan Curalavatrice PMC;Napisan Curalavatrice Disinfettante 250 ml;8002910019402;;;Napisan Cura Lavatrice con Presidio Medico Chirurgico 250 ml;Prodotto trovato su GS1
+52;Reckitt;napisan - Standard ml. 1200;Napisan Additivo Igienizzante Liquido Classico 1200 ml;8002910033729;;;;Prodotto non trovato su GS1
+53;Reckitt;napisan - Profumo di Primavera ml. 1200;Napisan Additivo Igienizzante Liquido Profumo di Primavera 1200 ml;8002910055394;;;;Prodotto non trovato su GS1
+54;Reckitt;napisan - Lavanda ml. 1200;Napisan Additivo Igienizzante Liquido Lavanda 1200 ml;8002910059927;;;;Prodotto non trovato su GS1
+55;Reckitt;napisan - Standard ml. 2400;Napisan Additivo Igienizzante Liquido Classico 2400 ml;8002910033743;;;;Prodotto non trovato su GS1
+56;Reckitt;napisan - Profumo di Primavera ml. 2400;Napisan Additivo Igienizzante Liquido Profumo di Primavera 2400 ml;8002910058494;;;;Prodotto non trovato su GS1
+57;Reckitt;napisan - Lavanda ml. 2400;Napisan Additivo Igienizzante Liquido Lavanda 2400 ml;8002910059941;;;;Prodotto non trovato su GS1
+58;Reckitt;napisan - Pet ml. 900;Napisan Additivo Igienizzante Liquido Pet 900 ml;8002910055097;;;;Prodotto non trovato su GS1
+59;Reckitt;napisan - Polvere gr. 600;Napisan Additivo Igienizzante in Polvere 600 g;8002910033767;;;;Prodotto non trovato su GS1
+60;Reckitt;napisan - Polvere gr. 1200;Napisan Additivo Igienizzante in Polvere 1200 g;8002910033781;;;;Prodotto non trovato su GS1
+61;Reckitt;napisan - Tabs 10 - gr. 225;Napisan Detersivo Lavatrice Igienizzante in Tabs 10 Pastiglie 225 g;8002910012847;;;Napisan Additivo igienizzante lavatrice in pastiglie 10 pz 225 gr;Prodotto trovato su GS1
+62;Reckitt;napisan - Determatest 1200ml;Napisan Detersivo Liquido Igienizzante Classico 1200 ml;8002910049577;;;;Prodotto non trovato su GS1
+63;Reckitt;napisan - Determatest 2400ml;Napisan Detersivo Liquido Igienizzante Classico 2400 ml;8002910058067;;;;Prodotto non trovato su GS1
+64;Reckitt;napisan - Standard PMC 1l;Napisan Additivo Disinfettante Liquido Classico 1 L;8002910064211;;;Napisan Additivo Liquido Disinfettante Classico 1 L;Prodotto trovato su GS1
+65;Reckitt;napisan - Primavera PMC 1l;Napisan Additivo Disinfettante Liquido Profumo di Primavera 1 L;8002910064198;;;Napisan Additivo Liquido Disinfettante Profumo di Primavera 1 L;Prodotto trovato su GS1
+66;Reckitt;napisan - Lavanda PMC 1l;Napisan Additivo Disinfettante Liquido Profumo di Lavanda 1 L;8002910064259;;;Napisan Additivo Liquido Disinfettante Lavanda 1 L;Prodotto trovato su GS1
+67;Reckitt;napisan - Standard PMC 2.2l;Napisan Additivo Disinfettante Liquido Classico 2.2 L;8002910064037;;;Napisan Additivo Liquido Disinfettante 2,2 L;Prodotto trovato su GS1
+68;Reckitt;napisan - Primavera PMC 2.2l;Napisan Additivo Disinfettante Liquido Profumo di Primavera 2.2 L;8002910064013;;;Napisan Additivo Liquido Disinfettante Profumo di Primavera 2,2 L;Prodotto trovato su GS1
+69;Reckitt;napisan - Lavanda PMC 2.2l;Napisan Additivo Disinfettante Liquido Profumo di Lavanda 2.2 L;8002910064600;;;Napisan Additivo Liquido Disinfettante Lavanda 2,2 L;Prodotto trovato su GS1
+70;Reckitt;napisan - Polvere gr. 500;Napisan Additivo Igienizzante in Polvere 500 g;8002910063979;;;Napisan Additivo Polvere Disinfettante Battericida 500 gr;Prodotto trovato su GS1
+71;Reckitt;napisan - Polvere gr. 1100;Napisan Additivo Igienizzante in Polvere 1100 g;8002910063955;;;Napisan Additivo Polvere Disinfettante Battericida 1100 gr;Prodotto trovato su GS1
+72;Reckitt;napisan - Fresca Rugiada PMC 1l;Napisan Additivo Disinfettante Liquido Fresca Rugiada 1 L;8002910070823;;;NAPISAN_ADD_LIQ_PMC_FRES_RUGGIADA_1L;Prodotto trovato su GS1
+73;Reckitt;vanish - Polvere Rosa 500 gr.;Vanish Oxi Action Smacchiatore in Polvere Rosa 500 g;8002910058104;;;Vanish Oxi Action Multipower Polvere rosa Smacchiatore bucato 500 g;Prodotto trovato su GS1
+74;Reckitt;vanish - Polvere Bianca 500 gr.;Vanish Oxi Action Smacchiatore in Polvere Crystal White 500 g;8002910058166;;;Vanish Oxi Action Multipower Polvere bianca Smacchiatore bucato 500 g;Prodotto trovato su GS1
+75;Reckitt;vanish - Polvere Rosa 1000 gr.;Vanish Oxi Action Smacchiatore in Polvere Rosa 1000 g;8002910058180;;;Vanish Oxi Action Multipower Polvere rosa Smacchiatore bucato 1 kg;Prodotto trovato su GS1
+76;Reckitt;vanish - Polvere Bianca 1000 gr.;Vanish Oxi Action Smacchiatore in Polvere Crystal White 1000 g;8002910058142;;;Vanish Oxi Action Multipower Polvere bianca Smacchiatore bucato 1 kg;Prodotto trovato su GS1
+77;Reckitt;vanish - Polvere Rosa 1500 gr.;Vanish Oxi Action Smacchiatore in Polvere Rosa 1500 g;8002910065355;;;Vanish Oxi Action Polvere rosa Smacchiatore bucato 1,5kg;Prodotto trovato su GS1
+78;Reckitt;vanish - Gel Igiene con PMC 725 ml;Vanish Oxi Action Gel Disinfettante 725 ml;8002910059903;;;Vanish Oxi Advance 725 mL;Prodotto trovato su GS1
+79;Reckitt;vanish - Gel Rosa 750 ml;Vanish Oxi Action Smacchiatore Gel Rosa 750 ml;8002910058227;;;Vanish Oxi Action Multipower Gel rosa Smacchiatore bucato 750 mL;Prodotto trovato su GS1
+80;Reckitt;vanish - Gel Bianco 750 ml;Vanish Oxi Action Smacchiatore Gel Crystal White 750 ml;8002910058128;;;Vanish Oxi Action Gel bianco Smacchiatore bucato 750 mL;Prodotto trovato su GS1
+81;Reckitt;vanish - Gel Igiene con PMC 1450 ml;Vanish Oxi Action Smacchiatore Gel Igiene 1450 ml;8002910063146;;;;Prodotto non trovato su GS1
+82;Reckitt;vanish - Gel Rosa 1500 ml;Vanish Oxi Action Smacchiatore Gel Rosa 1500 ml;8002910058265;;;Vanish Oxi Action Multipower Gel rosa Smacchiatore bucato 1,5 L;Prodotto trovato su GS1
+83;Reckitt;vanish - Gel Bianco 1500 ml;Vanish Oxi Action Smacchiatore Gel Crystal White 1500 ml;8002910058241;;;Vanish Oxi Action Gel bianco Smacchiatore bucato 1,5 L;Prodotto trovato su GS1
+84;Reckitt;vanish - Gel Rosa 2250 ml;Vanish Oxi Action Smacchiatore Gel Rosa 2250 ml;8002910065379;;;Vanish Oxi Action Gel Rosa Smacchiatore bucato 2,25L;Prodotto trovato su GS1
+85;Reckitt;vanish - Trigger 725 ml;Vanish Oxi Action Smacchiatore Spray Pre-trattante 725 ml;8002910058630;;;Vanish Oxi Action Multi Smacchiatore Spray Pre-Trattante Senza Candeggina 725 ml;Prodotto trovato su GS1

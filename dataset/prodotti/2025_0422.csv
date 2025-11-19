@@ -1,0 +1,258 @@
+id;brand;nome;nome_normalizzato;ean;codice_prodotto;prezzo_unitario;nome_normalizzato_gs1;note
+1;P&G;IO Series iOG3.1A6.1D 1CT 1;Oral-B iO Gentle Care Testina di Ricambio White 1 Pezzo;8006540730751;;;;Prodotto non trovato su GS1
+2;P&G;IOM6.2I6.1DK FBNLSENOR LR BOX PTHBR;Oral-B iO Series 6 Spazzolino Elettrico Sand Pink;4210201445173;;;;Prodotto non trovato su GS1
+3;P&G;IOM6.2I6.1DK FBNLSENOR WT BOX PTHBR;Oral-B iO Series 6 Spazzolino Elettrico White;4210201445210;;;;Prodotto non trovato su GS1
+4;P&G;IOM6.2Q6.2DK FBNLSENOR BK BOX;Oral-B iO Series 6 Spazzolino Elettrico Black;4210201445135;;;;Prodotto non trovato su GS1
+5;P&G;IOM7.2Q2.2BD FBNLSENOR BK BOX PTHBR;Oral-B iO Series 7 Spazzolino Elettrico Black;4210201408505;;;;Prodotto non trovato su GS1
+6;P&G;IOM8.2Q2.2BD FBNLSENOR BK BOX PTHBR;Oral-B iO Series 8 Spazzolino Elettrico Black;4210201408611;;;;Prodotto non trovato su GS1
+7;P&G;IOM9.2Q2.2AD FBNLSENOR BK PLBOX PTHBR;Oral-B iO Series 9 Spazzolino Elettrico Black;4210201408680;;;;Prodotto non trovato su GS1
+8;P&G;OB DEN PE SENSIBILITÀ 75ML;Oral-B Professional Dentifricio Sensibilità e Gengive Calm 75 ml;8700216676298;;;;Prodotto non trovato su GS1
+9;P&G;OB DENT ADV PREV TARTARO MICROG 75ML;Oral-B Advanced Dentifricio Prevenzione Tartaro 75 ml;8700216675932;;;;Prodotto non trovato su GS1
+10;P&G;OB DENT ADV PREVENZ TARTARO 125ML;Oral-B Advanced Dentifricio Prevenzione Tartaro 125 ml;8700216675734;;;Oral-B Advanced Dentifricio Prevenzione Tartaro Microgranuli Attivi 125 ml;Prodotto trovato su GS1
+11;P&G;OB DENT ADV PREVENZIONE TARTARO 2X75ML;Oral-B Advanced Dentifricio Prevenzione Tartaro 2x75 ml;8700216675604;;;Oral-B Advanced Dentifricio Prevenzione Tartaro Microgranuli Attivi 2 x 75 ml;Prodotto trovato su GS1
+12;P&G;OB DENT ADV PREVENZIONE TARTARO 75ML;Oral-B Advanced Dentifricio Prevenzione Tartaro 75 ml;8700216676557;;;;Prodotto non trovato su GS1
+13;P&G;OB DENT ADV PROTEZ. SENSIBILITÀ  75ML;Oral-B Advanced Dentifricio Protezione Gengive e Smalto Sensibilità 75 ml;8700216675826;;;;Prodotto non trovato su GS1
+14;P&G;OB DENT ADV PROTEZIONE GENGIVE 2X75ML;Oral-B Advanced Dentifricio Protezione Gengive 2x75 ml;8700216676038;;;Oral-B Advanced Dentifricio Protezione Gengive Menta Fresca 2 x 75 ml;Prodotto trovato su GS1
+15;P&G;OB DENT ADV PROTEZIONE GENGIVE 75ML;Oral-B Advanced Dentifricio Protezione Gengive 75 ml;8700216675789;;;;Prodotto non trovato su GS1
+16;P&G;OB DENT ADV PROTEZIONE SBIANCANTE 75ML;Oral-B Advanced Dentifricio Protezione Sbiancante 75 ml;8700216675864;;;;Prodotto non trovato su GS1
+17;P&G;OB DENT ADV RIG SMALTO EXT. FRESH 75ML;Oral-B Advanced Dentifricio Rigenera Smalto Extra Fresh 75 ml;8700216675703;;;;Prodotto non trovato su GS1
+18;P&G;OB DENT ADV RIGENERA SMALTO 2X75ML;Oral-B Advanced Dentifricio Rigenera Smalto 2x75 ml;8700216675994;;;Oral-B Advanced Dentifricio Rigenera Smalto Menta 2 x 75 ml;Prodotto trovato su GS1
+19;P&G;OB DENT ADV RIGENERA SMALTO X125ML;Oral-B Advanced Dentifricio Rigenera Smalto 125 ml;8700216676229;;;Oral-B Advanced Dentifricio Rigenera Smalto Menta 125 ml;Prodotto trovato su GS1
+20;P&G;OB DENT ADV RIGENERA SMALTO X75ML;Oral-B Advanced Dentifricio Rigenera Smalto 75 ml;8700216676199;;;;Prodotto non trovato su GS1
+21;P&G;OB DENT CLINICAL PROTEZIONE CARIE 75ML;Oral-B Dentifricio Clinical Protezione Carie 75 ml;8700216676359;;;;Prodotto non trovato su GS1
+22;P&G;OB DENT G&S REP CLASSICO 2X 75ML;Oral-B Dentifricio Gengive & Smalto Repair Classico 2 x 75 ml;8006540447772;;;Oral-B Dentifricio Repair Gengive e Smalto Classico 2 x 75 ml;Prodotto trovato su GS1
+23;P&G;OB DENT JUNIOR 6-12 ANNI 75ML X12PZ;Oral-B Dentifricio Junior 6-12 Anni 75 ml;8700216089418;;;Oral-B Pro Junior 6-12 Dentifricio al Fluoro 75 ml;Prodotto trovato su GS1
+24;P&G;OB DENT KIDS 0-6 ANNI 50ML X12PZ;Oral-B Dentifricio Kids 3+ Anni 50 ml;8700216089449;;;Oral-B Pro-Kids da 6 Mesi a 6 Anni Dentifricio al Fluoro 50 ml;Prodotto trovato su GS1
+25;P&G;OB DENT PE ADV EXTRA SB 4X75ML X1PZ;Oral-B Dentifricio Pro-Expert Advanced Extra Sbiancante 4 x 75 ml;8700216184250;;;;Prodotto non trovato su GS1
+26;P&G;OB DENT PE ADV EXTRA SBIANC 75ML X12PZ;Oral-B Dentifricio Pro-Expert Advanced Extra Sbiancante 75 ml;8006540999882;;;Oral-B Dentifricio Pro-Expert Advanced Extra Sbiancante 75 ml;Prodotto trovato su GS1
+27;P&G;OB DENT PE ADV PUL PROF 2X75ML X16PZ;Oral-B Dentifricio Pro-Expert Advanced Pulizia Profonda 2 x 75 ml;8700216189255;;;Oral-B Dentifricio Pro-Expert Advanced Pulizia Profonda 2 x 75 ml;Prodotto trovato su GS1
+28;P&G;OB DENT PE ADV PUL PROFONDA 75ML X12PZ;Oral-B Dentifricio Pro-Expert Advanced Pulizia Profonda 75 ml;8006540999936;;;Oral-B Dentifricio Pro-Expert Advanced Pulizia Profonda 75 ml;Prodotto trovato su GS1
+29;P&G;OB DENT PE FRESCO INTENSO 75ML;Oral-B Dentifricio Pro-Expert Fresco Intenso 75 ml;8700216676441;;;Oral-B Pro-Expert Dentifricio Fresco Intenso 75 ml;Prodotto trovato su GS1
+30;P&G;OB DENT PE PROT PROF 2X75ML X16PZ;Oral-B Dentifricio Pro-Expert Protezione Professionale 2 x 75 ml;8700216189170;;;Oral-B Dentifricio Pro-Expert Protezione Professionale 2 x 75 ml;Prodotto trovato su GS1
+31;P&G;OB DENT PE PROTEZIONE PROFES 75ML X12PZ;Oral-B Dentifricio Pro-Expert Protezione Professionale 75 ml;8700216000093;;;Oral-B Dentifricio Pro-Expert Protezione Professionale 75 ml;Prodotto trovato su GS1
+32;P&G;OB DENT PE PROTEZIONE PROFESS 75ML;Oral-B Dentifricio Pro-Expert Protezione Professionale 75 ml;8700216676045;;;;Prodotto non trovato su GS1
+33;P&G;OB DENT PE PROTEZIONE PROFESS. 2X75ML;Oral-B Dentifricio Pro-Expert Protezione Professionale 2 x 75 ml;8700216676267;;;Oral-B Pro-Expert Dentifricio Protezione Professionale 2 x 75 ml;Prodotto trovato su GS1
+34;P&G;OB DENT PE PROTEZIONE PROFESSION. 125ML;Oral-B Dentifricio Pro-Expert Protezione Professionale 125 ml;8700216676427;;;Oral-B Pro-Expert Dentifricio Protezione Professionale 125 ml;Prodotto trovato su GS1
+35;P&G;OB DENT PE PULIZ PROF 5X75ML X1PZ;Oral-B Dentifricio Pro-Expert Pulizia Profonda 5 x 75 ml;8700216184168;;;;Prodotto non trovato su GS1
+36;P&G;OB DENT PE PULIZIA PROFONDA 75ML X12PZ;Oral-B Dentifricio Pro-Expert Pulizia Profonda 75 ml;8700216000253;;;Oral-B Dentifricio Pro-Expert Pulizia Profonda 75 ml;Prodotto trovato su GS1
+37;P&G;OB DENT PE SBIAN DELICATO 2X75ML;Oral-B Dentifricio Pro-Expert Sbiancante Delicato 2 x 75 ml;8700216676090;;;Oral-B Pro-Expert Dentifricio Sbiancante Delicato 2 x 75 ml;Prodotto trovato su GS1
+38;P&G;OB DENT PE SBIAN SANO 2X75ML X16PZ;Oral-B Dentifricio Pro-Expert Sbiancamento Sano 2 x 75 ml;8700216189224;;;Oral-B Dentifricio Pro-Expert Sbiancante Sano 2 x 75 ml;Prodotto trovato su GS1
+39;P&G;OB DENT PE SBIAN SANO 5X75ML X1PZ;Oral-B Dentifricio Pro-Expert Sbiancamento Sano 5 x 75 ml;8700216184199;;;;Prodotto non trovato su GS1
+40;P&G;OB DENT PE SBIANCANTE DELICATO 75ML;Oral-B Dentifricio Pro-Expert Sbiancante Delicato 75 ml;8700216676519;;;;Prodotto non trovato su GS1
+41;P&G;OB DENT PE SBIANCANTE SANO 75ML X12PZ;Oral-B Pro-Expert Sbiancante Sano Dentifricio 75 ml;8700216000130;;;Oral-B Dentifricio Pro-Expert Sbiancante Sano 75 ml;Prodotto trovato su GS1
+42;P&G;OB DENT PE SENSIBILITÀ 125ML;Oral-B Pro-Expert Protezione Professionale Dentifricio 125 ml;8700216676397;;;Oral-B Pro-Expert Dentifricio Sensibilità 125 ml;Prodotto trovato su GS1
+43;P&G;OB DENT PE SENSIBILITÀ 2X75ML;Oral-B Pro-Expert Sensibilità e Gengive Sollievo Delicato Dentifricio 2x75 ml;8700216676137;;;Oral-B Pro-Expert Dentifricio Sensibilità 2 x 75 ml;Prodotto trovato su GS1
+44;P&G;OB DENT PRO-REPAIR SB DEL 4X75ML;Oral-B Gengive & Smalto Pro-Repair Sbiancante Delicato Dentifricio 4x75 ml;8006540933435;;;;Prodotto non trovato su GS1
+45;P&G;OB DENT PROTEZION GEN PUL PRO 2X 75ML;Oral-B Gengive Purify Pulizia Profonda Dentifricio 2x75 ml;8006540652541;;;Oral-B Dentifricio Protezione Gengive e Scudo Antibatterico* Pulizia Profonda 2 x 75 ml;Prodotto trovato su GS1
+46;P&G;OB DENT PS ADV CALM CLASSICO 100ML X24PZ;Oral-B Pro-Science Advanced Sensibilità e Gengive Calm Classico Dentifricio 100 ml;8006540285336;;;;Prodotto non trovato su GS1
+47;P&G;OB DENT PS ADV CALM CLASSICO 75ML X12PZ;Oral-B Pro-Science Advanced Sensibilità e Gengive Calm Classico Dentifricio 75 ml;8001841520483;;;Oral-B Pro-Science Advanced Dentifricio Sensibilità e Gengive Calm Classico 75 ml;Prodotto trovato su GS1
+48;P&G;OB DENT PS ADV PRO-R CLASSICO 75ML X12PZ;Oral-B Pro-Science Advanced Gengive e Smalto Pro-Repair Classico Dentifricio 75 ml;8001090786937;;;Oral-B Pro-Science Advanced Dentifricio Gengive & Smalto Pro Repair Classico 75 ml;Prodotto trovato su GS1
+49;P&G;OB DENT PS ADV PRO-R SBIA DEL 75ML X12PZ;Oral-B Pro-Science Advanced Gengive e Smalto Pro-Repair Sbiancante Delicato Dentifricio 75 ml;8001090786616;;;Oral-B Pro-Science Advanced Dentifricio Gengive & Smalto Pro Repair Sbiancante Fresh 75 ml;Prodotto trovato su GS1
+50;P&G;OB DENT PS ADV PRO-REP CLAS 100ML X24PZ;Oral-B Pro-Science Advanced Gengive e Smalto Pro-Repair Classico Dentifricio 100 ml;8006540235157;;;;Prodotto non trovato su GS1
+51;P&G;OB DENT PS ADV RIG SM PUL QU 100ML X24PZ;Oral-B Pro-Science Advanced Rigenera Smalto Pulizia Quotidiana Dentifricio 100 ml;8001090421371;;;;Prodotto non trovato su GS1
+52;P&G;OB DENT PS ADV RIG SM PUL QUO 75ML X12PZ;Oral-B Pro-Science Advanced Rigenera Smalto Pulizia Quotidiana Dentifricio 75 ml;8001090276209;;;Oral-B Pro-Science Advanced Dentifricio Rigenera Smalto Pulizia Quotidiana 75 ml;Prodotto trovato su GS1
+53;P&G;OB DENT PS ADV RIG SM SBI DEL 75ML X12PZ;Oral-B Pro-Science Advanced Rigenera Smalto Sbiancante Delicato Dentifricio 75 ml;8001090276278;;;Oral-B Pro-Science Advanced Dentifricio Rigenera Smalto Sbiancante Delicato 75 ml;Prodotto trovato su GS1
+54;P&G;OB DENT PS ADV RIG SMALTO 2X75ML X16PZ;Oral-B Pro-Science Advanced Rigenera Smalto Dentifricio 2x75 ml;8700216189262;;;Oral-B Professional Dentifricio Rigenera Smalto Pulizia Quotidiana 2 x 75 ml;Prodotto trovato su GS1
+55;P&G;OB DENT PS PROT GENG PUL 5X75ML X1PZ;Oral-B Gengive Purify Pulizia Profonda Dentifricio 5x75 ml;8700216184229;;;;Prodotto non trovato su GS1
+56;P&G;OB DENT PS PROT GENG PUL PROF 75ML X12PZ;Oral-B Gengive Purify Pulizia Profonda Dentifricio 75 ml;8001841188942;;;Oral-B Pro-Science Dentifricio Protezione Gengive e Scudo Antibatterico* Pulizia Profonda 75 ml;Prodotto trovato su GS1
+57;P&G;OB DENT PS REP CLASS 5X75ML X1PZ;Oral-B Gengive e Smalto Pro-Repair Classico Dentifricio 5x75 ml;8700216187664;;;;Prodotto non trovato su GS1
+58;P&G;OB DENT PS REPAIR CLASSICO 75ML X12PZ;Oral-B Gengive e Smalto Pro-Repair Classico Dentifricio 75 ml;8001090794635;;;Oral-B Pro-Science Dentifricio Gengive & Smalto Repair Classico - Menta 75 ml;Prodotto trovato su GS1
+59;P&G;OB DENT RIG SMALTO PUL QUOT 4X 100ML;Oral-B Rigenera Smalto Pulizia Quotidiana Dentifricio 4x100 ml;8001090954329;;;;Prodotto non trovato su GS1
+60;P&G;OB DENT RIGENERA SMALTO SB DEL 4X75ML;Oral-B Rigenera Smalto Sbiancante Delicato Dentifricio 4x75 ml;8006540933404;;;;Prodotto non trovato su GS1
+61;P&G;OB DENT S&G CALM CLASS 4X 100ML;Oral-B Dentifricio Gengive & Smalto Repair Classico 4 x 100 ml;8006540288474;;;;Prodotto non trovato su GS1
+62;P&G;OB KIDS FROZEN 75ML IT SEE ISRAEL;Oral-B Kids Dentifricio Frozen 75 ml;8001090632715;;;Oral B Dentifricio Kids Cars/Frozen 75 ml - Dentifricio per Bambini 0-5 anni;Prodotto trovato su GS1
+63;P&G;OB POW EB20RX 10 ct PrecClean A4BOX;Oral-B Precision Clean Testine di Ricambio 10 Pezzi;8006540986912;;;;Prodotto non trovato su GS1
+64;P&G;OB POW EB50RX 8 CT CA ENG/GER A4BOX;Oral-B CrossAction Testine di Ricambio 8 Pezzi;8006540986820;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 8 pz;Prodotto trovato su GS1
+65;P&G;OB POW IO10 BK SIOC X1PZ;Oral-B iO Serie 10 Spazzolino Elettrico Black 1 Pezzo;4210201446095;;;;Prodotto non trovato su GS1
+66;P&G;OB POW IO19 WT SIOC X1PZ;Oral-B iO Serie 9 Spazzolino Elettrico White 1 Pezzo;4210201443858;;;;Prodotto non trovato su GS1
+67;P&G;OB POW IO3 BLACK + OBP PRO REPAIR X 1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Black con Dentifricio Pro-Repair 1 Pezzo;8700216242592;;;;Prodotto non trovato su GS1
+68;P&G;OB POW IO3 DUO BLACK/PINK X1PZ;Oral-B iO Serie 3 Duo Pack Spazzolini Elettrici Black e Pink 2 Pezzi;8006540731857;;;;Prodotto non trovato su GS1
+69;P&G;OB POW IO3 IB SIOC X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Light Blue Ghiaccio 1 Pezzo;8006540961490;;;;Prodotto non trovato su GS1
+70;P&G;OB POW IO3DUO BLACK/LIGHTBLUE X1PZ;Oral-B iO Serie 3 Duo Pack Spazzolini Elettrici Black e Light Blue 2 Pezzi;8006540731659;;;Oral-B iO Series 3 Spazzolino Elettrico Denti Ricaricabile Duo Edition Matt Black + Ice Blue;Prodotto trovato su GS1
+71;P&G;OB POW IO3n BK x1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Black 1 Pezzo;8006540730744;;;;Prodotto non trovato su GS1
+72;P&G;OB POW IO3N LIGHTBLUE X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Light Blue 1 Pezzo;8006540730850;;;;Prodotto non trovato su GS1
+73;P&G;OB POW IO3s BK +TC X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Black con Custodia da Viaggio 1 Pezzo;8006540731536;;;Oral-B iO Series 3 Spazzolino Elettrico Denti Ricaricabile Matt Black;Prodotto trovato su GS1
+74;P&G;OB POW IO3s BLACK X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Black 1 Pezzo;8006540730898;;;;Prodotto non trovato su GS1
+75;P&G;OB POW IO3s LIGHTBLUE X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Light Blue 1 Pezzo;8006540730935;;;Oral-B iO Series 3s Spazzolino Elettrico Denti Ricaricabile Ice Blue;Prodotto trovato su GS1
+76;P&G;OB POW IO3s PINK X1PZ;Oral-B iO Serie 3 Spazzolino Elettrico Pink 1 Pezzo;8006540730843;;;Oral-B iO Series 3s Spazzolino Elettrico Denti Ricaricabile Blush Pink;Prodotto trovato su GS1
+77;P&G;OB POW IO4 BK SIOC X1PZ;Oral-B iO Serie 4 Spazzolino Elettrico Black 1 Pezzo;4210201446330;;;;Prodotto non trovato su GS1
+78;P&G;OB POW IO5 BK SIOC X1PZ;Oral-B iO Serie 5 Spazzolino Elettrico Black 1 Pezzo;4210201446347;;;;Prodotto non trovato su GS1
+79;P&G;OB POW IO5 DUO BK/WT SIOC X1PZ;Oral-B iO Serie 5 Duo Pack Spazzolini Elettrici Black e White 2 Pezzi;4210201446354;;;;Prodotto non trovato su GS1
+80;P&G;OB POW IO6 BK SIOC X1PZ;Oral-B iO Serie 6 Spazzolino Elettrico Black 1 Pezzo;4210201443766;;;;Prodotto non trovato su GS1
+81;P&G;OB POW IO7 BK SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 7 Onyx Black;4210201443803;;;;Prodotto non trovato su GS1
+82;P&G;OB POW IO7 WT SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 7 Alabaster White;4210201446064;;;;Prodotto non trovato su GS1
+83;P&G;OB POW IO8 BK SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 8 Onyx Black;4210201444312;;;;Prodotto non trovato su GS1
+84;P&G;OB POW IO8 VT SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 8 Amethyst Purple;4210201446071;;;;Prodotto non trovato su GS1
+85;P&G;OB POW IO8 WT SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 8 Alabaster White;4210201443841;;;;Prodotto non trovato su GS1
+86;P&G;OB PW IO8DUO BK/VT SIOC X 1PZ;Oral-B Spazzolino Elettrico iO Series 8 Duo Pack Black e Purple;4210201446101;;;;Prodotto non trovato su GS1
+87;P&G;OB POW IO9 BK SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 9 Onyx Black;4210201443889;;;;Prodotto non trovato su GS1
+88;P&G;OB POW IO9 RQ SIOC X1PZ;Oral-B Spazzolino Elettrico iO Series 9 Rose Quartz;4210201446088;;;;Prodotto non trovato su GS1
+89;P&G;OB POW PRO1 JUNIOR VERDE X1PZ;Oral-B Junior Spazzolino Elettrico Ricaricabile Green (6+ anni);8006540743027;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Junior 6+ Verde;Prodotto trovato su GS1
+90;P&G;OB POW PRO1 JUNIOR VIOLA X1PZ;Oral-B Junior Spazzolino Elettrico Ricaricabile Purple (6+ anni);8006540742891;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Junior 6+ Viola;Prodotto trovato su GS1
+91;P&G;OB POW PRO3 BLACK + 1REF CA HBOX X1PZ;Oral-B Pro 3 3500 Spazzolino Elettrico Black con Custodia da Viaggio;8006540759790;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro 3 3000 Black + 2 refill Cross Action;Prodotto trovato su GS1
+92;P&G;OB POW PRO3 BLUE + 1REF SU HBOX X1PZ;Oral-B Pro 3 3000 Spazzolino Elettrico Blue;8006540759813;;;;Prodotto non trovato su GS1
+93;P&G;OB POW PRO3 BLUE + 1REF SU HBOX X1PZ;Oral-B Pro 3 3000 Spazzolino Elettrico Blue;8006540759868;;;;Prodotto non trovato su GS1
+94;P&G;OB POW PRO3 BLUE +1REF CA X1PZ;Oral-B Pro 3 3500 Spazzolino Elettrico Blue con Custodia da Viaggio;8006540759752;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro 3 3000 Blue + 2 refill Cross Action;Prodotto trovato su GS1
+95;P&G;OB POW PRO3 JUNIOR SW +2 REF X1PZ;Oral-B Junior Spazzolino Elettrico Ricaricabile Star Wars;8006540957196;;;;Prodotto non trovato su GS1
+96;P&G;OB POW PRO3 LAB X1PZ;Oral-B Pro 3 3900 Spazzolino Elettrico Doppio Manico Black e Pink;8006540760727;;;;Prodotto non trovato su GS1
+97;P&G;OB POW PRO3 SIOC BK X1PZ;Oral-B Pro 3 3000 Spazzolino Elettrico Black;8700216023979;;;;Prodotto non trovato su GS1
+98;P&G;OB POW PRO3 WHITE + 1REF X1PZ;Oral-B Pro 3 3000 Spazzolino Elettrico White;8006540760857;;;;Prodotto non trovato su GS1
+99;P&G;OB POW PRO3 WHITE SENSI +1REF X1PZ;Oral-B Pro 3 3000 Spazzolino Elettrico White Sensi Ultrathin;8006540760918;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro 3 3000 White + 2 refill Sensitive Clean;Prodotto trovato su GS1
+100;P&G;OB POW PRO3500 BLACK + 1REF CA + TC X1PZ;Oral-B Pro 3 3500 Spazzolino Elettrico Black con Custodia da Viaggio;8006540759912;;;;Prodotto non trovato su GS1
+101;P&G;OB POW PRO3500 WHITE + 1REF SU + TC X1PZ;Oral-B Spazzolino Elettrico Pro 3 3500 White con 1 Testina di Ricambio e Custodia da Viaggio;8006540759929;;;;Prodotto non trovato su GS1
+102;P&G;OB POW PRO3700 WH SENSI +2REF X1PZ;Oral-B Spazzolino Elettrico Pro 3 3700 White Sensi UltraThin con 2 Testine di Ricambio;8006540760833;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro 3 3700 White + Bonus Refill Gift Edition;Prodotto trovato su GS1
+103;P&G;OB POW PRO3770 BLUE +2REF +2PIN X1PZ;Oral-B Spazzolino Elettrico Pro 3 3700 Blue con 2 Testine di Ricambio;8006540760031;;;;Prodotto non trovato su GS1
+104;P&G;OB POW PRO3900 DUO BK/WH + 2REF X1PZ;Oral-B Spazzolino Elettrico Pro 3 3900 Duo Confezione Doppia Black e White con 2 Testine di Ricambio;8006540760765;;;;Prodotto non trovato su GS1
+105;P&G;OB POW PRO3900 DUO BLACK + 2 REF X1PZ;Oral-B Spazzolino Elettrico Pro 3 3900 Duo Confezione Doppia Black con 2 Testine di Ricambio;8006540760215;;;;Prodotto non trovato su GS1
+106;P&G;OB POW PRO3950 DUO BK/PK + 2 REF X1PZ;Oral-B Spazzolino Elettrico Pro 3 3900 Duo Confezione Doppia Black e Pink con 2 Testine di Ricambio;8006540760277;;;;Prodotto non trovato su GS1
+107;P&G;OB PW ADVANCE 400 KIDS X6PZ;Oral-B Kids Spazzolino Elettrico Stages Power;4210201293873;;;Oral-B Power Stages Spazzolino a Batteria per Bambini Disney Principesse/Cars (Advance 400)- +3 anni;Prodotto trovato su GS1
+108;P&G;OB PW BATTERIA DB5 BLACK HBOX;Oral-B AdvancePower DB5 Spazzolino Elettrico a Batteria Black;4210201409809;;;Oral-B Spazzolino Denti a Batteria Pro Battery DB5 Black;Prodotto trovato su GS1
+109;P&G;OB PW BATTERIA DB5 WHITE HBOX;Oral-B AdvancePower DB5 Spazzolino Elettrico a Batteria White;4210201434184;;;Oral-B Spazzolino Denti a Batteria Pro Battery DB5 White;Prodotto trovato su GS1
+110;P&G;OB PW D100 VIT CA BLACK CLAM X6PZ;Oral-B Vitality 100 Spazzolino Elettrico CrossAction Black;4210201200734;;;Oral-B Power Spazzolino Elettrico Vitality Timer CrossAction Black;Prodotto trovato su GS1
+111;P&G;OB PW D100 VITALITY 3DW CLAMSHELL X6PZ;Oral-B Vitality 100 Spazzolino Elettrico con Testina 3D White;4210201199496;;;Oral-B Power Spazzolino Elettrico Vitality Timer 3D White White;Prodotto trovato su GS1
+112;P&G;OB PW D100 VITALITY CA CLAMSHELL X6PZ;Oral-B Vitality 100 Spazzolino Elettrico CrossAction White;4210201199441;;;Oral-B Power Spazzolino Elettrico Vitality Timer CrossAction White;Prodotto trovato su GS1
+113;P&G;OB PW D100 VITALITY SENSU CLAMSHELL X6PZ;Oral-B Vitality 100 Spazzolino Elettrico Sensi UltraThin;4210201200581;;;Oral-B Power Spazzolino Elettrico Ricaricabile Vitality 100 Sensi Ultrathin;Prodotto trovato su GS1
+114;P&G;OB PW EXPO IO3 BK HBOX 6PZ;Oral-B iO Series 3 Spazzolino Elettrico Black;8006540730966;;;Oral-B JSERIES TM 3s S Spazzolino elettrico ricaricabile.00%Ji.;Prodotto trovato su GS1
+115;P&G;OB PW EXPO PRO1 BLACK TRAVEL C 24PZ;Oral-B Pro 1 750 Spazzolino Elettrico Black con Custodia da Viaggio;8001090914170;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Black Travel Edition;Prodotto trovato su GS1
+116;P&G;OB PW IO10 BLACK + 1XOBPURIFY X1PZ;Oral-B iO Series 10 Spazzolino Elettrico Black con Caricatore Magnetico iOsense;8700216138994;;;;Prodotto non trovato su GS1
+117;P&G;OB PW IO10 BLACK X1PZ;Oral-B iO Series 10 Spazzolino Elettrico Black con Caricatore Magnetico iOsense;4210201435648;;;Oral-B iO Series 10 Spazzolino Elettrico Denti Ricaricabile Cosmic Black;Prodotto trovato su GS1
+118;P&G;OB PW IO10 WHITE X1PZ;Oral-B iO Series 10 Spazzolino Elettrico White con Caricatore Magnetico iOsense;4210201435624;;;;Prodotto non trovato su GS1
+119;P&G;OB PW IO4 N + TC BLACK;Oral-B iO Series 4 Spazzolino Elettrico Black con Custodia da Viaggio;4210201414728;;;;Prodotto non trovato su GS1
+120;P&G;OB PW IO4 N + TC WHITE;Oral-B iO Series 4 Spazzolino Elettrico White con Custodia da Viaggio;4210201414681;;;;Prodotto non trovato su GS1
+121;P&G;OB PW IO4 N BLACK;Oral-B iO Series 4 Spazzolino Elettrico Black;4210201437543;;;Oral-B iO Series 4 Spazzolino Elettrico Denti Ricaricabile Matt Black;Prodotto trovato su GS1
+122;P&G;OB PW IO4 TEENS BLUE W/TC X1PZ;Oral-B iO 4s Spazzolino Elettrico per Adolescenti con Custodia da Viaggio Blue;8006540818602;;;;Prodotto non trovato su GS1
+123;P&G;OB PW IO4 TEENS BLUE X1PZ;Oral-B iO 4s Spazzolino Elettrico per Adolescenti Blue;8006540818619;;;;Prodotto non trovato su GS1
+124;P&G;OB PW IO4 WHITE;Oral-B iO Series 4 Spazzolino Elettrico White;4210201437505;;;;Prodotto non trovato su GS1
+125;P&G;OB PW IO5 N BLACK;Oral-B iO Series 5 Spazzolino Elettrico Black;4210201414803;;;Oral-B iO Series 5n Spazzolino Elettrico Denti Ricaricabile Matt Black;Prodotto trovato su GS1
+126;P&G;OB PW IO5 N WHITE;Oral-B iO Series 5 Spazzolino Elettrico White;4210201414766;;;;Prodotto non trovato su GS1
+127;P&G;OB PW IO6 BLACK + 1XOBPURIFY X1PZ;Oral-B iO Series 6 Spazzolino Elettrico con 1 Testina Purify Black;8700216138932;;;;Prodotto non trovato su GS1
+128;P&G;OB PW IO6 BLACK + 1XOBREPAIR X1PZ;Oral-B iO Series 6 Spazzolino Elettrico con 1 Testina Gengive & Smalto Repair Black;8700216138895;;;;Prodotto non trovato su GS1
+129;P&G;OB PW IO6S BLACK X1PZ;Oral-B iO Series 6s Spazzolino Elettrico Black;4210201409137;;;Oral-B iO Series 6s Spazzolino Elettrico Denti Ricaricabile Black Lava;Prodotto trovato su GS1
+130;P&G;OB PW IO6S GREY X1PZ;Oral-B iO Series 6s Spazzolino Elettrico Grey;4210201427360;;;Oral-B iO Series 6s Spazzolino Elettrico Denti Ricaricabile Grey Opal;Prodotto trovato su GS1
+131;P&G;OB PW IO6S LIGHT ROSE X1PZ;Oral-B iO Series 6s Spazzolino Elettrico Light Rose;4210201427384;;;;Prodotto non trovato su GS1
+132;P&G;OB PW IO6S WHITE X1PZ;Oral-B iO Series 6s Spazzolino Elettrico White;4210201427407;;;;Prodotto non trovato su GS1
+133;P&G;OB PW IO7 N BLU;Oral-B iO Series 7 Spazzolino Elettrico Blue;4210201409274;;;;Prodotto non trovato su GS1
+134;P&G;OB PW IO7S BLACK X1PZ;Oral-B iO Series 7s Spazzolino Elettrico Black;4210201408802;;;;Prodotto non trovato su GS1
+135;P&G;OB PW IO7S WHITE X1PZ;Oral-B iO Series 7s Spazzolino Elettrico White;4210201408789;;;;Prodotto non trovato su GS1
+136;P&G;OB PW IO8S BLACK X1PZ;Oral-B iO Series 8s Spazzolino Elettrico Black;4210201408826;;;Oral-B iO Series 8s Spazzolino Elettrico Denti Ricaricabile Onyx Black;Prodotto trovato su GS1
+137;P&G;OB PW IO9S BLACK X1PZ;Oral-B iO Series 9s Spazzolino Elettrico Black;4210201408864;;;Oral-B iO Series 9s Spazzolino Elettrico Denti Ricaricabile Onyx Black;Prodotto trovato su GS1
+138;P&G;OB PW IO9S WHITE X1PZ;Oral-B iO Series 9s Spazzolino Elettrico White;4210201408840;;;;Prodotto non trovato su GS1
+139;P&G;OB PW PRO1 3DW BK/TQ DUOPACK;Oral-B Pro 1 3D White Spazzolino Elettrico Confezione Doppia Black/Turquoise;8001090915016;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Duo Edition Caribbean Blue +Manico Black;Prodotto trovato su GS1
+140;P&G;OB PW PRO1 3DW PK HBOX;Oral-B Pro 1 3D White Spazzolino Elettrico Pink;8700216013079;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Pink;Prodotto trovato su GS1
+141;P&G;OB PW PRO1 3DW Rosa + TC;Oral-B Pro 1 750 Spazzolino Elettrico Ricaricabile 3D White Pink con Custodia da Viaggio;8001090914217;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Pink Travel Edition;Prodotto trovato su GS1
+142;P&G;OB PW PRO1 CR Azzurro + TC;Oral-B Pro 1 750 Spazzolino Elettrico Ricaricabile CrossAction Light Blue con Custodia da Viaggio;8001090914132;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Caribbean Blue Travel Edition;Prodotto trovato su GS1
+143;P&G;OB PW PRO1 CRS BK +1REF;Oral-B Pro 1 200 Spazzolino Elettrico Ricaricabile CrossAction Black con 1 Testina di Ricambio;8006540771457;;;;Prodotto non trovato su GS1
+144;P&G;OB PW PRO1 CRS BK HBOX;Oral-B Pro 1 700 Spazzolino Elettrico Ricaricabile CrossAction Black;8700216012935;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Black;Prodotto trovato su GS1
+145;P&G;OB PW PRO1 CRS PK +1REF;Oral-B Pro 1 200 Spazzolino Elettrico Ricaricabile CrossAction Pink con 1 Testina di Ricambio;8006540771501;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Pink;Prodotto trovato su GS1
+146;P&G;OB PW PRO1 CRS PK HBOX;Oral-B Pro 1 700 Spazzolino Elettrico Ricaricabile CrossAction Pink;8700216013024;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Pink;Prodotto trovato su GS1
+147;P&G;OB PW PRO1 CRS TQ HBOX;Oral-B Pro 1 700 Spazzolino Elettrico Ricaricabile CrossAction Turquoise;8700216012942;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Caribbean Blue;Prodotto trovato su GS1
+148;P&G;OB PW PRO1 SENSI TQ HBOX;Oral-B Pro 1 700 Spazzolino Elettrico Ricaricabile Sensi UltraThin Turquoise;8700216013116;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Series 1 Caribbean Blue;Prodotto trovato su GS1
+149;P&G;OB PW PRO1EASYCLEAN CROSS BK SING 1PZ;Oral-B Pro 1 700 EasyClean Spazzolino Elettrico Ricaricabile CrossAction Black 1 Pezzo;8006540757574;;;;Prodotto non trovato su GS1
+150;P&G;OB PW PRO1EASYCLEAN CROSS BK+TC 1PZ;Oral-B Pro 1 750 EasyClean Spazzolino Elettrico Ricaricabile CrossAction Black con Custodia da Viaggio 1 Pezzo;8006540757734;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Clean Black + Bonus Travel Case;Prodotto trovato su GS1
+151;P&G;OB PW PRO1EASYCLEAN CROSS WT SINGLE 1PZ;Oral-B Pro 1 700 EasyClean Spazzolino Elettrico Ricaricabile CrossAction White 1 Pezzo;8006540757567;;;;Prodotto non trovato su GS1
+152;P&G;OB PW PRO1EASYCLEAN CRS BLACK +1REF 1 PZ;Oral-B Pro 1 790 EasyClean Spazzolino Elettrico Ricaricabile CrossAction Black con 1 Testina di Ricambio 1 Pezzo;8006540757871;;;;Prodotto non trovato su GS1
+153;P&G;OB PW PRO1EASYCLEAN CRS WT DESIGN+TC 1PZ;Oral-B Pro 1 750 EasyClean Spazzolino Elettrico Ricaricabile CrossAction Design Edition White con Custodia da Viaggio 1 Pezzo;8006540757802;;;;Prodotto non trovato su GS1
+154;P&G;OB PW PRO3 BLACK +TC W FIORI BOX;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile Black con Custodia da Viaggio Design Fiori;4210201421245;;;;Prodotto non trovato su GS1
+155;P&G;OB PW PRO3 BLACK +TC W RIGHE BOX;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile Black con Custodia da Viaggio Design Righe;4210201421047;;;;Prodotto non trovato su GS1
+156;P&G;OB PW PRO3 WHITE +TC W FIORI BOX;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile White con Custodia da Viaggio Design Fiori;4210201420934;;;;Prodotto non trovato su GS1
+157;P&G;OB PW PRO3 WHITE +TC W RIGHE BOX;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile White con Custodia da Viaggio Design Righe;4210201421146;;;;Prodotto non trovato su GS1
+158;P&G;OB PW REF XF 2+2+2CT CROSSACTION 6PZ;Oral-B CrossAction Testine di Ricambio per Spazzolino Elettrico Confezione da 6 Pezzi;8700216018968;;;;Prodotto non trovato su GS1
+159;P&G;OB PW REF XF 2+2+2CT SENSITIVE 6PZ;Oral-B Sensitive Clean Testine di Ricambio per Spazzolino Elettrico Confezione da 6 Pezzi;8700216018845;;;;Prodotto non trovato su GS1
+160;P&G;OB PW REF XF 3DWHITE 2CT X12PZ;Oral-B 3D White Testine di Ricambio per Spazzolino Elettrico Confezione da 12 Pezzi;8006540883525;;;Oral-B Testine di Ricambio Pro 3D White per Spazzolino Elettrico Denti Ricaricabile 2 pz;Prodotto trovato su GS1
+161;P&G;OB PW REF XF 3DWHITE 3CT X12PZ;Oral-B 3D White Testine di Ricambio Confezione da 3;8006540883570;;;Oral-B Testine di Ricambio Pro 3D White per Spazzolino Elettrico Denti Ricaricabile 3 pz;Prodotto trovato su GS1
+162;P&G;OB PW REF XF CROSS 2CT RF TAG X12PZ;Oral-B CrossAction Testine di Ricambio Confezione da 2;8006540884423;;;;Prodotto non trovato su GS1
+163;P&G;OB PW REF XF CROSS 2CT X12PZ;Oral-B CrossAction Testine di Ricambio Confezione da 2;8006540884416;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 2 pz;Prodotto trovato su GS1
+164;P&G;OB PW REF XF CROSS 3CT X12PZ;Oral-B CrossAction Testine di Ricambio Confezione da 3;8006540884522;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 3 pz;Prodotto trovato su GS1
+165;P&G;OB PW REF XF CROSS 4CT X12PZ;Oral-B CrossAction Testine di Ricambio Confezione da 4;8006540884553;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 4 pz;Prodotto trovato su GS1
+166;P&G;OB PW REF XF CROSS 5CT X12PZ;Oral-B CrossAction Testine di Ricambio Confezione da 5;8006540884621;;;;Prodotto non trovato su GS1
+167;P&G;OB PW REF XF CROSS BLACK 2CT X12PZ;Oral-B CrossAction Black Edition Testine di Ricambio Confezione da 2;8006540884218;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 2 pz;Prodotto trovato su GS1
+168;P&G;OB PW REF XF CROSS BLACK 3CT X12PZ;Oral-B CrossAction Black Edition Testine di Ricambio Confezione da 3;8006540884249;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 3 pz;Prodotto trovato su GS1
+169;P&G;OB PW REF XF CROSS BLACK 4CT X12PZ;Oral-B CrossAction Black Edition Testine di Ricambio Confezione da 4;8006540884300;;;Oral-B Testine di Ricambio Pro Cross Action per Spazzolino Elettrico Denti Ricaricabile 4 pz;Prodotto trovato su GS1
+170;P&G;OB PW REF XF CROSS BLACK 5CT X12PZ;Oral-B CrossAction Black Edition Testine di Ricambio Confezione da 5;8006540884362;;;;Prodotto non trovato su GS1
+171;P&G;OB PW REF XF FLOSS 2CT X12PZ;Oral-B FlossAction Testine di Ricambio Confezione da 2;8006540883983;;;Oral-B Testine di Ricambio Pro Floss Action per Spazzolino Elettrico Denti Ricaricabile 2 pz;Prodotto trovato su GS1
+172;P&G;OB PW REF XF FLOSS 3CT X12PZ;Oral-B FlossAction Testine di Ricambio Confezione da 3;8006540884072;;;Oral-B Testine di Ricambio Pro Floss Action per Spazzolino Elettrico Denti Ricaricabile 3 pz;Prodotto trovato su GS1
+173;P&G;OB PW REF XF PRECISION 2CT X12PZ;Oral-B Precision Clean Testine di Ricambio Confezione da 2;8006540883709;;;;Prodotto non trovato su GS1
+174;P&G;OB PW REF XF PRECISION 3CT X12PZ;Oral-B Precision Clean Testine di Ricambio Confezione da 3;8006540883778;;;;Prodotto non trovato su GS1
+175;P&G;OB PW REF XF PRECISION 5CT X12PZ;Oral-B Precision Clean Testine di Ricambio Confezione da 5;8006540883853;;;Oral-B Testine di Ricambio Pro Precision Clean per Spazzolino Elettrico Denti Ricaricabile 5 pz;Prodotto trovato su GS1
+176;P&G;OB PW REF XF PRECISION 5CT X12PZ;Oral-B Precision Clean Testine di Ricambio Confezione da 5;8006540883914;;;;Prodotto non trovato su GS1
+177;P&G;OB PW REF XF PRECISION 6CT X12PZ FFS;Oral-B Precision Clean Testine di Ricambio Confezione da 6;8006540883976;;;Oral-B Testine di Ricambio Pro Precision Clean per Spazzolino Elettrico Denti Ricaricabile 6 pz;Prodotto trovato su GS1
+178;P&G;OB PW REF XF PRECISION 8CT X12PZ;Oral-B Precision Clean Testine di Ricambio Confezione da 8;8006540894002;;;Oral-B Testine di Ricambio Pro Precision Clean per Spazzolino Elettrico Denti Ricaricabile 8 pz;Prodotto trovato su GS1
+179;P&G;OB PW REF XF SENSI 2CT X12PZ;Oral-B Sensi UltraThin Testine di Ricambio Confezione da 2;8006540884713;;;Oral-B Testine di Ricambio Pro Sensitive Clean per Spazzolino Elettrico Denti Ricaricabile 2 pz;Prodotto trovato su GS1
+180;P&G;OB PW REF XF SENSI 3CT X12PZ;Oral-B Sensi UltraThin Testine di Ricambio Confezione da 3;8006540884768;;;Oral-B Testine di Ricambio Pro Sensitive Clean per Spazzolino Elettrico Denti Ricaricabile 3 pz;Prodotto trovato su GS1
+181;P&G;OB PW REF XF SENSI 4CT X12PZ;Oral-B Sensitive Clean Testine di Ricambio, Confezione da 4;8006540884782;;;Oral-B Testine di Ricambio Pro Sensitive Clean per Spazzolino Elettrico Denti Ricaricabile 4 pz;Prodotto trovato su GS1
+182;P&G;OB PW REF XF SENSI 5CT X12PZ;Oral-B Sensitive Clean Testine di Ricambio, Confezione da 5;8006540884843;;;;Prodotto non trovato su GS1
+183;P&G;OB PW Refills EB10S 2CT SPIDER/FROZ X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Frozen 2, Confezione da 2;8006540804155;;;Oral-B Testine di Ricambio per Spazzolino Elettrico Marvel Spider-Man 2 pz;Prodotto trovato su GS1
+184;P&G;OB PW Refills EB10S 2CT SPIDERMAN X1PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Marvel Spider-Man, Confezione da 2;8006540804940;;;Oral-B Testine di Ricambio per Spazzolino Elettrico Marvel Spider-Man 2 pz;Prodotto trovato su GS1
+185;P&G;OB PW Refills EB10S 3CT SPIDER/FROZ X1PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Frozen 2, Confezione da 3;8006540805954;;;;Prodotto non trovato su GS1
+186;P&G;OB PW Refills EB10S 4CT SPIDER/FROZ X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Frozen 2, Confezione da 4;8006540804445;;;Oral-B Testine di Ricambio per Spazzolino Elettrico Marvel Spider-Man 4 pz;Prodotto trovato su GS1
+187;P&G;OB PW Refills EB10S 8CT SPIDERMAN LTBOX;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Marvel Spider-Man, Confezione da 8;4210201435914;;;;Prodotto non trovato su GS1
+188;P&G;OB PW Refills EB10S CAR/PRINC 4CT X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Pixar Cars, Confezione da 4;8006540805817;;;Oral-B Testine di Ricambio per Spazzolino Elettrico Disney Princess 4 pz;Prodotto trovato su GS1
+189;P&G;OB PW Refills EB10S FROZEN 2 CT X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Frozen 2, Confezione da 2;8006540804216;;;Oral-B Testine di Ricambio per Spazzolino Elettrico Disney Frozen 2 pz;Prodotto trovato su GS1
+190;P&G;OB PW Refills EB10S FROZEN 4 CT X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Disney Frozen 2, Confezione da 4;8006540804087;;;Oral-B Testine di Ricambio Pro Kids 3+ Spazzolino Elettrico Denti Bambini Disney Frozen 4 pz;Prodotto trovato su GS1
+191;P&G;OB PW Refills EB10S SPIDERMAN 4CT X12PZ;Oral-B Kids Testine di Ricambio per Spazzolino Elettrico con Personaggi Marvel Spider-Man, Confezione da 4;8006540805374;;;Oral-B Testine di Ricambio Pro Kids 3+ Spazzolino Elettrico Denti Bambini Marvel Spider-Man 4 pz;Prodotto trovato su GS1
+192;P&G;OB PW Refills EB18 8CT 3DWHITE X1PZ LTBOX;Oral-B 3D White Testine di Ricambio per Spazzolino Elettrico, Confezione da 8;8006540851098;;;;Prodotto non trovato su GS1
+193;P&G;OB PW Refills EB50 10CT CA X1PZ  A4BOX;Oral-B CrossAction Testine di Ricambio per Spazzolino Elettrico, Confezione da 10;8006540986943;;;;Prodotto non trovato su GS1
+194;P&G;OB PW Refills IO 2CT GENTLE CARE BLACK;Oral-B iO Gentle Care Testine di Ricambio per Spazzolino Elettrico, Confezione da 2, Black;4210201419020;;;;Prodotto non trovato su GS1
+195;P&G;OB PW Refills IO 2CT RADIANT WHITE;Oral-B iO Radiant White Testine di Ricambio per Spazzolino Elettrico, Confezione da 2;4210201415671;;;;Prodotto non trovato su GS1
+196;P&G;OB PW Refills IO 4CT RADIANT WHITE;Oral-B iO Radiant White Testine di Ricambio per Spazzolino Elettrico, Confezione da 4;4210201420330;;;;Prodotto non trovato su GS1
+197;P&G;OB PW Refills IO GENTLE CARE 4CT X6PZ;Oral-B iO Gentle Care Testine di Ricambio per Spazzolino Elettrico, Confezione da 4;4210201343554;;;Oral-B iO Testine Ricambio Gentle Care Spazzolino Elettrico Denti Ricaricabile, 4 Refills;Prodotto trovato su GS1
+198;P&G;OB PW Refills IO GENTLE WHITE 6CT FFS;Oral-B iO Gentle Care Testine di Ricambio per Spazzolino Elettrico, Confezione da 6;4210201417927;;;;Prodotto non trovato su GS1
+199;P&G;OB PW Refills iO GENTLE WHITE 6CT LTBOX;Oral-B iO Gentle Care Testine di Ricambio per Spazzolino Elettrico, Confezione da 6;4210201434795;;;;Prodotto non trovato su GS1
+200;P&G;OB PW Refills iO RAD WHITE 6CT LTBOX;Oral-B iO Radiant White Testine di Ricambio per Spazzolino Elettrico, Confezione da 6;4210201434856;;;;Prodotto non trovato su GS1
+201;P&G;OB PW Refills iO UC BLACK 6CT LTBOX;Oral-B Testine di Ricambio iO Ultimate Clean Black 6 Pezzi;4210201434771;;;;Prodotto non trovato su GS1
+202;P&G;OB PW Refills iO UC BLACK 8CT LTBOX;Oral-B Testine di Ricambio iO Ultimate Clean Black 8 Pezzi;4210201434832;;;;Prodotto non trovato su GS1
+203;P&G;OB PW Refills iO UC WHITE 6CT LTBOX;Oral-B Testine di Ricambio iO Ultimate Clean White 6 Pezzi;4210201434757;;;;Prodotto non trovato su GS1
+204;P&G;OB PW Refills iO UC WHITE 8CT LTBOX;Oral-B Testine di Ricambio iO Ultimate Clean White 8 Pezzi;4210201434818;;;;Prodotto non trovato su GS1
+205;P&G;OB PW Refills IOX6 SB X1PX LBOX;Oral-B Testina di Ricambio iO Specialised Clean 1 Pezzo;8006540854662;;;;Prodotto non trovato su GS1
+206;P&G;OB PW Refills ULTRA CLEAN BLACK X4CT;Oral-B Testine di Ricambio iO Ultimate Clean Black 4 Pezzi;4210201301905;;;Oral-B iO Testine Ricambio Ultimate Clean Nere Spazzolino Elettrico Denti Ricaricabile, 4 Refills;Prodotto trovato su GS1
+207;P&G;OB PW Refills ULTRA CLEAN WHITE X4CT;Oral-B Testine di Ricambio iO Ultimate Clean White 4 Pezzi;4210201301677;;;Oral-B iO Testine Ricambio Ultimate Clean Bianche Spazzolino Elettrico Denti Ricaricabile, 4 Refills;Prodotto trovato su GS1
+208;P&G;OB PW RefillsX2 GENTLE CLEAN WHITE 6PZ;Oral-B Testine di Ricambio iO Gentle Care White 6 Pezzi;4210201301943;;;Oral-B iO Testine Ricambio Gentle Clean Bianche Spazzolino Elettrico Denti Ricaricabile, 2 Refills;Prodotto trovato su GS1
+209;P&G;OB PW RefillsX2 ULTRA CLEAN BLACK 6PZ;Oral-B Testine di Ricambio iO Ultimate Clean Black 6 Pezzi;4210201301837;;;;Prodotto non trovato su GS1
+210;P&G;OB PW RefillsX2 ULTRA CLEAN WHITE 6PZ;Oral-B Testine di Ricambio iO Ultimate Clean White 6 Pezzi;4210201301653;;;Oral-B iO Testine Ricambio Ultimate Clean Bianche Spazzolino Elettrico Denti Ricaricabile, 2 Refills;Prodotto trovato su GS1
+211;P&G;OB PW SMART 4 (4100S) BIANCO X1PZ;Oral-B Spazzolino Elettrico Smart 4 4100S White;4210201203391;;;;Prodotto non trovato su GS1
+212;P&G;OB PW SMART4 (4500)NERO CON CA NERO X1PZ;Oral-B Spazzolino Elettrico Smart 4 4500N Black con Custodia da Viaggio;4210201204091;;;;Prodotto non trovato su GS1
+213;P&G;OB PW SMART4(4000N)NERO CON CA NERO X1PZ;Oral-B Spazzolino Elettrico Smart 4 4000N Black con Custodia da Viaggio;4210201204374;;;;Prodotto non trovato su GS1
+214;P&G;OB PW SMART4500 BK + 1XAZ DENSIFY X1PZ;Oral-B Spazzolino Elettrico Smart 4500 Black con Dentifricio AZ Pro-Expert Densify;8700216139052;;;;Prodotto non trovato su GS1
+215;P&G;OB PW VITALITY D100 CROSSACT NERO X1PZ;Oral-B Spazzolino Elettrico Vitality 100 CrossAction Black;4210201200758;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Vitality 100 Cross Action Black;Prodotto trovato su GS1
+216;P&G;OB PW VITALITY D170 CROSSACT BIANCO X1PZ;Oral-B Spazzolino Elettrico Vitality Pro CrossAction White;4210201200925;;;;Prodotto non trovato su GS1
+217;P&G;OB PW VITALITY D170 CROSSACT BLUE X1PZ;Oral-B Spazzolino Elettrico Vitality Pro CrossAction Blue;4210201201038;;;;Prodotto non trovato su GS1
+218;P&G;OB PW VITALITY PRO BLACK +1REF HBOX;Oral-B Spazzolino Elettrico Vitality Pro Black con 1 Testina di Ricambio;4210201432326;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Vitality Pro Extra Bruch Head Black;Prodotto trovato su GS1
+219;P&G;OB PW VITALITY PRO BLACK HBOX;Oral-B Spazzolino Elettrico Vitality Pro Black;4210201427063;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Vitality Black;Prodotto trovato su GS1
+220;P&G;OB PW VITALITY PRO BLUE HBOX;Oral-B Spazzolino Elettrico Vitality Pro Blue;4210201446392;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Vitality Lilac;Prodotto trovato su GS1
+221;P&G;OB PW VITALITY PRO CARS HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Cars, 1 Manico + 1 Testina + 1 Custodia da Viaggio;8006540773031;;;Oral-B Spazzolino Elettrico Ricaricabile Disney Pixar Cars Pro Kids3+;Prodotto trovato su GS1
+222;P&G;OB PW VITALITY PRO DISNEY100 HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Edizione Disney 100, 1 Manico + 1 Testina;8006540773765;;;;Prodotto non trovato su GS1
+223;P&G;OB PW VITALITY PRO DUO BLUE/BLACK;Oral-B Vitality Pro Spazzolino Elettrico Ricaricabile, Confezione da 2 (1 Blue, 1 Black);4210201446514;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Vitality Duo Edition Black + Vapor Blue;Prodotto trovato su GS1
+224;P&G;OB PW VITALITY PRO FROZEN + 1REF HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Frozen, 1 Manico + 2 Testine;8006540772645;;;;Prodotto non trovato su GS1
+225;P&G;OB PW VITALITY PRO FROZEN HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Frozen, 1 Manico + 1 Testina;8006540772409;;;Oral-B Spazzolino Elettrico Ricaricabile Pro Kids 3+ Disney Frozen;Prodotto trovato su GS1
+226;P&G;OB PW VITALITY PRO LILLA +1REF HBOX;Oral-B Vitality Pro Spazzolino Elettrico Ricaricabile Lilla, 1 Manico + 2 Testine;4210201432340;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Vitality Pro Extra Bruch Head Lilac Mist;Prodotto trovato su GS1
+227;P&G;OB PW VITALITY PRO LILLA HBOX;Oral-B Vitality Pro Spazzolino Elettrico Ricaricabile Lilla, 1 Manico + 1 Testina;4210201426967;;;Oral-B Spazzolino Elettrico Denti Ricaricabile Pro Vitality Purple;Prodotto trovato su GS1
+228;P&G;OB PW VITALITY PRO PRINCESS HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Principesse, 1 Manico + 1 Testina;8006540772669;;;Oral-B Spazzolino Elettrico Ricaricabile Disney Princess Pro Kids3+;Prodotto trovato su GS1
+229;P&G;OB PW VITALITY PRO SPIDER/FROZEN CS MIST;Oral-B Kids Spazzolino Elettrico Vitality Pro, Assortimento Spiderman e Frozen;8006540773116;;;;Prodotto non trovato su GS1
+230;P&G;OB PW VITALITY PRO SPIDERMAN + 1REF HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Spiderman, 1 Manico + 2 Testine;8006540773659;;;;Prodotto non trovato su GS1
+231;P&G;OB PW VITALITY PRO SPIDERMAN HBOX;Oral-B Kids Spazzolino Elettrico Vitality Pro Spiderman, 1 Manico + 1 Testina;8006540772768;;;Oral-B Spazzolino Elettrico Ricaricabile Pro Kids 3+ Marvel Spider-Man;Prodotto trovato su GS1
+232;P&G;ORAL-B POWER CROSSACTION EB50-10CT;Oral-B CrossAction Testine di Ricambio, Confezione da 10;8006540861981;;;;Prodotto non trovato su GS1
+233;P&G;ORAL-B POWER CROSSACTION EB50-12CT;Oral-B CrossAction Testine di Ricambio, Confezione da 12;8006540859827;;;;Prodotto non trovato su GS1
+234;P&G;ORAL-B POWER CROSSACTION EB50-12CT;Oral-B CrossAction Testine di Ricambio, Confezione da 12;8006540859926;;;;Prodotto non trovato su GS1
+235;P&G;ORAL-B POWER CROSSACTION EB50-16CT;Oral-B CrossAction Testine di Ricambio, Confezione da 16;8006540859858;;;;Prodotto non trovato su GS1
+236;P&G;ORAL-B POWER CROSSACTION EB50-8CT;Oral-B CrossAction Testine di Ricambio, Confezione da 8;8006540862001;;;;Prodotto non trovato su GS1
+237;P&G;ORAL-B POWER CROSSACTION MODEL EB50-10CT;Oral-B CrossAction Testine di Ricambio, Confezione da 10;8006540861967;;;;Prodotto non trovato su GS1
+238;P&G;Oral-B Power EB50 3+3+3 9CT WE;Oral-B CrossAction Testine di Ricambio, Confezione da 9;8700216018807;;;;Prodotto non trovato su GS1
+239;P&G;Oral-B Power EB50 3+3+3 9CT WE;Oral-B CrossAction Testine di Ricambio, Confezione da 9;8700216018913;;;;Prodotto non trovato su GS1
+240;P&G;Oral-B Power POWER ORAL CARE Junior D505;Oral-B Junior Spazzolino Elettrico Ricaricabile, per bambini 6+ anni;8006540774724;;;;Prodotto non trovato su GS1
+241;P&G;Oral-B Power POWER ORAL CARE Kids Model;Oral-B Kids Spazzolino Elettrico Disney Pixar con Custodia da Viaggio;8006540804711;;;Oral-B Testine di Ricambio Pro Kids 3+ Spazzolino Elettrico Denti Bambini Disney Frozen 3 pz;Prodotto trovato su GS1
+242;P&G;Oral-B Power POWER ORAL CARE Kids Model;Oral-B Kids Spazzolino Elettrico Marvel Spider-Man con Custodia da Viaggio;8006540805091;;;Oral-B Testine di Ricambio Pro Kids 3+ Spazzolino Elettrico Denti Bambini Marvel Spider-Man 3 pz;Prodotto trovato su GS1
+243;P&G;ORAL-B POWER POWER ORAL CARE MIXED 1;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile Black con Custodia da Viaggio;8700216138918;;;;Prodotto non trovato su GS1
+244;P&G;ORAL-B POWER POWER ORAL CARE MIXED 1;Oral-B Pro 3 3500 Spazzolino Elettrico Ricaricabile White con Custodia da Viaggio;8700216139007;;;;Prodotto non trovato su GS1
+245;P&G;Oral-B Power POWER ORAL CARE Oxyjet MD20;Oral-B OxyJet Idropulsore;8006540841433;;;Oral-B Oral Health Center Advanced Irrigator;Prodotto trovato su GS1
+246;P&G;Oral-B Power POWER ORAL CARE Oxyjet OC30;Oral-B Smart 5 5000 Spazzolino Elettrico con Idropulsore Oxyjet;8006540840825;;;Oral-B Oral Health Center + Spazzolino Elettrico Denti Ricaricabile Pro Series 1;Prodotto trovato su GS1
+247;P&G;Oral-B Power POWER ORAL CARE Oxyjet OCiO;Oral-B iO Series 5s Spazzolino Elettrico Ricaricabile Black con Custodia da Viaggio;8006540841068;;;Oral-B Oral Health Center + Spazzolino Elettrico Denti Ricaricabile iO Series 4;Prodotto trovato su GS1
+248;P&G;Oral-B Power POWER ORAL CARE Oxyjet OCiO;Oral-B iO Series 4s Spazzolino Elettrico Ricaricabile White con Custodia da Viaggio;8006540841204;;;;Prodotto non trovato su GS1
+249;P&G;ORAL-B POWER PRECISION CLEAN EB20-1 2CT;Oral-B Precision Clean Testine di Ricambio 2 pezzi;8006540855683;;;;Prodotto non trovato su GS1
+250;P&G;ORAL-B POWER PRECISION CLEAN EB20-10CT;Oral-B Precision Clean Testine di Ricambio 10 pezzi;8006540862018;;;;Prodotto non trovato su GS1
+251;P&G;ORAL-B POWER PRECISION CLEAN EB20-16CT;Oral-B Precision Clean Testine di Ricambio 16 pezzi;8006540859773;;;;Prodotto non trovato su GS1
+252;P&G;ORAL-B POWER PRECISION CLEAN EB20-8CT;Oral-B Precision Clean Testine di Ricambio 8 pezzi;8006540861790;;;;Prodotto non trovato su GS1
+253;P&G;ORAL-B POWER SENSI ULTRATHIN EB60-10CT;Oral-B Sensi UltraThin Testine di Ricambio 10 pezzi;8006540862094;;;;Prodotto non trovato su GS1
+254;P&G;ORAL-B POWER SENSI ULTRATHIN EB60-12CT;Oral-B Sensi UltraThin Testine di Ricambio 12 pezzi;8006540859933;;;;Prodotto non trovato su GS1
+255;P&G;ORAL-B POWER SENSI ULTRATHIN EB60-8CT;Oral-B Sensi UltraThin Testine di Ricambio 8 pezzi;8006540862117;;;Oral-B Testine di Ricambio Sensitive Clean per Spazzolino Elettrico Denti Ricaricabile 8 pz;Prodotto trovato su GS1
+256;P&G;ORAL-B VITALITY PRO FROZEN + TC;Oral-B Vitality Pro Kids Spazzolino Elettrico Frozen con Custodia da Viaggio;8006540773178;;;Oral-B Spazzolino Elettrico Ricaricabile Pro Kids 3+ Disney Frozen;Prodotto trovato su GS1
+257;P&G;ORAL-B VITALITY PRO SPIDERMAN + TC;Oral-B Vitality Pro Kids Spazzolino Elettrico Spider-Man con Custodia da Viaggio;8006540773390;;;;Prodotto non trovato su GS1
